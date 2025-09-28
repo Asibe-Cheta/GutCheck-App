@@ -46,7 +46,7 @@ const About = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                We're on a mission to help young adults navigate relationships safely 
+                We&apos;re on a mission to help young adults navigate relationships safely 
                 and build emotional intelligence with the power of AI.
               </p>
             </div>

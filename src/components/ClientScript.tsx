@@ -47,8 +47,8 @@ export default function ClientScript() {
         console.log('CTA clicked:', (button as HTMLElement).textContent?.trim())
         
         // Add GTM or analytics code here
-        if (typeof (window as unknown as { gtag?: Function }).gtag !== 'undefined') {
-          (window as unknown as { gtag: Function }).gtag('event', 'click', {
+        if (typeof (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag !== 'undefined') {
+          (window as unknown as { gtag: (...args: unknown[]) => void }).gtag('event', 'click', {
             event_category: 'CTA',
             event_label: (button as HTMLElement).textContent?.trim()
           })

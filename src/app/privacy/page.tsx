@@ -150,7 +150,7 @@ const Privacy = () => {
                 What Data We Collect
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Transparency is key. Here's exactly what data we collect and why.
+                Transparency is key. Here&apos;s exactly what data we collect and why.
               </p>
             </div>
           </FadeIn>
@@ -277,7 +277,7 @@ const Privacy = () => {
                 Your Rights
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                You have complete control over your data. Here's what you can do.
+                You have complete control over your data. Here&apos;s what you can do.
               </p>
             </div>
           </FadeIn>
