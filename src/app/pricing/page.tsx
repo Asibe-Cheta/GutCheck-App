@@ -87,7 +87,7 @@ const Pricing = () => {
     },
     {
       question: 'Do you offer refunds?',
-      answer: 'We offer a 30-day money-back guarantee. If you\'re not satisfied, we\'ll refund your payment.'
+      answer: 'We offer a 30-day money-back guarantee. If you&apos;re not satisfied, we&apos;ll refund your payment.'
     }
   ]
 
@@ -273,7 +273,7 @@ const Pricing = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    We're working toward HIPAA compliance to serve healthcare providers and institutions.
+                    We&apos;re working toward HIPAA compliance to serve healthcare providers and institutions.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -292,7 +292,7 @@ const Pricing = () => {
               </h2>
               <p className="text-xl text-text-secondary mb-8">
                 Start your free trial today. No credit card required. 
-                Cancel anytime if you're not completely satisfied.
+                Cancel anytime if you&apos;re not completely satisfied.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg">

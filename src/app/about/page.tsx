@@ -5,7 +5,7 @@ import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
   title: 'About GutCheck - Our Mission to Protect Young Adults',
-  description: 'Learn about GutCheck\'s mission to help young adults navigate relationships safely with AI-powered emotional intelligence.',
+  description: 'Learn about GutCheck&apos;s mission to help young adults navigate relationships safely with AI-powered emotional intelligence.',
 }
 
 const About = () => {
@@ -65,7 +65,7 @@ const About = () => {
                 </h2>
                 <p className="text-lg text-text-secondary mb-6">
                   GutCheck was born from a simple belief: everyone deserves to feel safe 
-                  in their relationships. We've seen too many young adults struggle with 
+                  in their relationships. We&apos;ve seen too many young adults struggle with 
                   manipulation, gaslighting, and toxic dynamics that leave lasting scars.
                 </p>
                 <p className="text-lg text-text-secondary mb-8">
@@ -77,8 +77,8 @@ const About = () => {
                     Crisis Support Available 24/7
                   </h3>
                   <p className="text-text-secondary">
-                    If you're in immediate danger, call 988 or text HOME to 741741. 
-                    We're here to help you stay safe.
+                    If you&apos;re in immediate danger, call 988 or text HOME to 741741. 
+                    We&apos;re here to help you stay safe.
                   </p>
                 </div>
               </div>
@@ -160,7 +160,7 @@ const About = () => {
                 Our Team
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                We're a diverse team of mental health professionals, AI researchers, 
+                We&apos;re a diverse team of mental health professionals, AI researchers, 
                 and survivors who are passionate about protecting young adults.
               </p>
             </div>

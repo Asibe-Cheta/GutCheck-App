@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Shield, BookOpen, Users, Phone, AlertTriangle, Heart, Brain, Lock } from 'lucide-react'
+import { Shield, BookOpen, Users, AlertTriangle, Heart, Brain, Lock } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
 import { Button } from '@/components/ui/Button'
 import FadeIn from '@/components/animations/FadeIn'
@@ -120,7 +120,7 @@ const Resources = () => {
                 Need Help Right Now?
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                If you're in immediate danger or having thoughts of self-harm, 
+                If you&apos;re in immediate danger or having thoughts of self-harm, 
                 please reach out to these crisis resources immediately.
               </p>
             </div>
@@ -254,10 +254,10 @@ const Resources = () => {
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
-                Remember: You're Not Alone
+                Remember: You&apos;re Not Alone
               </h2>
               <p className="text-xl text-text-secondary mb-8">
-                If you're struggling with manipulation, abuse, or toxic relationships, 
+                If you&apos;re struggling with manipulation, abuse, or toxic relationships, 
                 help is available. You deserve to feel safe and respected.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

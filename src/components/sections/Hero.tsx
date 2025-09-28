@@ -3,7 +3,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
-import FadeIn from '@/components/animations/FadeIn'
 
 const Hero: React.FC = () => {
   return (

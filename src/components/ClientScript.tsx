@@ -42,13 +42,13 @@ export default function ClientScript() {
 
     // CTA button tracking
     document.querySelectorAll('.btn-primary, .btn-secondary, .cta-header').forEach(button => {
-      button.addEventListener('click', (e) => {
+      button.addEventListener('click', () => {
         // Analytics tracking
         console.log('CTA clicked:', (button as HTMLElement).textContent?.trim())
         
         // Add GTM or analytics code here
-        if (typeof (window as any).gtag !== 'undefined') {
-          (window as any).gtag('event', 'click', {
+        if (typeof (window as unknown as { gtag?: Function }).gtag !== 'undefined') {
+          (window as unknown as { gtag: Function }).gtag('event', 'click', {
             event_category: 'CTA',
             event_label: (button as HTMLElement).textContent?.trim()
           })

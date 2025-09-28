@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Shield, Lock, Eye, Database, Users, AlertTriangle } from 'lucide-react'
+import { Shield, Lock, Eye, Database } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
 import FadeIn from '@/components/animations/FadeIn'
 
@@ -87,7 +87,7 @@ const Privacy = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                We believe your conversations are private. That's why we've built GutCheck 
+                We believe your conversations are private. That&apos;s why we&apos;ve built GutCheck 
                 with privacy-first principles and end-to-end encryption.
               </p>
             </div>
@@ -355,8 +355,8 @@ const Privacy = () => {
                 Questions About Privacy?
               </h2>
               <p className="text-xl text-text-secondary mb-8">
-                We're committed to transparency. If you have any questions about our 
-                privacy practices or want to exercise your rights, we're here to help.
+                We&apos;re committed to transparency. If you have any questions about our 
+                privacy practices or want to exercise your rights, we&apos;re here to help.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl">

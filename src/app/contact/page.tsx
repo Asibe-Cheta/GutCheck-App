@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Metadata } from 'next'
+// import { Metadata } from 'next'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle } from 'lucide-react'
@@ -73,8 +73,8 @@ const Contact = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                We're here to help. Whether you need technical support, have questions about our service, 
-                or are in crisis, we're just a message away.
+                We&apos;re here to help. Whether you need technical support, have questions about our service, 
+                or are in crisis, we&apos;re just a message away.
               </p>
             </div>
           </FadeIn>
@@ -90,7 +90,7 @@ const Contact = () => {
                 Send us a Message
               </h2>
               <p className="text-text-secondary mb-8">
-                Fill out the form below and we'll get back to you as soon as possible.
+                Fill out the form below and we&apos;ll get back to you as soon as possible.
               </p>
 
               {isSubmitted ? (
@@ -100,7 +100,7 @@ const Contact = () => {
                     Message Sent!
                   </h3>
                   <p className="text-text-secondary mb-6">
-                    Thank you for reaching out. We'll get back to you within 24 hours.
+                    Thank you for reaching out. We&apos;ll get back to you within 24 hours.
                   </p>
                   <Button onClick={() => setIsSubmitted(false)}>
                     Send Another Message
@@ -160,11 +160,11 @@ const Contact = () => {
                 Other Ways to Reach Us
               </h2>
               <p className="text-text-secondary mb-8">
-                Choose the method that works best for you. We're here to help.
+                Choose the method that works best for you. We&apos;re here to help.
               </p>
 
               <div className="space-y-6">
-                {contactInfo.map((info, index) => (
+                {contactInfo.map((info) => (
                   <Card key={info.title} variant="glass" hover>
                     <CardHeader>
                       <div className="flex items-center mb-4">
@@ -207,7 +207,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-text-secondary mb-4">
-                    If you're in immediate danger or having thoughts of self-harm, 
+                    If you&apos;re in immediate danger or having thoughts of self-harm, 
                     please reach out to crisis support immediately.
                   </p>
                   <div className="space-y-2">
