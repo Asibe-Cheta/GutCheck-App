@@ -40,12 +40,12 @@ const Hero: React.FC = () => {
       <div className="container">
         <div className="hero-content fade-in">
           <div className="hero-badge">
-            AI-Powered Relationship Safety
+            AI Powered
           </div>
           <div className="hero-icon"></div>
           <h1>GutCheck</h1>
-          <div className="tagline">VISUALIZE YOUR INTUITION</div>
-          <p className="subtitle">Your private space to decode everyday interractions, a second check to your instincts. Get evidence-based analysis of manipulation patterns with complete anonymity.</p>
+          <div className="tagline">Visualize Your Intuition</div>
+          <p className="subtitle">Your private space to decode everyday interractions, a second check to your instincts. Get evidence-based analysis of manipulation, bullying, blackmail, sextortion, grooming and predatory patterns with complete anonymity.</p>
           
           <div className="hero-buttons">
             <Button className="btn-primary">Get Started Anonymously</Button>

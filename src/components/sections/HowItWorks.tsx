@@ -26,7 +26,7 @@ const HowItWorks: React.FC = () => {
           <div className="step fade-in">
             <div className="step-number">3</div>
             <h3>Take Informed Action</h3>
-            <p>Receives guided response strategies, and provides resources. It is an assistant, not an authority. Document everything for future reference or reporting.</p>
+            <p>Receives guided response strategies, and provides resources. Disclaimer: It is an assistant, not an authority.</p>
           </div>
         </div>
       </div>

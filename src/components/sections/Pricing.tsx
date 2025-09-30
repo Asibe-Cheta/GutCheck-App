@@ -48,7 +48,7 @@ const Pricing: React.FC = () => {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '48px' }}>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Join 1000+ users who feel safer • End-to-end encrypted • 100% private</p>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Join 1000+ people seeking safety • 100% private</p>
         </div>
       </div>
     </section>

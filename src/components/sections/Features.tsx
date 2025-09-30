@@ -10,7 +10,7 @@ const Features: React.FC = () => {
         <div className="glass-card fade-in">
           <div className="section-badge">Why Choose GutCheck</div>
           <h2 className="section-title">Beyond Generic AI Assistance</h2>
-          <p className="section-subtitle">Unlike ChatGPT or Gemini, GutCheck is specifically trained on toxic patterns, manipulation, bullying, blackmail, sextortion, grooming and predatory patterns for safety and red flag awareness. Get specialized analysis, not generic responses.</p>
+          <p className="section-subtitle">Unlike ChatGPT or Gemini, GutCheck is specifically trained on toxic patterns for safety and red flag awareness. Get specialized analysis, not generic responses.</p>
           
           <div className="features-grid">
             <div className="feature-card fade-in">
@@ -25,14 +25,14 @@ const Features: React.FC = () => {
                 <BarChart3 className="w-8 h-8 text-white" />
               </div>
               <h3>Evidence-Based Scoring</h3>
-              <p>Understand risk levels based on expert analyses, not opinions. See exactly why something feels wrong with concrete evidence.</p>
+              <p>Understand risk levels based on expert analyses, not opinions. Understand exactly why something feels wrong with concrete evidence.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <RotateCcw className="w-8 h-8 text-white" />
               </div>
               <h3>Pattern Memory System</h3>
-              <p>Remembers your interraction inquiry history and tracks recurring patterns over time. Generic AI forgets everything between conversations.</p>
+              <p>Remembers your inquiry history and tracks recurring patterns over time. Generic AI forgets everything between conversations.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
@@ -53,7 +53,7 @@ const Features: React.FC = () => {
                 <FileText className="w-8 h-8 text-white" />
               </div>
               <h3>Evidence Documentation</h3>
-              <p>Systematic collection and organization of incidents for follow-up if required by authorities or counselors. Legal-ready documentation.</p>
+              <p>Systematic collection and organization of incidents for follow-up if required by authorities or counselors.</p>
             </div>
           </div>
         </div>
