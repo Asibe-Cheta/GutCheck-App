@@ -30,7 +30,7 @@ const Header: React.FC = () => {
             <a href="#resources">Resources</a>
             <a href="#contact">Contact</a>
           </div>
-          <a href="#get-started" className="cta-header">Get Started</a>
+          <a href="#get-started" className="cta-header">GET STARTED</a>
         </nav>
       </div>
     </header>

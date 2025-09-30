@@ -44,8 +44,8 @@ const Hero: React.FC = () => {
           </div>
           <div className="hero-icon"></div>
           <h1>GutCheck</h1>
-          <div className="tagline">Visualize your intuition</div>
-          <p className="subtitle">Your private space to decode relationships and trust your instincts. Get evidence-based analysis of manipulation patterns with complete anonymity.</p>
+          <div className="tagline">VISUALIZE YOUR INTUITION</div>
+          <p className="subtitle">Your private space to decode everyday interractions, a second check to your instincts. Get evidence-based analysis of manipulation patterns with complete anonymity.</p>
           
           <div className="hero-buttons">
             <Button className="btn-primary">Get Started Anonymously</Button>

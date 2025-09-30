@@ -9,7 +9,7 @@ const HowItWorks: React.FC = () => {
         <div className="fade-in" style={{ textAlign: 'center', marginBottom: '80px' }}>
           <div className="section-badge">How It Works</div>
           <h2 className="section-title">Simple, Private, Powerful</h2>
-          <p className="section-subtitle">Get clarity on your relationships in three simple steps. No technical knowledge required.</p>
+          <p className="section-subtitle">Get clarity on your interractions in three simple steps. No technical knowledge required.</p>
         </div>
         
         <div className="steps-container">
@@ -21,12 +21,12 @@ const HowItWorks: React.FC = () => {
           <div className="step fade-in">
             <div className="step-number">2</div>
             <h3>Get Expert Analysis</h3>
-            <p>Our specialized AI analyzes for manipulation patterns, assigns confidence scores, and identifies specific toxic behaviors.</p>
+            <p>Our specialized AI analyzes for toxic patterns, assigns confidence scores, and identifies specific toxic behaviors.</p>
           </div>
           <div className="step fade-in">
             <div className="step-number">3</div>
             <h3>Take Informed Action</h3>
-            <p>Receive specific response strategies, conversation scripts, and resources. Document everything for future reference or reporting.</p>
+            <p>Receives guided response strategies, and provides resources. It is an assistant, not an authority. Document everything for future reference or reporting.</p>
           </div>
         </div>
       </div>
