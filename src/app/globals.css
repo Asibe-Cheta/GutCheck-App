@@ -544,6 +544,7 @@ body {
 .glass-section {
   padding: 120px 0;
   position: relative;
+  text-align: center;
 }
 
 .glass-card {
@@ -685,6 +686,7 @@ body {
 .how-it-works {
   padding: 120px 0;
   background: linear-gradient(135deg, rgba(45, 55, 72, 0.3), rgba(26, 29, 41, 0.5));
+  text-align: center;
 }
 
 .steps-container {
@@ -745,6 +747,7 @@ body {
 .pricing {
   padding: 120px 0;
   position: relative;
+  text-align: center;
 }
 
 .pricing-cards {
