@@ -1,5 +1,6 @@
 import React from 'react'
 import { Smartphone, Download } from 'lucide-react'
+import Image from 'next/image'
 
 const Footer: React.FC = () => {
   return (
@@ -8,7 +9,13 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-brand">
             <a href="#" className="logo">
-              <div className="logo-icon"></div>
+              <Image 
+                src="/gc-dark.png" 
+                alt="GutCheck Logo" 
+                width={48} 
+                height={48} 
+                className="logo-icon"
+              />
               GutCheck
             </a>
             <p>Your private space to decode relationships and trust your instincts. Empowering young adults with AI-powered emotional intelligence and relationship safety tools.</p>

@@ -155,7 +155,6 @@ body {
 .hero-icon {
   width: 120px;
   height: 120px;
-  background: linear-gradient(135deg, var(--accent-teal), var(--accent-green));
   border-radius: 30px;
   margin: 0 auto 40px;
   display: flex;
@@ -166,33 +165,11 @@ body {
   animation: pulse 3s ease-in-out infinite;
 }
 
-.hero-icon::before {
-  content: 'GC';
-  width: 40px;
-  height: 40px;
-  background: var(--text-primary);
-  border-radius: 50%;
-  position: absolute;
-  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--primary-dark);
-  font-family: 'Space Grotesk', sans-serif;
-}
-
-.hero-icon::after {
-  content: '';
-  position: absolute;
-  inset: -8px;
-  border-radius: 38px;
-  padding: 2px;
-  background: linear-gradient(135deg, var(--accent-teal), var(--accent-green));
-  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  mask-composite: xor;
-  opacity: 0.5;
+.hero-logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 30px;
 }
 
 @keyframes pulse {
@@ -461,30 +438,13 @@ body {
 .logo-icon {
   width: 48px;
   height: 48px;
-  background: linear-gradient(135deg, var(--accent-teal), var(--accent-green));
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   box-shadow: 0 8px 32px rgba(79, 209, 199, 0.3);
-}
-
-.logo-icon::before {
-  content: 'GC';
-  width: 16px;
-  height: 16px;
-  background: var(--text-primary);
-  border-radius: 50%;
-  position: absolute;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 6px;
-  font-weight: 700;
-  color: var(--primary-dark);
-  font-family: 'Space Grotesk', sans-serif;
+  object-fit: contain;
 }
 
 .nav-links {

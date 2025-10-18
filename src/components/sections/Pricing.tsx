@@ -9,13 +9,13 @@ const Pricing: React.FC = () => {
         <div className="fade-in" style={{ textAlign: 'center' }}>
           <div className="section-badge">Transparent Pricing</div>
           <h2 className="section-title">Unlimited Peace of Mind</h2>
-          <p className="section-subtitle">For under 32p a day, protect wellbeing with confidence in an increasing complex and digital world.</p>
+          <p className="section-subtitle">For under 27p a day, protect wellbeing with confidence in an increasing complex and digital world.</p>
         </div>
         
         <div className="pricing-cards">
           <div className="pricing-card featured fade-in">
             <div className="plan-name">Premium</div>
-            <div className="plan-price">£9.47<small>/month</small></div>
+            <div className="plan-price">£9.92<small>/month</small></div>
             <ul className="plan-features">
               <li>Unlimited analyses</li>
               <li>Advanced pattern tracking</li>
@@ -30,8 +30,8 @@ const Pricing: React.FC = () => {
             <a href="#get-started" className="btn-primary">Start 7-Day Free Trial</a>
           </div>
           <div className="pricing-card fade-in">
-            <div className="plan-name">6-Month Plan</div>
-            <div className="plan-price">£49.97<small>/6 months</small></div>
+            <div className="plan-name">Yearly Plan</div>
+            <div className="plan-price">£98.55<small>/year</small></div>
             <ul className="plan-features">
               <li>Unlimited analyses</li>
               <li>Advanced pattern tracking</li>

@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -19,7 +20,13 @@ const Header: React.FC = () => {
       <div className="container">
         <nav className="nav">
           <a href="#" className="logo">
-            <div className="logo-icon"></div>
+            <Image 
+              src="/gc-dark.png" 
+              alt="GutCheck Logo" 
+              width={48} 
+              height={48} 
+              className="logo-icon"
+            />
             GutCheck
           </a>
           <div className="nav-links">

@@ -3,6 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/Button'
+import Image from 'next/image'
 
 const Hero: React.FC = () => {
   return (
@@ -42,7 +43,15 @@ const Hero: React.FC = () => {
           <div className="hero-badge">
             AI Powered
           </div>
-          <div className="hero-icon"></div>
+          <div className="hero-icon">
+            <Image 
+              src="/gc-dark.png" 
+              alt="GutCheck Logo" 
+              width={120} 
+              height={120} 
+              className="hero-logo-image"
+            />
+          </div>
           <h1>GutCheck</h1>
           <div className="tagline">Visualize Your Intuition</div>
           <p className="subtitle">Your private space to decode everyday interractions, a second check to your instincts. Get evidence-based analysis of manipulation, bullying, blackmail, sextortion, grooming and predatory patterns with complete anonymity.</p>
