@@ -60,8 +60,8 @@ const Footer: React.FC = () => {
             <h3>About</h3>
             <a href="#about">About Us</a>
             <a href="#mission">Our Mission</a>
-            <a href="#privacy">Privacy Policy</a>
-            <a href="#terms">Terms of Service</a>
+            <a href="/privacy">Privacy Policy</a>
+            <a href="/terms">Terms of Service</a>
             <a href="#careers">Careers</a>
           </div>
         </div>

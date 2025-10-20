@@ -4,72 +4,86 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Your Data is Protected',
-  description: 'Learn how GutCheck protects your privacy and keeps your conversations secure with end-to-end encryption.',
+  title: 'Privacy Policy - Complete Anonymity & Data Protection',
+  description: 'Learn how GutCheck protects your privacy with complete anonymity, end-to-end encryption, and no personal data retention.',
 }
 
 const Privacy = () => {
   const privacyPrinciples = [
     {
       icon: Lock,
-      title: 'End-to-End Encryption',
-      description: 'All your conversations are encrypted before they leave your device and can only be decrypted by you.',
+      title: 'Complete Anonymity',
+      description: 'We do not collect or retain your real name, address, or any personally identifiable information. You remain completely anonymous.',
       details: [
-        'AES-256 encryption standard',
-        'Zero-knowledge architecture',
-        'Local processing when possible'
+        'No name or address collection',
+        'Anonymous account creation',
+        'No identity verification required',
+        'Payment details fully encrypted'
       ]
     },
     {
       icon: Eye,
-      title: 'No Data Mining',
-      description: 'We never read, analyze, or store your personal conversations for advertising or other purposes.',
+      title: 'Zero-Knowledge Architecture',
+      description: 'We cannot access your conversations. All data is encrypted before it leaves your device and only you hold the decryption keys.',
       details: [
-        'No conversation logging',
-        'No data selling',
-        'No third-party sharing'
+        'End-to-end encryption (AES-256)',
+        'Client-side encryption',
+        'No server-side access to content',
+        'Zero-knowledge proof system'
       ]
     },
     {
       icon: Database,
-      title: 'Minimal Data Collection',
-      description: 'We only collect the minimum data necessary to provide our service and keep you safe.',
+      title: 'Encrypted Payment Processing',
+      description: 'Payment details are processed through PCI-DSS compliant providers. We never see or store your full payment information.',
       details: [
-        'Account information only',
-        'Usage analytics (anonymized)',
-        'Safety alerts (encrypted)'
+        'Tokenized payment processing',
+        'No storage of card details',
+        'Anonymous transaction IDs only',
+        'Stripe-level encryption'
       ]
     },
     {
       icon: Shield,
-      title: 'Your Control',
-      description: 'You have complete control over your data. Delete it anytime, export it, or revoke access.',
+      title: 'UK GDPR Compliant',
+      description: 'Full compliance with UK GDPR and Data Protection Act 2018. Your rights are protected by law.',
       details: [
-        'Data deletion on demand',
-        'Export your data',
-        'Revoke access anytime'
+        'Right to erasure (be forgotten)',
+        'Data portability guaranteed',
+        'Transparent data practices',
+        'ICO registered'
       ]
     }
   ]
 
   const dataTypes = [
     {
-      category: 'Account Information',
-      data: ['Email address', 'Account preferences', 'Subscription status'],
-      purpose: 'To provide our service and communicate with you',
-      retention: 'Until you delete your account'
+      category: 'Anonymous Account Data',
+      data: ['Encrypted email address (hashed)', 'Anonymous user ID', 'Subscription status', 'Account preferences'],
+      purpose: 'To provide service access without knowing your identity',
+      retention: 'Until you delete your account (instant deletion available)',
+      anonymous: true
     },
     {
-      category: 'Safety Data',
-      data: ['Encrypted safety alerts', 'Pattern analysis (local)', 'Crisis intervention logs'],
-      purpose: 'To protect you and provide crisis support',
-      retention: '7 years (for legal protection)'
+      category: 'Payment Information',
+      data: ['Anonymous transaction ID', 'Payment status (active/cancelled)', 'Subscription tier'],
+      purpose: 'To process payments and manage subscriptions securely',
+      retention: '7 years (UK tax law requirement) - names and card details are NOT stored',
+      anonymous: true
     },
     {
-      category: 'Usage Analytics',
-      data: ['App usage patterns', 'Feature usage', 'Performance metrics'],
-      purpose: 'To improve our service and ensure reliability',
-      retention: '2 years (anonymized)'
+      category: 'Encrypted Conversation Data',
+      data: ['End-to-end encrypted messages', 'Client-side pattern analysis', 'Encrypted safety scores'],
+      purpose: 'To provide analysis and safety insights - we cannot read this data',
+      retention: 'Stored locally on your device or encrypted on servers with your keys only',
+      anonymous: true
+    },
+    {
+      category: 'Anonymized Usage Analytics',
+      data: ['App usage frequency (no content)', 'Feature usage statistics', 'Performance metrics'],
+      purpose: 'To improve service quality - all analytics are fully anonymized',
+      retention: '2 years (completely anonymized, cannot be linked to you)',
+      anonymous: true
     }
   ]
 
@@ -87,8 +101,9 @@ const Privacy = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                We believe your conversations are private. That&apos;s why we&apos;ve built GutCheck 
-                with privacy-first principles and end-to-end encryption.
+                GutCheck is designed for <strong className="text-accent-teal">complete anonymity</strong>. 
+                We don&apos;t collect your name, we don&apos;t store your payment details, and we can&apos;t read your conversations. 
+                You are truly anonymous.
               </p>
             </div>
           </FadeIn>
@@ -168,8 +183,13 @@ const Privacy = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className="space-y-6">
                       <div>
+                        <div className="flex items-center gap-2 mb-3">
+                          <span className="px-3 py-1 bg-accent-teal/20 text-accent-teal text-xs font-semibold rounded-full">
+                            100% ANONYMOUS
+                          </span>
+                        </div>
                         <h4 className="font-semibold text-text-primary mb-2">Data Collected:</h4>
                         <ul className="space-y-1">
                           {dataType.data.map((item, itemIndex) => (
@@ -355,9 +375,33 @@ const Privacy = () => {
                 Questions About Privacy?
               </h2>
               <p className="text-xl text-text-secondary mb-8">
-                We&apos;re committed to transparency. If you have any questions about our 
-                privacy practices or want to exercise your rights, we&apos;re here to help.
+                We&apos;re committed to transparency and your anonymity. If you have any questions about our 
+                privacy practices or want to exercise your rights under UK GDPR, we&apos;re here to help.
               </p>
+              <div className="mb-8 p-6 bg-accent-teal/10 border border-accent-teal/30 rounded-xl">
+                <h3 className="text-lg font-bold text-accent-teal mb-3">Important: What We DON&apos;T Collect</h3>
+                <ul className="space-y-2 text-text-secondary">
+                  <li className="flex items-start">
+                    <span className="text-accent-teal mr-2">✓</span>
+                    <span>Your real name or identity - you remain completely anonymous</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-accent-teal mr-2">✓</span>
+                    <span>Your payment card details - processed securely by Stripe, we never see them</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-accent-teal mr-2">✓</span>
+                    <span>The content of your conversations - encrypted end-to-end, unreadable to us</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-accent-teal mr-2">✓</span>
+                    <span>Your location, device info, or browsing history beyond basic analytics</span>
+                  </li>
+                </ul>
+                <p className="mt-4 text-sm text-text-secondary italic">
+                  Last Updated: January 2025 | Compliant with UK GDPR, Data Protection Act 2018, and registered with the ICO
+                </p>
+              </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <button className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl">
                   Contact Privacy Team
