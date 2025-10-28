@@ -61,7 +61,7 @@ const Hero: React.FC = () => {
             <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto' }}>
               In a world where digital interactions can hide dangerous patterns, GutCheck provides a safe, anonymous space to analyze your relationships and interactions. 
               Our AI-powered emotional intelligence tools help you identify red flags, understand manipulation tactics, and protect your mental health and safety. 
-              Whether you're dealing with toxic relationships, online harassment, or just want to trust your instincts with data-backed insights, 
+              Whether you&apos;re dealing with toxic relationships, online harassment, or just want to trust your instincts with data-backed insights, 
               GutCheck transforms your innate intuition into visible, understandable guidance.
             </p>
           </div>
