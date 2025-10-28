@@ -915,8 +915,9 @@ body {
 }
 
 .footer-content {
-  display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   gap: 48px;
   margin-bottom: 48px;
 }
@@ -1013,7 +1014,9 @@ body {
   }
 
   .footer-content {
-    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 32px;
   }
 
@@ -1297,7 +1300,8 @@ body {
   }
 
   .footer-content {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     gap: 32px;
   }

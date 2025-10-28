@@ -21,7 +21,7 @@ const Pricing: React.FC = () => {
               <li>Advanced pattern tracking</li>
               <li>Confidence scoring</li>
               <li>Evidence documentation</li>
-              <li>Relationship mapping</li>
+              <li>Conversations mapping</li>
               <li>Cultural sensitivity analysis</li>
               <li>Priority crisis support</li>
               <li>Export report</li>
@@ -38,7 +38,7 @@ const Pricing: React.FC = () => {
               <li>Advanced pattern tracking</li>
               <li>Confidence scoring</li>
               <li>Evidence documentation</li>
-              <li>Relationship mapping</li>
+              <li>Conversations mapping</li>
               <li>Cultural sensitivity analysis</li>
               <li>Priority crisis support</li>
               <li>Export report</li>
