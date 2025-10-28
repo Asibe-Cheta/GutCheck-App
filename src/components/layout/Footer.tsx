@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
               />
               GutCheck
             </a>
-            <p>Your private space to decode relationships and trust your instincts. Empowering young adults with AI-powered emotional intelligence and relationship safety tools.</p>
+            <p>GutCheck – empowering users with ai powered emotional intelligence adults to transform innate intuition into visible, understandable guide, protecting their safety and mental health</p>
             <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
               <a href="#" className="app-button" style={{ minWidth: 'auto', padding: '12px' }}>
                 <div className="app-icon" style={{ width: '32px', height: '32px' }}>
@@ -33,36 +33,12 @@ const Footer: React.FC = () => {
             </div>
           </div>
           <div className="footer-section">
-            <h3>Product</h3>
-            <a href="#features">Features</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#how-it-works">How It Works</a>
-            <a href="#security">Security</a>
-            <a href="#get-started">Get Started</a>
-          </div>
-          <div className="footer-section">
             <h3>Resources</h3>
-            <a href="#help">Help Center</a>
-            <a href="#crisis">Crisis Resources</a>
-            <a href="#blog">Safety Blog</a>
-            <a href="#guides">Safety Guides</a>
-            <a href="#community">Community</a>
-          </div>
-          <div className="footer-section">
-            <h3>Support</h3>
-            <a href="#contact">Contact Us</a>
-            <a href="#live-chat">Live Chat</a>
-            <a href="#emergency">Emergency Help</a>
-            <a href="#feedback">Feedback</a>
-            <a href="#partnerships">Partnerships</a>
-          </div>
-          <div className="footer-section">
-            <h3>About</h3>
-            <a href="#about">About Us</a>
-            <a href="#mission">Our Mission</a>
+            <a href="/resources">Resources</a>
             <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms of Service</a>
-            <a href="#careers">Careers</a>
+            <a href="/contact">Contact Us</a>
+            <a href="#feedback">Feedback</a>
           </div>
         </div>
         <div className="footer-bottom">

@@ -54,7 +54,17 @@ const Hero: React.FC = () => {
           </div>
           <h1>GutCheck</h1>
           <div className="tagline">Visualize Your Intuition</div>
-          <p className="subtitle">Your private space to decode everyday interractions, a second check to your instincts. Get evidence-based analysis of manipulation, bullying, blackmail, sextortion, grooming and predatory patterns with complete anonymity.</p>
+          <p className="subtitle">Your private space to decode everyday interactions, a second check to your instincts. Get evidence-based analysis of manipulation, bullying, blackmail, sextortion, grooming and predatory patterns with complete anonymity.</p>
+          
+          <div className="hero-additional-content" style={{ marginTop: '2rem', textAlign: 'center' }}>
+            <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem', color: 'var(--text-primary)' }}>More About GutCheck</h3>
+            <p style={{ fontSize: '1.1rem', lineHeight: '1.6', color: 'var(--text-secondary)', maxWidth: '800px', margin: '0 auto' }}>
+              In a world where digital interactions can hide dangerous patterns, GutCheck provides a safe, anonymous space to analyze your relationships and interactions. 
+              Our AI-powered emotional intelligence tools help you identify red flags, understand manipulation tactics, and protect your mental health and safety. 
+              Whether you're dealing with toxic relationships, online harassment, or just want to trust your instincts with data-backed insights, 
+              GutCheck transforms your innate intuition into visible, understandable guidance.
+            </p>
+          </div>
           
           <div className="hero-buttons">
             <Button className="btn-primary">Get Started Anonymously</Button>
