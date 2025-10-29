@@ -56,14 +56,14 @@ const DeleteAccountPage: React.FC = () => {
                 <div className="step-number">3</div>
                 <div className="step-content">
                   <h3>Scroll down</h3>
-                  <p>to find "Account Management" section</p>
+                  <p>to find &quot;Account Management&quot; section</p>
                 </div>
               </div>
               
               <div className="step">
                 <div className="step-number">4</div>
                 <div className="step-content">
-                  <h3>Tap "Delete Account"</h3>
+                  <h3>Tap &quot;Delete Account&quot;</h3>
                   <p>button</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const DeleteAccountPage: React.FC = () => {
               <div className="step">
                 <div className="step-number">6</div>
                 <div className="step-content">
-                  <h3>Tap "Confirm Deletion"</h3>
+                  <h3>Tap &quot;Confirm Deletion&quot;</h3>
                   <p>to permanently delete your account</p>
                 </div>
               </div>
