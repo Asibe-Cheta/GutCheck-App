@@ -37,6 +37,7 @@ const Footer: React.FC = () => {
             <a href="/resources">Resources</a>
             <a href="/privacy">Privacy Policy</a>
             <a href="/terms">Terms of Service</a>
+            <a href="/delete-account">Delete Account</a>
             <a href="/contact">Contact Us</a>
             <a href="#feedback">Feedback</a>
           </div>
