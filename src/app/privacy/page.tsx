@@ -86,7 +86,7 @@ const Privacy = () => {
   return (
     <div className="min-h-screen pt-32 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full py-16 md:py-20 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
@@ -107,7 +107,7 @@ const Privacy = () => {
       </section>
 
       {/* Privacy Principles */}
-      <section className="w-full py-16 md:py-24 flex justify-center">
+      <section className="w-full py-20 md:py-30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-16">
@@ -153,7 +153,7 @@ const Privacy = () => {
       </section>
 
       {/* Data Collection */}
-      <section className="w-full py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-16">
@@ -210,7 +210,7 @@ const Privacy = () => {
       </section>
 
       {/* Security Measures */}
-      <section className="w-full py-16 md:py-24 flex justify-center">
+      <section className="w-full py-20 md:py-30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-16">
@@ -279,7 +279,7 @@ const Privacy = () => {
       </section>
 
       {/* Your Rights */}
-      <section className="w-full py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-16">
@@ -353,7 +353,7 @@ const Privacy = () => {
       </section>
 
       {/* Contact */}
-      <section className="w-full py-16 md:py-24 flex justify-center">
+      <section className="w-full py-20 md:py-30 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="glass-card p-8 md:p-12 rounded-2xl">
@@ -399,7 +399,7 @@ const Privacy = () => {
                     Contact Privacy Team
                   </a>
                   <button className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl">
-                    TEST - DEPLOYMENT CHECK
+                    Download Your Data
                   </button>
                 </div>
               </div>

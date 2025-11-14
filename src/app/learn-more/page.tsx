@@ -40,7 +40,7 @@ const LearnMore = () => {
   return (
     <div className="min-h-screen pt-32 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full py-16 md:py-20 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-10">
@@ -68,7 +68,7 @@ const LearnMore = () => {
       </section>
 
       {/* The Core Problem */}
-      <section className="w-full py-16 md:py-24 flex justify-center">
+      <section className="w-full py-20 md:py-30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8 mb-20">
@@ -114,7 +114,7 @@ const LearnMore = () => {
       </section>
 
       {/* In Essence */}
-      <section className="w-full py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <Card variant="glass" className="p-10">
@@ -149,7 +149,7 @@ const LearnMore = () => {
       </section>
 
       {/* The Turning Point */}
-      <section className="w-full py-16 md:py-24 flex justify-center">
+      <section className="w-full py-20 md:py-30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -232,7 +232,7 @@ const LearnMore = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="w-full py-16 md:py-24 bg-gradient-to-b from-primary-dark/30 to-transparent flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-primary-dark/30 to-transparent flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">

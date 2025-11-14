@@ -88,7 +88,7 @@ const Resources = () => {
   return (
     <div className="min-h-screen pt-32">
       {/* Hero Section */}
-      <section className="py-16 md:py-20 bg-gradient-to-b from-primary-dark to-secondary-dark">
+      <section className="py-20 md:py-30 bg-gradient-to-b from-primary-dark to-secondary-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -108,7 +108,7 @@ const Resources = () => {
       </section>
 
       {/* Crisis Support Section */}
-      <section id="crisis" className="py-16 md:py-24 bg-gradient-to-b from-transparent to-warning-coral/10">
+      <section id="crisis" className="py-20 md:py-30 bg-gradient-to-b from-transparent to-warning-coral/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -154,7 +154,7 @@ const Resources = () => {
       </section>
 
       {/* Safety Guides */}
-      <section className="py-16 md:py-24">
+      <section className="py-20 md:py-30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -210,7 +210,7 @@ const Resources = () => {
       </section>
 
       {/* Community Section */}
-      <section id="community" className="py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section id="community" className="py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -255,7 +255,7 @@ const Resources = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24">
+      <section className="py-20 md:py-30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">

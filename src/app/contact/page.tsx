@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen pt-32 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full py-16 md:py-20 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
@@ -74,7 +74,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Form Section */}
-      <section className="w-full py-16 md:py-24 flex justify-center">
+      <section className="w-full py-20 md:py-30 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-12">
@@ -147,7 +147,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="w-full py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
+      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-12">
