@@ -237,7 +237,6 @@ body {
   overflow: hidden;
   box-shadow: 0 16px 48px rgba(79, 209, 199, 0.4);
   letter-spacing: -0.01em;
-  text-transform: lowercase;
 }
 
 .btn-primary::before {
@@ -279,7 +278,6 @@ body {
   position: relative;
   overflow: hidden;
   letter-spacing: -0.01em;
-  text-transform: lowercase;
 }
 
 .btn-secondary:hover {

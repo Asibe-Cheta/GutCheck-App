@@ -124,7 +124,7 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-5xl mx-auto">
             {privacyPrinciples.map((principle, index) => (
               <FadeIn key={principle.title} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
@@ -170,7 +170,7 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-8 md:space-y-10">
+          <div className="space-y-8 md:space-y-10 max-w-5xl mx-auto">
             {dataTypes.map((dataType, index) => (
               <FadeIn key={dataType.category} direction="up" delay={index * 0.1}>
                 <Card variant="glass">
@@ -227,7 +227,7 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 max-w-6xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
               <Card variant="glass" className="text-center">
                 <CardHeader>
@@ -302,7 +302,7 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-5xl mx-auto">
             <FadeIn direction="right">
               <Card variant="glass">
                 <CardHeader>

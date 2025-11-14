@@ -50,10 +50,10 @@ const LearnMore = () => {
                   Visualize Your Intuition
                 </span>
               </h1>
-              <div className="glass-card p-6 rounded-xl max-w-4xl mx-auto mb-8 border-warning-coral/30 border-2">
-                <div className="flex items-start gap-4">
-                  <AlertTriangle className="w-6 h-6 text-warning-coral flex-shrink-0 mt-1" />
-                  <div className="text-left">
+              <div className="glass-card p-6 rounded-xl max-w-4xl mx-auto mb-12 border-warning-coral/30 border-2">
+                <div className="flex flex-col items-center gap-4 text-center">
+                  <AlertTriangle className="w-6 h-6 text-warning-coral" />
+                  <div className="max-w-3xl">
                     <h3 className="text-lg font-bold text-warning-coral mb-2">Disclaimer: The app is an Assistant, Not an Authority</h3>
                     <p className="text-text-secondary">
                       The app is a guide that highlights several warning signs that align with known manipulation or perpetratory tactics. 
@@ -68,10 +68,10 @@ const LearnMore = () => {
       </section>
 
       {/* The Core Problem */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
+            <div className="text-center mb-20">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
                 The Core Problem
               </h2>
@@ -87,7 +87,7 @@ const LearnMore = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-8 max-w-5xl mx-auto">
+          <div className="space-y-10 max-w-5xl mx-auto">
             {problemPoints.map((point, index) => (
               <FadeIn key={point.number} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
