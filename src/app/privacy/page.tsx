@@ -90,11 +90,11 @@ const Privacy = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-primary-dark to-secondary-dark">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20 md:py-28 bg-gradient-to-b from-primary-dark to-secondary-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16 md:mb-20">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-text-primary mb-6 md:mb-8">
+            <div className="text-center">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-text-primary mb-8">
                 Your Privacy is{' '}
                 <span className="bg-gradient-to-r from-accent-teal to-accent-green bg-clip-text text-transparent">
                   Sacred
@@ -111,11 +111,11 @@ const Privacy = () => {
       </section>
 
       {/* Privacy Principles */}
-      <section className="py-20 md:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16 md:mb-20">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-4 md:mb-6">
+            <div className="text-center mb-20">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-6">
                 Our Privacy Principles
               </h2>
               <p className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
@@ -127,9 +127,9 @@ const Privacy = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-5xl mx-auto">
             {privacyPrinciples.map((principle, index) => (
               <FadeIn key={principle.title} direction="up" delay={index * 0.1}>
-                <Card variant="glass" hover className="h-full">
+                <Card variant="glass" hover className="h-full text-center">
                   <CardHeader>
-                    <div className="w-12 h-12 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mb-4">
+                    <div className="w-12 h-12 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mb-4 mx-auto">
                       <principle.icon className="w-6 h-6 text-white" />
                     </div>
                     <CardTitle className="text-xl font-bold text-text-primary">
@@ -140,7 +140,7 @@ const Privacy = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <ul className="space-y-2">
+                    <ul className="space-y-2 text-left max-w-sm mx-auto">
                       {principle.details.map((detail, detailIndex) => (
                         <li key={detailIndex} className="flex items-center text-sm text-text-secondary">
                           <div className="w-1.5 h-1.5 bg-accent-teal rounded-full mr-3 flex-shrink-0" />
@@ -157,11 +157,11 @@ const Privacy = () => {
       </section>
 
       {/* Data Collection */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-transparent to-primary-dark/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32 bg-gradient-to-b from-transparent to-primary-dark/30">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16 md:mb-20">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-4 md:mb-6">
+            <div className="text-center mb-20">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-6">
                 What Data We Collect
               </h2>
               <p className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
@@ -170,28 +170,28 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-10 md:space-y-12 max-w-5xl mx-auto">
+          <div className="space-y-10 md:space-y-12 max-w-4xl mx-auto">
             {dataTypes.map((dataType, index) => (
               <FadeIn key={dataType.category} direction="up" delay={index * 0.1}>
-                <Card variant="glass">
+                <Card variant="glass" className="text-center">
                   <CardHeader className="pb-4">
-                    <CardTitle className="text-lg md:text-xl font-bold text-text-primary mb-2">
+                    <CardTitle className="text-lg md:text-xl font-bold text-text-primary mb-3">
                       {dataType.category}
                     </CardTitle>
-                    <CardDescription className="text-sm md:text-base text-text-secondary leading-relaxed">
+                    <CardDescription className="text-sm md:text-base text-text-secondary leading-relaxed max-w-2xl mx-auto">
                       Purpose: {dataType.purpose}
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="pt-0">
-                    <div className="space-y-4 md:space-y-6">
+                    <div className="space-y-4 md:space-y-6 max-w-2xl mx-auto">
                       <div>
-                        <div className="flex items-center gap-2 mb-3">
+                        <div className="flex items-center justify-center gap-2 mb-4">
                           <span className="px-3 py-1 bg-accent-teal/20 text-accent-teal text-xs font-semibold rounded-full">
                             100% ANONYMOUS
                           </span>
                         </div>
-                        <h4 className="font-semibold text-text-primary mb-2 text-sm md:text-base">Data Collected:</h4>
-                        <ul className="space-y-2">
+                        <h4 className="font-semibold text-text-primary mb-3 text-sm md:text-base">Data Collected:</h4>
+                        <ul className="space-y-2 text-left">
                           {dataType.data.map((item, itemIndex) => (
                             <li key={itemIndex} className="flex items-start text-sm md:text-base text-text-secondary leading-relaxed">
                               <div className="w-1.5 h-1.5 bg-accent-teal rounded-full mr-3 flex-shrink-0 mt-2" />
@@ -200,7 +200,7 @@ const Privacy = () => {
                           ))}
                         </ul>
                       </div>
-                      <div>
+                      <div className="text-left">
                         <h4 className="font-semibold text-text-primary mb-2 text-sm md:text-base">Retention Period:</h4>
                         <p className="text-sm md:text-base text-text-secondary leading-relaxed">{dataType.retention}</p>
                       </div>
@@ -214,11 +214,11 @@ const Privacy = () => {
       </section>
 
       {/* Security Measures */}
-      <section className="py-20 md:py-32">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16 md:mb-20">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-4 md:mb-6">
+            <div className="text-center mb-20">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-6">
                 Security Measures
               </h2>
               <p className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
@@ -227,7 +227,7 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 max-w-5xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
               <Card variant="glass" className="text-center">
                 <CardHeader>
@@ -289,11 +289,11 @@ const Privacy = () => {
       </section>
 
       {/* Your Rights */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-transparent to-primary-dark/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-24 md:py-32 bg-gradient-to-b from-transparent to-primary-dark/30">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16 md:mb-20">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-4 md:mb-6">
+            <div className="text-center mb-20">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-6">
                 Your Rights
               </h2>
               <p className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
@@ -302,16 +302,16 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-4xl mx-auto">
             <FadeIn direction="right">
-              <Card variant="glass">
+              <Card variant="glass" className="text-center">
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-text-primary">
                     Data Control
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3 text-left max-w-xs mx-auto">
                     <li className="flex items-center text-text-secondary">
                       <div className="w-2 h-2 bg-accent-teal rounded-full mr-3" />
                       Delete your account and all data
@@ -334,14 +334,14 @@ const Privacy = () => {
             </FadeIn>
 
             <FadeIn direction="left">
-              <Card variant="glass">
+              <Card variant="glass" className="text-center">
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-text-primary">
                     Transparency
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <ul className="space-y-3">
+                  <ul className="space-y-3 text-left max-w-xs mx-auto">
                     <li className="flex items-center text-text-secondary">
                       <div className="w-2 h-2 bg-accent-green rounded-full mr-3" />
                       Request a copy of all your data
@@ -367,20 +367,20 @@ const Privacy = () => {
       </section>
 
       {/* Contact */}
-      <section className="py-20 md:py-32">
+      <section className="py-24 md:py-32">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="glass-card p-8 md:p-12 rounded-2xl text-center">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-6 md:mb-8">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-8">
                 Questions About Privacy?
               </h2>
-              <p className="text-lg md:text-xl text-text-secondary mb-8 md:mb-10 leading-relaxed max-w-3xl mx-auto">
+              <p className="text-lg md:text-xl text-text-secondary mb-10 leading-relaxed max-w-3xl mx-auto">
                 We&apos;re committed to transparency and your anonymity. If you have any questions about our 
                 privacy practices or want to exercise your rights under UK GDPR, we&apos;re here to help.
               </p>
-              <div className="mb-8 md:mb-10 p-5 md:p-6 bg-accent-teal/10 border border-accent-teal/30 rounded-xl text-left max-w-2xl mx-auto">
-                <h3 className="text-base md:text-lg font-bold text-accent-teal mb-3">Important: What We DON&apos;T Collect</h3>
-                <ul className="space-y-2 md:space-y-3 text-sm md:text-base text-text-secondary">
+              <div className="mb-10 p-6 bg-accent-teal/10 border border-accent-teal/30 rounded-xl text-left max-w-2xl mx-auto">
+                <h3 className="text-base md:text-lg font-bold text-accent-teal mb-4 text-center">Important: What We DON&apos;T Collect</h3>
+                <ul className="space-y-3 text-sm md:text-base text-text-secondary">
                   <li className="flex items-start">
                     <span className="text-accent-teal mr-2 flex-shrink-0">✓</span>
                     <span>Your real name or identity - you remain completely anonymous</span>
@@ -398,7 +398,7 @@ const Privacy = () => {
                     <span>Your location, device info, or browsing history beyond basic analytics</span>
                   </li>
                 </ul>
-                <p className="mt-4 text-xs md:text-sm text-text-secondary italic">
+                <p className="mt-4 text-xs md:text-sm text-text-secondary italic text-center">
                   Last Updated: January 2025 | Compliant with UK GDPR, Data Protection Act 2018, and registered with the ICO
                 </p>
               </div>
