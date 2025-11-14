@@ -248,13 +248,13 @@ const LearnMore = () => {
                     href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl"
+                    className="btn-primary"
                   >
                     Download Now
                   </a>
                   <a 
                     href="/pricing" 
-                    className="border-2 border-accent-teal text-accent-teal px-8 py-4 rounded-xl font-semibold hover:bg-accent-teal hover:text-white transition-all duration-300"
+                    className="btn-secondary"
                   >
                     View Pricing
                   </a>
