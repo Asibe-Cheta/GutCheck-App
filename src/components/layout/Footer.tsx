@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <a href="#" className="logo">
+            <a href="/" className="logo">
               <Image 
                 src="/gc-dark.png" 
                 alt="GutCheck Logo" 

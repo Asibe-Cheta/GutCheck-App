@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
           
           <div className="hero-buttons">
             <Button className="btn-primary">Get Started Anonymously</Button>
-            <Button variant="outline" className="btn-secondary">Learn More</Button>
+            <a href="/learn-more" className="btn-secondary">Learn More</a>
           </div>
 
           <div className="trust-indicators">

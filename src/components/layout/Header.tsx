@@ -19,7 +19,7 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <nav className="nav">
-          <a href="#" className="logo">
+          <a href="/" className="logo">
             <Image 
               src="/gc-dark.png" 
               alt="GutCheck Logo" 

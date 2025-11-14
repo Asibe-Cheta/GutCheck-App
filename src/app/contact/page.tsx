@@ -40,15 +40,8 @@ const Contact = () => {
       icon: Mail,
       title: 'Email Support',
       description: 'Get help with your account or technical issues',
-      contact: 'support@mygutcheck.org',
+      contact: 'contact@mygutcheck.org',
       response: 'Within 24 hours'
-    },
-    {
-      icon: Phone,
-      title: 'Crisis Support',
-      description: '24/7 crisis intervention and emergency support',
-      contact: '988 or text HOME to 741741',
-      response: 'Immediate'
     },
     {
       icon: MapPin,
@@ -198,32 +191,27 @@ const Contact = () => {
                 ))}
               </div>
 
-              {/* Emergency Notice */}
-              <Card variant="glass" className="mt-8 border-warning-coral border-2">
+              {/* App Support Notice */}
+              <Card variant="glass" className="mt-8 border-accent-teal border-2">
                 <CardHeader>
-                  <CardTitle className="text-xl font-bold text-warning-coral">
-                    In Crisis?
+                  <CardTitle className="text-xl font-bold text-accent-teal">
+                    Need Personalized Support?
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-text-secondary mb-4">
-                    If you&apos;re in immediate danger or having thoughts of self-harm, 
-                    please reach out to crisis support immediately.
+                    Use the App for personalized support, based on your region. 
+                    Get region-specific crisis resources and guidance tailored to your needs.
                   </p>
-                  <div className="space-y-2">
-                    <div className="flex items-center">
-                      <Phone className="w-4 h-4 text-warning-coral mr-2" />
-                      <span className="text-text-primary font-medium">
-                        Call 988 (Suicide & Crisis Lifeline)
-                      </span>
-                    </div>
-                    <div className="flex items-center">
-                      <Mail className="w-4 h-4 text-warning-coral mr-2" />
-                      <span className="text-text-primary font-medium">
-                        Text HOME to 741741 (Crisis Text Line)
-                      </span>
-                    </div>
-                  </div>
+                  <a 
+                    href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center w-full bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 py-3 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl mt-4"
+                  >
+                    <Phone className="w-5 h-5 mr-2" />
+                    Download iOS App
+                  </a>
                 </CardContent>
               </Card>
             </div>

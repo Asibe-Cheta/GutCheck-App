@@ -13,7 +13,12 @@ const AppDownload: React.FC = () => {
           <p className="section-subtitle">Download GutCheck for iOS and Android. Your safety companion, wherever you are.</p>
           
           <div className="app-buttons">
-            <a href="#" className="app-button">
+            <a 
+              href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="app-button"
+            >
               <div className="app-icon">
                 <Smartphone className="w-5 h-5 text-white" />
               </div>
@@ -22,15 +27,15 @@ const AppDownload: React.FC = () => {
                 <strong>App Store</strong>
               </div>
             </a>
-            <a href="#" className="app-button">
+            <div className="app-button" style={{ opacity: 0.6, cursor: 'not-allowed' }}>
               <div className="app-icon">
                 <Download className="w-5 h-5 text-white" />
               </div>
               <div className="app-text">
-                <small>Get it on</small>
+                <small>Coming Soon</small>
                 <strong>Google Play</strong>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>

@@ -14,8 +14,8 @@ const Pricing: React.FC = () => {
         <div className="pricing-cards">
           <div className="pricing-card featured fade-in">
             <div className="plan-name">Premium</div>
-            <div className="plan-price">£9.99<small>/month</small></div>
-            <div className="plan-subtitle">32p/day billed monthly</div>
+            <div className="plan-price">£6.99<small>/month</small></div>
+            <div className="plan-subtitle">23p/day billed monthly</div>
             <ul className="plan-features">
               <li>Unlimited analysis</li>
               <li>Advanced pattern tracking</li>
@@ -27,12 +27,15 @@ const Pricing: React.FC = () => {
               <li>Export report</li>
               <li>Trigger identification system</li>
             </ul>
-            <a href="#get-started" className="btn-primary">Start 7-Day Free Trial</a>
+            <a href="#get-started" className="btn-primary">Start 3-Day Free Trial</a>
           </div>
           <div className="pricing-card fade-in">
             <div className="plan-name">Yearly Plan</div>
-            <div className="plan-price">£99.99<small>/year</small></div>
-            <div className="plan-subtitle">27p/day billed annually</div>
+            <div className="plan-price">£59.99<small>/year</small></div>
+            <div className="plan-subtitle">16p/day billed annually</div>
+            <div style={{ fontSize: '0.85rem', color: 'var(--success-green)', fontWeight: 600, marginBottom: '8px' }}>
+              Save 28% vs monthly
+            </div>
             <ul className="plan-features">
               <li>Unlimited analysis</li>
               <li>Advanced pattern tracking</li>
@@ -44,7 +47,7 @@ const Pricing: React.FC = () => {
               <li>Export report</li>
               <li>Trigger identification system</li>
             </ul>
-            <a href="#get-started" className="btn-secondary">Start 7-Day Free Trial</a>
+            <a href="#get-started" className="btn-secondary">Start 3-Day Free Trial</a>
           </div>
         </div>
 
