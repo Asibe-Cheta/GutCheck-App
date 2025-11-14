@@ -52,9 +52,9 @@ const Contact = () => {
   ]
 
   return (
-    <div className="min-h-screen pt-16 flex flex-col items-center">
+    <div className="min-h-screen pt-32 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full py-20 md:py-28 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="w-full py-16 md:py-20 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
@@ -74,7 +74,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Form Section */}
-      <section className="w-full py-24 md:py-32 flex justify-center">
+      <section className="w-full py-16 md:py-24 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-12">
@@ -100,7 +100,7 @@ const Contact = () => {
                 </Button>
               </Card>
             ) : (
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 glass-card p-8 rounded-2xl border border-accent-teal/20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Input
                     label="Name"
@@ -132,15 +132,14 @@ const Contact = () => {
                   error={errors.message?.message}
                 />
 
-                <Button
+                <button
                   type="submit"
-                  size="lg"
-                  loading={isSubmitting}
-                  className="w-full"
+                  disabled={isSubmitting}
+                  className="w-full bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center"
                 >
                   <Send className="w-5 h-5 mr-2" />
-                  Send Message
-                </Button>
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
+                </button>
               </form>
             )}
           </FadeIn>
@@ -148,7 +147,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="w-full py-24 md:py-32 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
+      <section className="w-full py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-12">
