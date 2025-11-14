@@ -40,22 +40,22 @@ const LearnMore = () => {
   return (
     <div className="min-h-screen pt-16">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-primary-dark to-secondary-dark">
+      <section className="py-20 md:py-28 bg-gradient-to-b from-primary-dark to-secondary-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-primary mb-6">
+            <div className="text-center mb-20">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-primary mb-8">
                 GutCheck (GC):{' '}
                 <span className="bg-gradient-to-r from-accent-teal to-accent-green bg-clip-text text-transparent">
                   Visualize Your Intuition
                 </span>
               </h1>
-              <div className="glass-card p-6 rounded-xl max-w-4xl mx-auto mb-12 border-warning-coral/30 border-2">
+              <div className="glass-card p-6 md:p-8 rounded-xl max-w-4xl mx-auto mb-16 border-warning-coral/30 border-2">
                 <div className="flex flex-col items-center gap-4 text-center">
                   <AlertTriangle className="w-6 h-6 text-warning-coral" />
                   <div className="max-w-3xl">
-                    <h3 className="text-lg font-bold text-warning-coral mb-2">Disclaimer: The app is an Assistant, Not an Authority</h3>
-                    <p className="text-text-secondary">
+                    <h3 className="text-lg font-bold text-warning-coral mb-3">Disclaimer: The app is an Assistant, Not an Authority</h3>
+                    <p className="text-text-secondary leading-relaxed">
                       The app is a guide that highlights several warning signs that align with known manipulation or perpetratory tactics. 
                       The final judgment will always lie with the user and/or real-world experts.
                     </p>
@@ -68,26 +68,26 @@ const LearnMore = () => {
       </section>
 
       {/* The Core Problem */}
-      <section className="py-24">
+      <section className="py-24 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-20">
-              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
+            <div className="text-center mb-24">
+              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-8">
                 The Core Problem
               </h2>
-              <p className="text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed">
+              <p className="text-xl text-text-secondary max-w-4xl mx-auto leading-relaxed mb-6">
                 Kids and young adults are navigating a social landscape of unprecedented complexity, but are often equipped 
                 with little more than their intuition to identify manipulation and harm. The line between healthy and unhealthy 
                 dynamics is often blurred, leaving them feeling confused, isolated, and doubting their judgment.
               </p>
-              <p className="text-lg text-text-secondary max-w-4xl mx-auto mt-6 leading-relaxed">
+              <p className="text-lg text-text-secondary max-w-4xl mx-auto leading-relaxed">
                 This lack of clarity allows damaging behaviours—like emotional manipulation, coercion, and grooming—to go 
                 unrecognised and unchallenged, causing profound psychological harm and putting them in real danger (mentally and/or physically).
               </p>
             </div>
           </FadeIn>
 
-          <div className="space-y-10 max-w-5xl mx-auto">
+          <div className="space-y-12 max-w-5xl mx-auto">
             {problemPoints.map((point, index) => (
               <FadeIn key={point.number} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
@@ -114,11 +114,11 @@ const LearnMore = () => {
       </section>
 
       {/* In Essence */}
-      <section className="py-24 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section className="py-24 md:py-32 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <Card variant="glass" className="max-w-4xl mx-auto text-center">
-              <CardHeader>
+              <CardHeader className="pb-6">
                 <div className="flex items-center justify-center gap-3 mb-4">
                   <Brain className="w-8 h-8 text-accent-teal" />
                   <CardTitle className="text-2xl font-black text-text-primary">
@@ -126,7 +126,7 @@ const LearnMore = () => {
                   </CardTitle>
                 </div>
               </CardHeader>
-              <CardContent className="text-center">
+              <CardContent className="text-center pt-0">
                 <p className="text-lg text-text-secondary leading-relaxed mb-6">
                   The problem is not a lack of danger; it&apos;s a lack of clarity. Kids and young adults are swimming in a sea 
                   of social interactions without a compass to identify threatening currents. The digital world in particular has 
@@ -149,17 +149,17 @@ const LearnMore = () => {
       </section>
 
       {/* The Turning Point */}
-      <section className="py-24">
+      <section className="py-24 md:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
+            <div className="text-center mb-20">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
                 The Turning Point: GutCheck (GC)
               </h2>
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-20 max-w-5xl mx-auto">
             <FadeIn direction="right">
               <Card variant="glass" className="h-full">
                 <CardHeader>
@@ -210,14 +210,14 @@ const LearnMore = () => {
 
           <FadeIn direction="up">
             <Card variant="glass" className="max-w-4xl mx-auto border-accent-teal/30 border-2">
-              <CardContent className="p-8 text-center">
-                <div className="flex flex-col items-center gap-4">
-                  <Target className="w-8 h-8 text-accent-teal" />
+              <CardContent className="p-10 text-center">
+                <div className="flex flex-col items-center gap-6">
+                  <Target className="w-10 h-10 text-accent-teal" />
                   <div className="max-w-3xl">
-                    <h3 className="text-xl font-bold text-text-primary mb-4">
+                    <h3 className="text-xl font-bold text-text-primary mb-6">
                       This is not just technology—it&apos;s transformation
                     </h3>
-                    <p className="text-lg text-text-secondary leading-relaxed mb-4">
+                    <p className="text-lg text-text-secondary leading-relaxed mb-6">
                       From isolated vulnerability to confident resilience. From silent suffering to proactive prevention.
                     </p>
                     <p className="text-lg text-text-secondary leading-relaxed font-semibold">
