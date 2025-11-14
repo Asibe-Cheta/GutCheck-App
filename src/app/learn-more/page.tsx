@@ -87,7 +87,7 @@ const LearnMore = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-6">
+          <div className="space-y-8 max-w-5xl mx-auto">
             {problemPoints.map((point, index) => (
               <FadeIn key={point.number} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
@@ -114,19 +114,19 @@ const LearnMore = () => {
       </section>
 
       {/* In Essence */}
-      <section className="py-20 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section className="py-24 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <Card variant="glass" className="max-w-4xl mx-auto">
+            <Card variant="glass" className="max-w-4xl mx-auto text-center">
               <CardHeader>
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center justify-center gap-3 mb-4">
                   <Brain className="w-8 h-8 text-accent-teal" />
                   <CardTitle className="text-2xl font-black text-text-primary">
                     In Essence
                   </CardTitle>
                 </div>
               </CardHeader>
-              <CardContent>
+              <CardContent className="text-center">
                 <p className="text-lg text-text-secondary leading-relaxed mb-6">
                   The problem is not a lack of danger; it&apos;s a lack of clarity. Kids and young adults are swimming in a sea 
                   of social interactions without a compass to identify threatening currents. The digital world in particular has 
@@ -149,7 +149,7 @@ const LearnMore = () => {
       </section>
 
       {/* The Turning Point */}
-      <section className="py-20">
+      <section className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -159,7 +159,7 @@ const LearnMore = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16 max-w-5xl mx-auto">
             <FadeIn direction="right">
               <Card variant="glass" className="h-full">
                 <CardHeader>
@@ -210,10 +210,10 @@ const LearnMore = () => {
 
           <FadeIn direction="up">
             <Card variant="glass" className="max-w-4xl mx-auto border-accent-teal/30 border-2">
-              <CardContent className="p-8">
-                <div className="flex items-start gap-4">
-                  <Target className="w-8 h-8 text-accent-teal flex-shrink-0 mt-1" />
-                  <div>
+              <CardContent className="p-8 text-center">
+                <div className="flex flex-col items-center gap-4">
+                  <Target className="w-8 h-8 text-accent-teal" />
+                  <div className="max-w-3xl">
                     <h3 className="text-xl font-bold text-text-primary mb-4">
                       This is not just technology—it&apos;s transformation
                     </h3>

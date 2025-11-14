@@ -111,7 +111,7 @@ const Privacy = () => {
       </section>
 
       {/* Privacy Principles */}
-      <section className="py-12 md:py-20">
+      <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-12 md:mb-16">
@@ -157,7 +157,7 @@ const Privacy = () => {
       </section>
 
       {/* Data Collection */}
-      <section className="py-12 md:py-20 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-12 md:mb-16">
@@ -170,7 +170,7 @@ const Privacy = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-6 md:space-y-8">
+          <div className="space-y-8 md:space-y-10">
             {dataTypes.map((dataType, index) => (
               <FadeIn key={dataType.category} direction="up" delay={index * 0.1}>
                 <Card variant="glass">
@@ -214,7 +214,7 @@ const Privacy = () => {
       </section>
 
       {/* Security Measures */}
-      <section className="py-12 md:py-20">
+      <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-12 md:mb-16">
@@ -289,7 +289,7 @@ const Privacy = () => {
       </section>
 
       {/* Your Rights */}
-      <section className="py-12 md:py-20 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-12 md:mb-16">
@@ -367,18 +367,18 @@ const Privacy = () => {
       </section>
 
       {/* Contact */}
-      <section className="py-12 md:py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="glass-card p-6 md:p-12 rounded-2xl">
+            <div className="glass-card p-6 md:p-12 rounded-2xl text-center">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary mb-4 md:mb-6">
                 Questions About Privacy?
               </h2>
-              <p className="text-lg md:text-xl text-text-secondary mb-6 md:mb-8 leading-relaxed">
+              <p className="text-lg md:text-xl text-text-secondary mb-6 md:mb-8 leading-relaxed max-w-3xl mx-auto">
                 We&apos;re committed to transparency and your anonymity. If you have any questions about our 
                 privacy practices or want to exercise your rights under UK GDPR, we&apos;re here to help.
               </p>
-              <div className="mb-6 md:mb-8 p-4 md:p-6 bg-accent-teal/10 border border-accent-teal/30 rounded-xl text-left">
+              <div className="mb-6 md:mb-8 p-4 md:p-6 bg-accent-teal/10 border border-accent-teal/30 rounded-xl text-left max-w-2xl mx-auto">
                 <h3 className="text-base md:text-lg font-bold text-accent-teal mb-3">Important: What We DON&apos;T Collect</h3>
                 <ul className="space-y-2 md:space-y-3 text-sm md:text-base text-text-secondary">
                   <li className="flex items-start">
