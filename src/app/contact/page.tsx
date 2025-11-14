@@ -77,11 +77,11 @@ const Contact = () => {
       <section className="page-section w-full flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
-            <div className="text-center space-y-6 mb-12">
-              <h2 className="text-3xl font-bold text-text-primary">
+            <div className="text-center space-y-8 mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
                 Send us a Message
               </h2>
-              <p className="text-text-secondary max-w-2xl mx-auto">
+              <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed">
                 Fill out the form below and we&apos;ll get back to you as soon as possible.
               </p>
             </div>
@@ -100,7 +100,7 @@ const Contact = () => {
                 </Button>
               </Card>
             ) : (
-              <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 glass-card p-8 rounded-2xl border border-accent-teal/20">
+              <form onSubmit={handleSubmit(onSubmit)} className="space-y-8 glass-card p-10 rounded-2xl border-2 border-accent-teal/20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <Input
                     label="Name"
@@ -150,20 +150,20 @@ const Contact = () => {
       <section className="page-section w-full bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
-            <div className="text-center space-y-6 mb-12">
-              <h2 className="text-3xl font-bold text-text-primary">
+            <div className="text-center space-y-8 mb-16">
+              <h2 className="text-3xl md:text-4xl font-bold text-text-primary">
                 Other Ways to Reach Us
               </h2>
-              <p className="text-text-secondary max-w-2xl mx-auto">
+              <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed">
                 Choose the method that works best for you. We&apos;re here to help.
               </p>
             </div>
 
-            <div className="space-y-8 max-w-2xl mx-auto">
+            <div className="space-y-10 max-w-3xl mx-auto">
               {contactInfo.map((info) => (
-                <Card key={info.title} variant="glass" hover className="p-8">
-                  <div className="text-center space-y-6">
-                    <div className="w-12 h-12 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mx-auto">
+                <Card key={info.title} variant="glass" hover className="p-10">
+                  <div className="text-center space-y-8">
+                    <div className="w-14 h-14 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mx-auto">
                       <info.icon className="w-6 h-6 text-white" />
                     </div>
                     <div className="space-y-2">

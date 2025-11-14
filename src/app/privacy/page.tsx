@@ -366,23 +366,23 @@ const Privacy = () => {
                   privacy practices or want to exercise your rights under UK GDPR, we&apos;re here to help.
                 </p>
                 
-                <div className="p-6 bg-accent-teal/10 border border-accent-teal/30 rounded-xl">
-                  <h3 className="text-base md:text-lg font-bold text-accent-teal mb-4">Important: What We DON&apos;T Collect</h3>
-                  <ul className="space-y-3 text-sm md:text-base text-text-secondary text-left">
+                <div className="p-8 bg-accent-teal/10 border-2 border-accent-teal/30 rounded-xl">
+                  <h3 className="text-lg md:text-xl font-bold text-accent-teal mb-6">Important: What We DON&apos;T Collect</h3>
+                  <ul className="space-y-4 text-sm md:text-base text-text-secondary text-left">
                     <li className="flex items-start">
-                      <span className="text-accent-teal mr-2 flex-shrink-0">✓</span>
+                      <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
                       <span>Your real name or identity - you remain completely anonymous</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-accent-teal mr-2 flex-shrink-0">✓</span>
+                      <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
                       <span>Your payment card details - processed securely by Stripe, we never see them</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-accent-teal mr-2 flex-shrink-0">✓</span>
+                      <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
                       <span>The content of your conversations - encrypted end-to-end, unreadable to us</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-accent-teal mr-2 flex-shrink-0">✓</span>
+                      <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
                       <span>Your location, device info, or browsing history beyond basic analytics</span>
                     </li>
                   </ul>

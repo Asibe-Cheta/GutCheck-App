@@ -89,12 +89,12 @@ const LearnMore = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-10 max-w-3xl mx-auto">
+          <div className="space-y-12 max-w-4xl mx-auto">
             {problemPoints.map((point, index) => (
               <FadeIn key={point.number} direction="up" delay={index * 0.1}>
-                <Card variant="glass" hover className="p-8">
-                  <div className="flex flex-col items-center text-center gap-6">
-                    <div className="w-16 h-16 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center font-black text-2xl text-white">
+                <Card variant="glass" hover className="p-10">
+                  <div className="flex flex-col items-center text-center gap-8">
+                    <div className="w-20 h-20 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center font-black text-3xl text-white">
                       {point.number}
                     </div>
                     <div className="max-w-2xl space-y-3">
@@ -117,8 +117,8 @@ const LearnMore = () => {
       <section className="page-section w-full bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
-            <Card variant="glass" className="p-10">
-              <div className="text-center space-y-8">
+            <Card variant="glass" className="p-12">
+              <div className="text-center space-y-10">
                 <div className="flex items-center justify-center gap-3">
                   <Brain className="w-8 h-8 text-accent-teal" />
                   <h2 className="text-2xl font-black text-text-primary">
@@ -152,18 +152,18 @@ const LearnMore = () => {
       <section className="page-section w-full flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
+            <div className="text-center mb-20">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary">
                 The Turning Point: GutCheck (GC)
               </h2>
             </div>
           </FadeIn>
 
-          <div className="space-y-10 mb-16 max-w-3xl mx-auto">
+          <div className="space-y-12 mb-20 max-w-4xl mx-auto">
             <FadeIn direction="up">
-              <Card variant="glass" className="p-8">
-                <div className="text-center space-y-6">
-                  <div className="w-12 h-12 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mx-auto">
+              <Card variant="glass" className="p-10">
+                <div className="text-center space-y-8">
+                  <div className="w-14 h-14 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mx-auto">
                     <Shield className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-text-primary">
