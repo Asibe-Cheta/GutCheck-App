@@ -398,7 +398,7 @@ const Privacy = () => {
                   >
                     Contact Privacy Team
                   </a>
-                  <button className="border-2 border-accent-teal text-accent-teal px-6 md:px-8 py-3 md:py-4 rounded-xl font-semibold hover:bg-accent-teal hover:text-white transition-all duration-300">
+                  <button className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl">
                     Download Your Data
                   </button>
                 </div>
