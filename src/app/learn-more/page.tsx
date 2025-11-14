@@ -89,7 +89,7 @@ const LearnMore = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-10">
+          <div className="space-y-10 max-w-3xl mx-auto">
             {problemPoints.map((point, index) => (
               <FadeIn key={point.number} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="p-8">
@@ -159,7 +159,7 @@ const LearnMore = () => {
             </div>
           </FadeIn>
 
-          <div className="space-y-8 mb-16">
+          <div className="space-y-10 mb-16 max-w-3xl mx-auto">
             <FadeIn direction="up">
               <Card variant="glass" className="p-8">
                 <div className="text-center space-y-6">

@@ -86,9 +86,9 @@ const Resources = () => {
   ]
 
   return (
-    <div className="min-h-screen pt-16">
+    <div className="min-h-screen pt-32">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-primary-dark to-secondary-dark">
+      <section className="py-16 md:py-20 bg-gradient-to-b from-primary-dark to-secondary-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -108,7 +108,7 @@ const Resources = () => {
       </section>
 
       {/* Crisis Support Section */}
-      <section id="crisis" className="py-20 bg-gradient-to-b from-transparent to-warning-coral/10">
+      <section id="crisis" className="py-16 md:py-24 bg-gradient-to-b from-transparent to-warning-coral/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -126,7 +126,7 @@ const Resources = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {crisisResources.map((resource, index) => (
               <FadeIn key={resource.title} direction="up" delay={index * 0.1}>
                 <Card variant="glass" className="border-warning-coral border-2">
@@ -154,7 +154,7 @@ const Resources = () => {
       </section>
 
       {/* Safety Guides */}
-      <section className="py-20">
+      <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -168,7 +168,7 @@ const Resources = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             {safetyGuides.map((guide, index) => (
               <FadeIn key={guide.title} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
@@ -195,9 +195,12 @@ const Resources = () => {
                         ))}
                       </ul>
                     </div>
-                    <Button variant="outline" className="w-full mt-4">
+                    <a 
+                      href="#" 
+                      className="inline-block w-full mt-4 bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 py-3 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm"
+                    >
                       Read Guide
-                    </Button>
+                    </a>
                   </CardContent>
                 </Card>
               </FadeIn>
@@ -207,7 +210,7 @@ const Resources = () => {
       </section>
 
       {/* Community Section */}
-      <section id="community" className="py-20 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section id="community" className="py-16 md:py-24 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -221,7 +224,7 @@ const Resources = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {communityResources.map((resource, index) => (
               <FadeIn key={resource.title} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
@@ -237,9 +240,12 @@ const Resources = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <Button variant="outline" className="w-full">
+                    <a 
+                      href="#" 
+                      className="inline-block w-full bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 py-3 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm"
+                    >
                       {resource.link}
-                    </Button>
+                    </a>
                   </CardContent>
                 </Card>
               </FadeIn>
@@ -249,7 +255,7 @@ const Resources = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20">
+      <section className="py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">
@@ -261,12 +267,18 @@ const Resources = () => {
                 help is available. You deserve to feel safe and respected.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button size="lg">
+                <a 
+                  href="#crisis"
+                  className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                >
                   Get Help Now
-                </Button>
-                <Button variant="outline" size="lg">
+                </a>
+                <a 
+                  href="/learn-more"
+                  className="border-2 border-accent-teal text-accent-teal px-8 py-4 rounded-xl font-semibold hover:bg-accent-teal hover:text-white transition-all duration-300 text-center"
+                >
                   Learn More
-                </Button>
+                </a>
               </div>
             </div>
           </FadeIn>

@@ -159,7 +159,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="space-y-8">
+            <div className="space-y-8 max-w-2xl mx-auto">
               {contactInfo.map((info) => (
                 <Card key={info.title} variant="glass" hover className="p-8">
                   <div className="text-center space-y-6">
