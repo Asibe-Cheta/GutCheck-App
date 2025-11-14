@@ -31,14 +31,21 @@ const Header: React.FC = () => {
             GutCheck
           </Link>
           <div className="nav-links">
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#about">About</a>
-            <a href="#resources">Resources</a>
-            <a href="#contact">Contact</a>
+            <Link href="/">Home</Link>
+            <Link href="/#features">Features</Link>
+            <Link href="/#pricing">Pricing</Link>
+            <Link href="/about">About</Link>
+            <Link href="/resources">Resources</Link>
+            <Link href="/contact">Contact</Link>
           </div>
-          <a href="#get-started" className="cta-header">GET STARTED</a>
+          <a 
+            href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cta-header"
+          >
+            GET STARTED
+          </a>
         </nav>
       </div>
     </header>
