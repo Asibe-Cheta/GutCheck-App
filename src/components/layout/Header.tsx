@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -19,7 +20,7 @@ const Header: React.FC = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <nav className="nav">
-          <a href="/" className="logo">
+          <Link href="/" className="logo">
             <Image 
               src="/gc-dark.png" 
               alt="GutCheck Logo" 
@@ -28,7 +29,7 @@ const Header: React.FC = () => {
               className="logo-icon"
             />
             GutCheck
-          </a>
+          </Link>
           <div className="nav-links">
             <a href="#home">Home</a>
             <a href="#features">Features</a>

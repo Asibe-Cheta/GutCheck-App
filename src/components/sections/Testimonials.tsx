@@ -46,7 +46,7 @@ const Testimonials: React.FC = () => {
           <p className="section-subtitle">Real stories from anonymous users who found clarity and safety with GutCheck.</p>
           
           <div className="features-grid" style={{ marginTop: '60px' }}>
-            {testimonials.map((testimonial, index) => (
+            {testimonials.map((testimonial) => (
               <div key={testimonial.id} className="feature-card fade-in">
                 <div className="feature-icon" style={{ background: 'rgba(79, 209, 199, 0.2)', color: 'var(--accent-teal)' }}>
                   <Quote className="w-8 h-8" />

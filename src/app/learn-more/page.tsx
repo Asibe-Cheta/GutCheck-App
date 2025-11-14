@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { AlertTriangle, Heart, Shield, Brain, Target, Users } from 'lucide-react'
+import { AlertTriangle, Heart, Shield, Brain, Target } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
 import FadeIn from '@/components/animations/FadeIn'
 
