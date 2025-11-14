@@ -54,7 +54,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen pt-32 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="page-section w-full bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
@@ -74,7 +74,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Form Section */}
-      <section className="w-full py-20 md:py-30 flex justify-center">
+      <section className="page-section w-full flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-12">
@@ -135,7 +135,7 @@ const Contact = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center"
+                  className="btn-primary w-full flex items-center justify-center"
                 >
                   <Send className="w-5 h-5 mr-2" />
                   {isSubmitting ? 'Sending...' : 'Send Message'}
@@ -147,7 +147,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Information */}
-      <section className="w-full py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
+      <section className="page-section w-full bg-gradient-to-b from-transparent to-primary-dark/30 flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-6 mb-12">

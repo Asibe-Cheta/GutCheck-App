@@ -394,13 +394,16 @@ const Privacy = () => {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                   <a 
                     href="/contact" 
-                    className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                    className="btn-primary"
                   >
                     Contact Privacy Team
                   </a>
-                  <button className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 md:px-8 py-3 md:py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl">
+                  <a 
+                    href="/contact"
+                    className="btn-primary"
+                  >
                     Download Your Data
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

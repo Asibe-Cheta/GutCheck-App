@@ -88,7 +88,7 @@ const Resources = () => {
   return (
     <div className="min-h-screen pt-32">
       {/* Hero Section */}
-      <section className="py-20 md:py-30 bg-gradient-to-b from-primary-dark to-secondary-dark">
+      <section className="page-section bg-gradient-to-b from-primary-dark to-secondary-dark">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -108,7 +108,7 @@ const Resources = () => {
       </section>
 
       {/* Crisis Support Section */}
-      <section id="crisis" className="py-20 md:py-30 bg-gradient-to-b from-transparent to-warning-coral/10">
+      <section id="crisis" className="page-section bg-gradient-to-b from-transparent to-warning-coral/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -154,7 +154,7 @@ const Resources = () => {
       </section>
 
       {/* Safety Guides */}
-      <section className="py-20 md:py-30">
+      <section className="page-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -197,7 +197,7 @@ const Resources = () => {
                     </div>
                     <a 
                       href="#" 
-                      className="inline-block w-full mt-4 bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 py-3 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm"
+                      className="btn-primary w-full mt-4 block text-center"
                     >
                       Read Guide
                     </a>
@@ -210,7 +210,7 @@ const Resources = () => {
       </section>
 
       {/* Community Section */}
-      <section id="community" className="py-20 md:py-30 bg-gradient-to-b from-transparent to-primary-dark/30">
+      <section id="community" className="page-section bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
             <div className="text-center mb-16">
@@ -242,7 +242,7 @@ const Resources = () => {
                   <CardContent>
                     <a 
                       href="#" 
-                      className="inline-block w-full bg-gradient-to-r from-accent-teal to-accent-green text-white px-6 py-3 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center text-sm"
+                      className="btn-primary w-full block text-center"
                     >
                       {resource.link}
                     </a>
@@ -255,7 +255,7 @@ const Resources = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-30">
+      <section className="page-section">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">
@@ -269,13 +269,13 @@ const Resources = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a 
                   href="#crisis"
-                  className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl text-center"
+                  className="btn-primary"
                 >
                   Get Help Now
                 </a>
                 <a 
                   href="/learn-more"
-                  className="border-2 border-accent-teal text-accent-teal px-8 py-4 rounded-xl font-semibold hover:bg-accent-teal hover:text-white transition-all duration-300 text-center"
+                  className="btn-secondary"
                 >
                   Learn More
                 </a>
