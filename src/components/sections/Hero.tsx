@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
             >
               Get Started Anonymously
             </a>
-            <a href="/learn-more" className="btn-secondary">Learn More</a>
+            <a href="/learn-more" className="btn-secondary">More About GutCheck</a>
           </div>
 
           <div className="trust-indicators">
