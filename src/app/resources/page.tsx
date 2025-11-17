@@ -77,12 +77,6 @@ const Resources = () => {
       description: 'Books, articles, and resources for healing and growth.',
       link: 'Browse resources'
     },
-    {
-      icon: Heart,
-      title: 'Therapy Resources',
-      description: 'Find mental health professionals who specialize in relationship trauma.',
-      link: 'Find a therapist'
-    }
   ]
 
   return (
