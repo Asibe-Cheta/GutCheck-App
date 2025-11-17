@@ -7,15 +7,12 @@ const Contact = () => {
   return (
     <div className="min-h-screen pt-32 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="page-section w-full bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="py-20 w-full bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-primary">
-                Get in{' '}
-                <span className="bg-gradient-to-r from-accent-teal to-accent-green bg-clip-text text-transparent">
-                  Touch
-                </span>
+                Get in Touch
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
                 For technical support or questions about our service, reach out to us via email.
@@ -26,7 +23,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Information Section */}
-      <section className="page-section w-full flex justify-center">
+      <section className="py-16 w-full flex justify-center">
         <div className="w-full max-w-3xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
@@ -73,7 +70,7 @@ const Contact = () => {
                     Need Regional Crisis Support?
                   </h3>
                   <p className="text-text-secondary">
-                    Our app provides personalized crisis helplines based on your region 
+                    Our app provides crisis helplines from qualified authorities based on your region 
                     (UK, US, Canada, Australia).
                   </p>
                 </div>
