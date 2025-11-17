@@ -115,13 +115,12 @@ const Terms = () => {
                     <CheckCircle className="w-6 h-6 text-white" />
                   </div>
                   <CardTitle className="text-xl font-bold text-text-primary">
-                    Fair Pricing & Refunds
+                    Fair Pricing
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    Transparent pricing with 7-day free trial. Cancel anytime. 
-                    Refunds available within 14 days under UK Consumer Rights Act 2015. 
+                    Transparent pricing with 3-day free trial. Cancel anytime. 
                     No hidden fees or automatic renewals without notice.
                   </CardDescription>
                 </CardContent>
@@ -233,15 +232,15 @@ const Terms = () => {
               <Card variant="glass">
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold text-text-primary">
-                    4. Payment Terms & UK Consumer Rights
+                    4. Payment Terms
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4 text-text-secondary">
                   <p><strong className="text-text-primary">Subscription Plans:</strong></p>
                   <ul className="space-y-2 list-disc list-inside ml-4">
-                    <li>Monthly Plan: £9.92/month</li>
-                    <li>Yearly Plan: £98.55/year (equivalent to 27p per day)</li>
-                    <li>All plans include a 7-day free trial</li>
+                    <li>Monthly Plan: £6.99/month (equivalent to 23p per day)</li>
+                    <li>Yearly Plan: £59.99/year (equivalent to 16p per day, save 28%)</li>
+                    <li>All plans include a 3-day free trial</li>
                   </ul>
                   
                   <p><strong className="text-text-primary">Payment Processing:</strong></p>
@@ -252,20 +251,13 @@ const Terms = () => {
                     <li>Your name and card details are NOT stored by GutCheck</li>
                   </ul>
 
-                  <p><strong className="text-text-primary">UK Consumer Rights - 14-Day Cooling Off Period:</strong></p>
-                  <p>
-                    Under the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013, 
-                    you have the right to cancel your subscription within 14 days of purchase and receive a full refund, 
-                    unless you have expressly agreed to begin receiving the service immediately and acknowledged that 
-                    you will lose your right to cancel once the service has been fully performed.
-                  </p>
-
-                  <p><strong className="text-text-primary">Cancellation & Refunds:</strong></p>
+                  <p><strong className="text-text-primary">Cancellation Policy:</strong></p>
                   <ul className="space-y-2 list-disc list-inside ml-4">
                     <li>Cancel anytime through your account settings</li>
                     <li>No cancellation fees</li>
-                    <li>Refunds available within 14 days of purchase under UK Consumer Rights Act 2015</li>
                     <li>After cancellation, access continues until the end of your paid period</li>
+                    <li>All sales are final - we do not offer refunds</li>
+                    <li>We recommend using the 3-day free trial to evaluate the service before subscribing</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -462,7 +454,7 @@ const Terms = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />
-                  <p>14-day cooling off period with full refund rights under UK Consumer Rights Act</p>
+                  <p>3-day free trial to evaluate the service before subscribing</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />

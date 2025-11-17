@@ -21,11 +21,6 @@ const About = () => {
       description: 'Your conversations are sacred. We use end-to-end encryption and never share your data with third parties.'
     },
     {
-      icon: Users,
-      title: 'Community Driven',
-      description: 'Built by survivors, for survivors. Our team includes mental health professionals and relationship experts.'
-    },
-    {
       icon: Target,
       title: 'Evidence Based',
       description: 'Our AI is trained on peer-reviewed research and validated by mental health professionals and relationship experts.'
@@ -74,11 +69,11 @@ const About = () => {
                 </p>
                 <div className="glass-card p-6 rounded-xl">
                   <h3 className="text-xl font-bold text-text-primary mb-3">
-                    Crisis Support Available 24/7
+                    Access to Crisis Helplines
                   </h3>
                   <p className="text-text-secondary">
-                    If you&apos;re in immediate danger, call 988 or text HOME to 741741. 
-                    We&apos;re here to help you stay safe.
+                    Our app provides access to official crisis helplines in your region (UK, US, Canada, Australia). 
+                    If you&apos;re in immediate danger, please contact emergency services in your area.
                   </p>
                 </div>
               </div>
@@ -87,25 +82,25 @@ const About = () => {
             <FadeIn direction="left">
               <div className="glass-card p-8 rounded-2xl">
                 <h3 className="text-2xl font-bold text-text-primary mb-6">
-                  Our Impact
+                  Why Choose GutCheck?
                 </h3>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <div className="text-3xl font-black text-accent-teal mb-2">10K+</div>
-                    <div className="text-text-secondary">Lives Protected</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-black text-accent-green mb-2">95%</div>
-                    <div className="text-text-secondary">User Satisfaction</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-black text-warning-coral mb-2">24/7</div>
-                    <div className="text-text-secondary">Crisis Support</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-3xl font-black text-success-green mb-2">99.9%</div>
-                    <div className="text-text-secondary">Privacy Protection</div>
-                  </div>
+                <div className="space-y-4 text-text-secondary">
+                  <p>
+                    <strong className="text-text-primary">Anonymous & Private:</strong> Your conversations are completely anonymous. 
+                    We never collect your real name or identity.
+                  </p>
+                  <p>
+                    <strong className="text-text-primary">AI-Powered Insights:</strong> Our specialized AI helps you recognize 
+                    patterns and red flags in your relationships.
+                  </p>
+                  <p>
+                    <strong className="text-text-primary">Evidence-Based:</strong> Built on peer-reviewed research and validated 
+                    by relationship experts.
+                  </p>
+                  <p>
+                    <strong className="text-text-primary">Crisis Resources:</strong> Access to official helplines in UK, US, 
+                    Canada, and Australia.
+                  </p>
                 </div>
               </div>
             </FadeIn>
@@ -127,7 +122,7 @@ const About = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {values.map((value, index) => (
               <FadeIn key={value.title} direction="up" delay={index * 0.1}>
                 <Card variant="glass" hover className="h-full">
@@ -166,7 +161,7 @@ const About = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <FadeIn direction="up" delay={0.1}>
               <Card variant="glass" className="text-center">
                 <CardHeader>
@@ -200,25 +195,6 @@ const About = () => {
                   <CardDescription className="text-text-secondary">
                     Machine learning experts who develop our AI models with privacy 
                     and safety as top priorities.
-                  </CardDescription>
-                </CardContent>
-              </Card>
-            </FadeIn>
-
-            <FadeIn direction="up" delay={0.3}>
-              <Card variant="glass" className="text-center">
-                <CardHeader>
-                  <div className="w-20 h-20 bg-gradient-to-r from-warning-coral to-accent-teal rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-white">CS</span>
-                  </div>
-                  <CardTitle className="text-xl font-bold text-text-primary">
-                    Crisis Support
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <CardDescription className="text-text-secondary">
-                    Trained crisis counselors available 24/7 to provide immediate 
-                    support when you need it most.
                   </CardDescription>
                 </CardContent>
               </Card>

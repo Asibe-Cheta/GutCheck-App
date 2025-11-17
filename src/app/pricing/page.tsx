@@ -12,82 +12,63 @@ export const metadata: Metadata = {
 const Pricing = () => {
   const plans = [
     {
-      name: 'Free',
-      price: '$0',
-      period: 'forever',
+      name: 'Monthly',
+      price: '£6.99',
+      period: 'month',
       description: 'Perfect for trying out GutCheck',
       features: [
-        'Basic manipulation detection',
-        '5 conversation analyses per month',
-        'Community support',
-        'Basic safety tips',
-        'Mobile app access'
+        'AI-powered conversation analysis',
+        'Emotional pattern detection',
+        'Red flag identification',
+        'Relationship health insights',
+        'Anonymous and private',
+        'Access to crisis helplines (UK, US, Canada, Australia)',
+        '3-day free trial'
       ],
-      cta: 'Get Started',
+      cta: 'Start Free Trial',
       popular: false
     },
     {
-      name: 'Pro',
-      price: '$19',
-      period: 'month',
-      description: 'Most popular for regular users',
+      name: 'Yearly',
+      price: '£59.99',
+      period: 'year',
+      description: 'Best value - Save 28%',
       features: [
-        'Advanced AI analysis',
-        'Unlimited conversation analyses',
-        'Real-time alerts',
-        'Crisis support access',
-        'Detailed relationship insights',
-        'Priority support',
-        'Voice message analysis',
-        'Custom safety plans'
+        'Everything in Monthly',
+        'AI-powered conversation analysis',
+        'Emotional pattern detection',
+        'Red flag identification',
+        'Relationship health insights',
+        'Anonymous and private',
+        'Access to crisis helplines (UK, US, Canada, Australia)',
+        'Save £24 per year',
+        '3-day free trial'
       ],
       cta: 'Start Free Trial',
       popular: true
-    },
-    {
-      name: 'Premium',
-      price: '$39',
-      period: 'month',
-      description: 'For those who need maximum protection',
-      features: [
-        'Everything in Pro',
-        'Video call insights',
-        'Personal safety coach',
-        'Emergency response team',
-        'Family sharing (up to 5 users)',
-        'Advanced reporting',
-        'White-label options',
-        'API access'
-      ],
-      cta: 'Contact Sales',
-      popular: false
     }
   ]
 
   const faqs = [
     {
       question: 'Is there a free trial?',
-      answer: 'Yes! All paid plans come with a 7-day free trial. No credit card required to start.'
+      answer: 'Yes! All plans come with a 3-day free trial. You can cancel anytime during the trial period.'
     },
     {
       question: 'Can I cancel anytime?',
       answer: 'Absolutely. Cancel your subscription anytime with one click. No hidden fees or contracts.'
     },
     {
-      question: 'Do you offer student discounts?',
-      answer: 'Yes! Students get 50% off all paid plans. Just verify your student status during signup.'
-    },
-    {
       question: 'What payment methods do you accept?',
-      answer: 'We accept all major credit cards, PayPal, and Apple Pay. All payments are processed securely.'
+      answer: 'We accept all major credit cards via Stripe. All payments are processed securely and we never see your payment details.'
     },
     {
       question: 'Is my data really private?',
-      answer: 'Yes! We use end-to-end encryption and process everything locally. Your conversations never leave your device unencrypted.'
+      answer: 'Yes! We use end-to-end encryption and your conversations are completely anonymous. We never collect your real name or identity.'
     },
     {
-      question: 'Do you offer refunds?',
-      answer: 'We offer a 30-day money-back guarantee. If you&apos;re not satisfied, we&apos;ll refund your payment.'
+      question: 'What regions do you support for crisis helplines?',
+      answer: 'Our app provides access to official crisis helplines for the UK, United States, Canada, and Australia.'
     }
   ]
 
@@ -106,7 +87,7 @@ const Pricing = () => {
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
                 Choose the plan that fits your needs. All plans include our core safety features 
-                and come with a 7-day free trial.
+                and come with a 3-day free trial.
               </p>
             </div>
           </FadeIn>
@@ -116,7 +97,7 @@ const Pricing = () => {
       {/* Pricing Cards */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {plans.map((plan, index) => (
               <FadeIn key={plan.name} direction="up" delay={index * 0.1}>
                 <Card 
@@ -291,7 +272,7 @@ const Pricing = () => {
                 Ready to Get Started?
               </h2>
               <p className="text-xl text-text-secondary mb-8">
-                Start your free trial today. No credit card required. 
+                Start your 3-day free trial today. 
                 Cancel anytime if you&apos;re not completely satisfied.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
