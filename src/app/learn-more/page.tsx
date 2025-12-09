@@ -57,7 +57,7 @@ const LearnMore = () => {
                     <h3 className="text-lg font-bold text-warning-coral mb-4">Disclaimer: The app is an Assistant, Not an Authority</h3>
                     <p className="text-text-secondary leading-relaxed">
                       The app is a guide that highlights several warning signs that align with known manipulation or perpetratory tactics. 
-                      The final judgment will always lie with the user and/or real-world experts.
+                      The final judgment will always lie with the user and or real world experts.
                     </p>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const LearnMore = () => {
                 </p>
                 <p className="text-lg text-text-secondary leading-relaxed">
                   This lack of clarity allows damaging behaviours like emotional manipulation, coercion, and grooming to go 
-                  unrecognised and unchallenged, causing profound psychological harm and putting them in real danger (mentally and/or physically).
+                  unrecognised and unchallenged, causing profound psychological harm and putting them in real danger (mentally and or physically).
                 </p>
               </div>
             </div>
@@ -135,10 +135,10 @@ const LearnMore = () => {
                     In the past year alone, there&apos;ve been heartbreaking stories… a 15 year old boy in the U.S. who thought he was 
                     chatting with another teenager, only to be extorted for money after sharing private images. A teenage girl in 
                     Europe manipulated by peers in a group chat until bullying drove her offline for months. Stories like these do 
-                    not live in faraway headlines—they live in the anxiety in every parent&apos;s heart.
+                    not live in faraway headlines they live in the anxiety in every parent&apos;s heart.
                   </p>
                   <p className="text-lg text-text-secondary leading-relaxed font-semibold">
-                    Manipulation, toxic friendships, online grooming, sextortion, bullying— they&apos;re not rare exceptions any more. 
+                    Manipulation, toxic friendships, online grooming, sextortion, bullying they&apos;re not rare exceptions any more. 
                     They are patterns… patterns that cannot always recognize until it&apos;s too late.
                   </p>
                 </div>
@@ -171,7 +171,7 @@ const LearnMore = () => {
                   </h3>
                   <div className="space-y-4 max-w-2xl mx-auto">
                     <p className="text-text-secondary leading-relaxed">
-                      This is why GC was created —an app built to give kids and young adults eyes to see the warning signs before 
+                      This is why GC was created an app built to give kids and young adults eyes to see the warning signs before 
                       they&apos;re trapped, and a voice to reach out before silence wins.
                     </p>
                     <p className="text-text-secondary leading-relaxed">
@@ -214,7 +214,7 @@ const LearnMore = () => {
                 <Target className="w-10 h-10 text-accent-teal mx-auto" />
                 <div className="space-y-6 max-w-3xl mx-auto">
                   <h3 className="text-xl font-bold text-text-primary">
-                    This is not just technology—it&apos;s transformation
+                    This is not just technology it&apos;s transformation
                   </h3>
                   <p className="text-lg text-text-secondary leading-relaxed">
                     From isolated vulnerability to confident resilience. From silent suffering to proactive prevention.
@@ -222,7 +222,7 @@ const LearnMore = () => {
                   <p className="text-lg text-text-secondary leading-relaxed font-semibold">
                     GC&apos;s vision is that every user knows exactly what manipulation, blackmail, bullying, sexual exploitation/abuse, 
                     grooming looks like, even when it&apos;s disguised as love, friendship, or opportunity. Because safety should not 
-                    be optional—it should be automatic.
+                    be optional it should be automatic.
                   </p>
                 </div>
               </div>

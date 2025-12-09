@@ -63,9 +63,9 @@ const Resources = () => {
       available: '24/7'
     },
     {
-      title: 'Police',
+      title: 'Police/Ambulance/Fire Service',
       number: '999 (Emergency) / 101 (Non-Emergency)',
-      description: 'For immediate danger or police assistance.',
+      description: 'For immediate danger or emergency assistance.',
       available: '24/7'
     }
   ]
