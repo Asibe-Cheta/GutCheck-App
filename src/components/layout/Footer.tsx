@@ -21,12 +21,24 @@ const Footer: React.FC = () => {
             </Link>
             <p>GutCheck empowering users with ai powered emotional intelligence analyses to transform innate intuition into visible, understandable guide, protecting their safety and mental health</p>
             <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
-              <a href="#" className="app-button" style={{ minWidth: 'auto', padding: '12px' }}>
+              <a 
+                href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="app-button" 
+                style={{ minWidth: 'auto', padding: '12px' }}
+              >
                 <div className="app-icon" style={{ width: '32px', height: '32px' }}>
                   <Smartphone className="w-4 h-4 text-white" />
                 </div>
               </a>
-              <a href="#" className="app-button" style={{ minWidth: 'auto', padding: '12px' }}>
+              <a 
+                href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="app-button" 
+                style={{ minWidth: 'auto', padding: '12px' }}
+              >
                 <div className="app-icon" style={{ width: '32px', height: '32px' }}>
                   <Download className="w-4 h-4 text-white" />
                 </div>
