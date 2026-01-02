@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               />
               GutCheck
             </Link>
-            <p>GutCheck empowering users with ai powered emotional intelligence analyses to transform innate intuition into visible, understandable guide, protecting their safety and mental health</p>
+            <p>GutCheck empowering users with ai powered emotional intelligence analyses to transform innate intuition into visible, understandable guide, protecting their safety and mental health.</p>
             <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
               <a 
                 href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
