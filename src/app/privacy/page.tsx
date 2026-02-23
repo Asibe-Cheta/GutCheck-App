@@ -76,6 +76,13 @@ const Privacy = () => {
       retention: 'Stored locally on your device or encrypted on servers with your keys only',
     },
     {
+      category: 'Conversation Content and Images (AI Chat & Guidance)',
+      data: ['Messages you send in chat or guidance', 'Images or documents you attach when using these features'],
+      purpose: 'To provide you with personalised guidance. This data is sent to Anthropic (Claude), a third-party AI service, solely to generate responses for you. We do not use your content to train AI models. We ask for your consent in the app before any of this data is sent.',
+      retention: 'Processed only to generate your response. Anthropic\'s handling of data is described in their privacy policy (see Third-Party AI Provider section below).',
+      hideAnonymousBadge: true,
+    },
+    {
       category: 'Anonymized Usage Analytics',
       data: ['App usage frequency (no content)', 'Feature usage statistics', 'Performance metrics'],
       purpose: 'To improve service quality - all analytics are fully anonymized',
@@ -178,11 +185,13 @@ const Privacy = () => {
                       Purpose: {dataType.purpose}
                     </p>
                     
+                    {!('hideAnonymousBadge' in dataType && dataType.hideAnonymousBadge) && (
                     <div className="flex items-center justify-center py-3">
                       <span className="px-3 py-1 bg-accent-teal/20 text-accent-teal text-xs font-semibold rounded-full">
                         100% ANONYMOUS
                       </span>
                     </div>
+                    )}
 
                     <div className="text-left space-y-4 pt-2">
                       <div>
@@ -206,6 +215,43 @@ const Privacy = () => {
               </FadeIn>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Third-Party AI Provider (Anthropic) - App Store compliance */}
+      <section className="page-section w-full flex justify-center">
+        <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
+          <FadeIn direction="up">
+            <div className="text-center space-y-6 mb-8">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-black text-text-primary">
+                AI-Powered Features & Third-Party Provider
+              </h2>
+              <p className="text-lg md:text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed">
+                When you use our chat or guidance features, your data is handled as follows.
+              </p>
+            </div>
+          </FadeIn>
+          <FadeIn direction="up">
+            <Card variant="glass" className="p-6 md:p-8 max-w-3xl mx-auto">
+              <div className="space-y-4 text-text-secondary leading-relaxed">
+                <p>
+                  When you use GutCheck&apos;s chat or guidance features, we collect the messages you send and any images or documents you attach. This data is collected when you send messages or attach images in the app (for example in the chat, when starting a conversation from the home screen, or from a notification). This data is used to provide you with personalised guidance. To do this, we send your conversation content and any attached images to <strong className="text-text-primary">Anthropic (Claude)</strong>, a third-party AI service, <strong className="text-text-primary">solely to generate responses for you</strong>. We do not use your content to train AI models. We ask for your consent in the app before any of your data is sent to this provider.
+                </p>
+                <p>
+                  Anthropic&apos;s handling of data is described in their privacy policy:{' '}
+                  <a 
+                    href="https://www.anthropic.com/privacy" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="text-accent-teal hover:underline"
+                  >
+                    https://www.anthropic.com/privacy
+                  </a>
+                  . For full details of what we collect, how we use it, and how we protect it, see the rest of this policy.
+                </p>
+              </div>
+            </Card>
+          </FadeIn>
         </div>
       </section>
 
@@ -379,7 +425,7 @@ const Privacy = () => {
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
-                      <span>The content of your conversations - encrypted end-to-end, unreadable to us</span>
+                      <span>The content of your conversations for our own use — encrypted and unreadable to us. When you use our AI chat or guidance features, we only send that content to Anthropic (Claude) with your prior consent, solely to generate responses; we do not use it to train AI models (see AI-Powered Features & Third-Party Provider above).</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
