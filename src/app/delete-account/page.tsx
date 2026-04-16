@@ -1,206 +1,140 @@
-'use client'
+import type { Metadata } from 'next'
 
-import React from 'react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/Button'
-import { Mail, Shield, AlertTriangle, Download, Clock } from 'lucide-react'
-
-const DeleteAccountPage: React.FC = () => {
-  return (
-    <div className="delete-account-page">
-      <div className="container">
-        {/* Header Section */}
-        <div className="page-header">
-          <div className="page-icon">
-            <Image 
-              src="/gc-dark.png" 
-              alt="GutCheck Logo" 
-              width={80} 
-              height={80} 
-              className="page-logo"
-            />
-          </div>
-          <h1>Delete Your GutCheck Account</h1>
-          <p className="page-subtitle">
-            Request Account Deletion
-          </p>
-        </div>
-
-        {/* Main Content */}
-        <div className="content-sections">
-          {/* Instructions Section */}
-          <section className="content-section">
-            <h2>Account Deletion Instructions</h2>
-            <p className="section-intro">
-              To delete your GutCheck account and associated data, please follow these steps:
-            </p>
-            
-            <div className="steps-container">
-              <div className="step">
-                <div className="step-number">1</div>
-                <div className="step-content">
-                  <h3>Open the GutCheck app</h3>
-                  <p>on your device</p>
-                </div>
-              </div>
-              
-              <div className="step">
-                <div className="step-number">2</div>
-                <div className="step-content">
-                  <h3>Go to Settings</h3>
-                  <p>(gear icon in the bottom navigation)</p>
-                </div>
-              </div>
-              
-              <div className="step">
-                <div className="step-number">3</div>
-                <div className="step-content">
-                  <h3>Scroll down</h3>
-                  <p>to find &quot;Account Management&quot; section</p>
-                </div>
-              </div>
-              
-              <div className="step">
-                <div className="step-number">4</div>
-                <div className="step-content">
-                  <h3>Tap &quot;Delete Account&quot;</h3>
-                  <p>button</p>
-                </div>
-              </div>
-              
-              <div className="step">
-                <div className="step-number">5</div>
-                <div className="step-content">
-                  <h3>Enter your PIN</h3>
-                  <p>to confirm deletion</p>
-                </div>
-              </div>
-              
-              <div className="step">
-                <div className="step-number">6</div>
-                <div className="step-content">
-                  <h3>Tap &quot;Confirm Deletion&quot;</h3>
-                  <p>to permanently delete your account</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="alternative-method">
-              <h3>Alternative Method</h3>
-              <p>
-                If you cannot access the app, email us at: 
-                <a href="mailto:support@gutcheck.org" className="email-link">
-                  support@gutcheck.org
-                </a> 
-                with your username and request for account deletion.
-              </p>
-            </div>
-          </section>
-
-          {/* Data Deletion Information */}
-          <section className="content-section">
-            <h2>Data Deletion Information</h2>
-            
-            <div className="data-info-grid">
-              <div className="data-card delete-card">
-                <div className="data-icon">
-                  <AlertTriangle className="w-6 h-6" />
-                </div>
-                <h3>What Gets Deleted</h3>
-                <ul>
-                  <li>Your user profile and account information</li>
-                  <li>All chat conversations and analysis history</li>
-                  <li>Personal data (age, region, preferences)</li>
-                  <li>Anonymous username and associated data</li>
-                </ul>
-              </div>
-
-              <div className="data-card retain-card">
-                <div className="data-icon">
-                  <Shield className="w-6 h-6" />
-                </div>
-                <h3>What Gets Retained</h3>
-                <ul>
-                  <li>Aggregated, anonymized usage statistics (for app improvement)</li>
-                  <li>Data required for legal compliance (if applicable)</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="retention-info">
-              <div className="retention-icon">
-                <Clock className="w-5 h-5" />
-              </div>
-              <div className="retention-content">
-                <h3>Retention Period</h3>
-                <ul>
-                  <li>Account deletion is processed immediately</li>
-                  <li>Some anonymized data may be retained for up to 30 days for technical purposes</li>
-                  <li>After 30 days, all personal data is permanently removed</li>
-                </ul>
-              </div>
-            </div>
-          </section>
-
-          {/* Contact Information */}
-          <section className="content-section">
-            <h2>Contact Information</h2>
-            
-            <div className="contact-grid">
-              <div className="contact-card">
-                <div className="contact-icon">
-                  <Mail className="w-6 h-6" />
-                </div>
-                <h3>For Account Deletion Support</h3>
-                <p>Email: <a href="mailto:support@gutcheck.org" className="email-link">support@gutcheck.org</a></p>
-                <p className="response-time">Response time: Within 48 hours</p>
-              </div>
-
-              <div className="contact-card">
-                <div className="contact-icon">
-                  <Shield className="w-6 h-6" />
-                </div>
-                <h3>For Privacy Questions</h3>
-                <p>Email: <a href="mailto:privacy@gutcheck.org" className="email-link">privacy@gutcheck.org</a></p>
-              </div>
-            </div>
-          </section>
-
-          {/* Important Notes */}
-          <section className="content-section important-notes">
-            <h2>Important Notes</h2>
-            
-            <div className="notes-list">
-              <div className="note-item">
-                <AlertTriangle className="w-5 h-5 note-icon" />
-                <p><strong>Account deletion is permanent</strong> and cannot be undone</p>
-              </div>
-              
-              <div className="note-item">
-                <Download className="w-5 h-5 note-icon" />
-                <p><strong>Download your data</strong> before deletion if you want to keep any information</p>
-              </div>
-              
-              <div className="note-item">
-                <Shield className="w-5 h-5 note-icon" />
-                <p><strong>Anonymous users</strong> can simply uninstall the app (no account to delete)</p>
-              </div>
-            </div>
-          </section>
-
-          {/* Action Buttons */}
-          <div className="action-buttons">
-            <Button className="btn-primary" onClick={() => window.open('mailto:support@gutcheck.org', '_blank')}>
-              Contact Support
-            </Button>
-            <Button variant="outline" className="btn-secondary" onClick={() => window.history.back()}>
-              Go Back
-            </Button>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
+export const metadata: Metadata = {
+  title: 'GutChecks Red Flags & Safety Account Deletion',
+  description:
+    'Request deletion of your GutChecks Red Flags & Safety account and associated personal data.',
 }
 
-export default DeleteAccountPage
+export default function DeleteAccountPage() {
+  return (
+    <main className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-white text-slate-900">
+      <section className="mx-auto max-w-4xl px-6 py-16 sm:px-8 lg:px-10">
+        <div className="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-xl shadow-slate-200/50">
+          <div className="bg-gradient-to-r from-blue-600 to-indigo-600 px-6 py-12 text-white sm:px-10">
+            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-100">
+              Account Deletion
+            </p>
+            <h1 className="mt-3 text-3xl font-bold tracking-tight sm:text-5xl">
+              GutChecks Red Flags &amp; Safety Account Deletion
+            </h1>
+            <p className="mt-4 max-w-2xl text-base leading-7 text-blue-50 sm:text-lg">
+              Request deletion of your <strong>GutChecks Red Flags &amp; Safety</strong>{' '}
+              account and associated personal data. This page is provided for users of
+              the <strong>GutChecks Red Flags &amp; Safety</strong> app published by{' '}
+              <strong>Justice Asibe</strong>.
+            </p>
+          </div>
+
+          <div className="px-6 py-10 sm:px-10">
+            <div className="grid gap-6">
+              <section className="rounded-2xl border border-slate-200 bg-slate-50 p-6">
+                <h2 className="text-xl font-semibold text-slate-900">
+                  How to Request Account Deletion
+                </h2>
+                <p className="mt-3 text-slate-700">
+                  To request deletion of your account, please email{' '}
+                  <a
+                    href="mailto:support@mygutcheck.org?subject=Account%20Deletion%20Request%20-%20GutChecks%20Red%20Flags%20%26%20Safety"
+                    className="font-semibold text-blue-600 underline underline-offset-4"
+                  >
+                    support@mygutcheck.org
+                  </a>
+                  .
+                </p>
+                <div className="mt-4 rounded-xl bg-white p-4 ring-1 ring-slate-200">
+                  <p className="text-sm font-medium text-slate-500">Recommended subject line</p>
+                  <p className="mt-1 font-semibold text-slate-900">
+                    Account Deletion Request - GutChecks Red Flags &amp; Safety
+                  </p>
+                </div>
+                <div className="mt-4">
+                  <p className="font-medium text-slate-900">Please include:</p>
+                  <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-700">
+                    <li>Your full name</li>
+                    <li>The email address or phone number associated with your account</li>
+                    <li>Any additional details that may help us identify your account</li>
+                  </ul>
+                </div>
+              </section>
+
+              <section className="rounded-2xl border border-slate-200 p-6">
+                <h2 className="text-xl font-semibold text-slate-900">
+                  What Happens When You Request Deletion
+                </h2>
+                <p className="mt-3 text-slate-700">
+                  Once we verify your request, we will begin the account deletion
+                  process for your <strong>GutChecks Red Flags &amp; Safety</strong>{' '}
+                  account. We may contact you if we need additional information to
+                  confirm your identity before deleting your account.
+                </p>
+              </section>
+
+              <section className="rounded-2xl border border-slate-200 p-6">
+                <h2 className="text-xl font-semibold text-slate-900">What Data Will Be Deleted</h2>
+                <p className="mt-3 text-slate-700">
+                  When your account deletion request is completed, we will delete or
+                  de-identify the personal data associated with your account, including:
+                </p>
+                <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-700">
+                  <li>Account profile information</li>
+                  <li>App usage data linked to your account</li>
+                  <li>User-submitted content, where applicable</li>
+                  <li>
+                    Other personal information associated with your account, unless
+                    retention is required by law
+                  </li>
+                </ul>
+              </section>
+
+              <section className="rounded-2xl border border-slate-200 p-6">
+                <h2 className="text-xl font-semibold text-slate-900">What Data May Be Retained</h2>
+                <p className="mt-3 text-slate-700">
+                  We may retain limited information when required for:
+                </p>
+                <ul className="mt-3 list-disc space-y-2 pl-6 text-slate-700">
+                  <li>Legal compliance</li>
+                  <li>Fraud prevention</li>
+                  <li>Dispute resolution</li>
+                  <li>Enforcement of our legal terms and obligations</li>
+                </ul>
+                <p className="mt-3 text-slate-700">
+                  Any retained data will be kept only for as long as necessary to satisfy
+                  those purposes. Where retention is required by law or regulatory
+                  obligation, we will retain only the minimum necessary data for the
+                  required period.
+                </p>
+              </section>
+
+              <section className="grid gap-6 md:grid-cols-2">
+                <div className="rounded-2xl border border-slate-200 p-6">
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    How Long Deletion Takes
+                  </h2>
+                  <p className="mt-3 text-slate-700">
+                    We aim to process verified account deletion requests within 30 days.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-blue-200 bg-blue-50 p-6">
+                  <h2 className="text-xl font-semibold text-slate-900">How to Contact Support</h2>
+                  <p className="mt-3 text-slate-700">
+                    If you have questions about account deletion or your data, please
+                    contact{' '}
+                    <a
+                      href="mailto:support@mygutcheck.org"
+                      className="font-semibold text-blue-600 underline underline-offset-4"
+                    >
+                      support@mygutcheck.org
+                    </a>
+                    .
+                  </p>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  )
+}
