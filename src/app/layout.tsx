@@ -12,12 +12,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'GutCheck - Visualize Your Intuition | AI-Powered Relationship Safety',
-  description: 'Your private space to decode relationships and trust your instincts. AI-powered emotional intelligence for young adults.',
-  keywords: 'relationship safety, manipulation detection, emotional intelligence, AI therapy, mental health',
-  authors: [{ name: 'GutCheck Team' }],
-  creator: 'GutCheck',
-  publisher: 'GutCheck',
+  title: 'GutChecks: Red Flags & Safety | Spot Manipulation in Any Interaction',
+  description: 'The private app that helps you spot manipulation, red flags, and toxic behaviour — in DMs, dating, friendships, at work, with family, or anywhere online and offline. 100% anonymous.',
+  keywords: 'red flags, manipulation, gaslighting, toxic, grooming, scam, workplace, dating, emotional abuse, narcissist, boundaries, coercive control, bullying, radicalisation, safety',
+  authors: [{ name: 'GutChecks Team' }],
+  creator: 'GutChecks',
+  publisher: 'GutChecks',
   formatDetection: {
     email: false,
     address: false,
@@ -28,18 +28,18 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'GutCheck - Visualize Your Intuition',
-    description: 'AI-powered relationship safety platform for young adults',
+    title: 'GutChecks: Red Flags & Safety',
+    description: 'Spot manipulation, red flags, and toxic behaviour — in any interaction. 100% private and anonymous.',
     url: 'https://mygutcheck.org',
-    siteName: 'GutCheck',
+    siteName: 'GutChecks',
     type: 'website',
-    locale: 'en_US',
+    locale: 'en_GB',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GutCheck - Visualize Your Intuition',
-    description: 'AI-powered relationship safety platform for young adults',
-    creator: '@gutcheck',
+    title: 'GutChecks: Red Flags & Safety',
+    description: 'Spot manipulation, red flags, and toxic behaviour — in any interaction. 100% private and anonymous.',
+    creator: '@gutchecksapp',
   },
   robots: {
     index: true,

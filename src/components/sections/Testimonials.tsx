@@ -6,33 +6,33 @@ import { Star, Quote } from 'lucide-react'
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      id: 'user',
-      content: 'This app helped me recognize manipulation patterns I never would have seen on my own. The anonymous analysis gave me the confidence to trust my gut feeling.',
+      id: 'age 19',
+      content: 'I kept going back and forth on whether I was overreacting. GutChecks helped me see it was actually a pattern.',
       rating: 5
     },
     {
-      id: 'user022',
-      content: 'I was in a toxic friendship and didn\'t realize it until GutCheck showed me the red flags. The evidence-based approach made everything so clear.',
+      id: 'age 16',
+      content: 'Someone at school was being really manipulative and I didn\'t know how to explain it. GutChecks broke it down so I could see what was happening.',
       rating: 5
     },
     {
-      id: 'user145',
-      content: 'The pattern tracking feature is incredible. It helped me see how someone was gradually isolating me over time. I\'m so grateful for this tool.',
+      id: 'age 21',
+      content: 'I used it when an online conversation started feeling really off. It flagged things I hadn\'t even noticed.',
       rating: 5
     },
     {
-      id: 'user089',
-      content: 'As someone who struggles with trusting my intuition, GutCheck has been a game-changer. It validates my feelings with actual evidence.',
+      id: 'age 17',
+      content: 'The privacy was everything. I wasn\'t ready to talk to anyone yet.',
       rating: 5
     },
     {
-      id: 'user203',
-      content: 'The anonymity is what sold me. I could analyze my situation without fear of judgment. This app truly understands what young people need.',
+      id: 'age 24',
+      content: 'The pattern tracking showed me it wasn\'t just a bad day — it was a habit. That made it so much easier to trust what I was feeling.',
       rating: 5
     },
     {
-      id: 'user156',
-      content: 'I wish I had this app years ago. It would have saved me from so much emotional harm. Now I recommend it to all my friends.',
+      id: 'age 20',
+      content: 'I could finally put into words what had been making me uncomfortable for months. It gave me the clarity to do something about it.',
       rating: 5
     }
   ]
@@ -42,8 +42,8 @@ const Testimonials: React.FC = () => {
       <div className="container">
         <div className="glass-card fade-in">
           <div className="section-badge">What Users Say</div>
-          <h2 className="section-title">Trusted by Thousands</h2>
-          <p className="section-subtitle">Real stories from anonymous users who found clarity and safety with GutCheck.</p>
+          <h2 className="section-title">Why people use GutChecks</h2>
+          <p className="section-subtitle">Real experiences from people who needed a second opinion — and got clarity.</p>
           
           <div className="features-grid" style={{ marginTop: '60px' }}>
             {testimonials.map((testimonial) => (

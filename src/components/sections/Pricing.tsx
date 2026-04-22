@@ -8,7 +8,7 @@ const Pricing: React.FC = () => {
       <div className="container">
         <div className="fade-in" style={{ textAlign: 'center' }}>
           <div className="section-badge">Transparent Pricing</div>
-          <h2 className="section-title">For less than a cookie, users will protect what matters most: safety and mental health in a world that never sleeps.</h2>
+          <h2 className="section-title">Simple pricing. Serious clarity.</h2>
         </div>
         
         <div className="pricing-cards">
@@ -17,15 +17,12 @@ const Pricing: React.FC = () => {
             <div className="plan-price">£6.99<small>/month</small></div>
             <div className="plan-subtitle">23p/day billed monthly</div>
             <ul className="plan-features">
-              <li>Unlimited analysis</li>
-              <li>Advanced pattern tracking</li>
-              <li>Confidence scoring</li>
-              <li>Evidence documentation</li>
-              <li>Conversations mapping</li>
-              <li>Cultural sensitivity analysis</li>
-              <li>Priority crisis support</li>
-              <li>Export report</li>
-              <li>Trigger identification system</li>
+              <li>Unlimited conversations</li>
+              <li>Pattern tracking over time</li>
+              <li>Red flag breakdown with clear explanations</li>
+              <li>Save and export your records</li>
+              <li>Helpline links for your region</li>
+              <li>100% private and anonymous</li>
             </ul>
             <a href="#get-started" className="btn-primary">Start 3-Day Free Trial</a>
           </div>
@@ -37,22 +34,19 @@ const Pricing: React.FC = () => {
               Save 28% vs monthly
             </div>
             <ul className="plan-features">
-              <li>Unlimited analysis</li>
-              <li>Advanced pattern tracking</li>
-              <li>Confidence scoring</li>
-              <li>Evidence documentation</li>
-              <li>Conversations mapping</li>
-              <li>Cultural sensitivity analysis</li>
-              <li>Priority crisis support</li>
-              <li>Export report</li>
-              <li>Trigger identification system</li>
+              <li>Unlimited conversations</li>
+              <li>Pattern tracking over time</li>
+              <li>Red flag breakdown with clear explanations</li>
+              <li>Save and export your records</li>
+              <li>Helpline links for your region</li>
+              <li>100% private and anonymous</li>
             </ul>
             <a href="#get-started" className="btn-secondary">Start 3-Day Free Trial</a>
           </div>
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '48px' }}>
-          <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Join 1000+ people seeking safety • 100% private</p>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>Trusted by 1,000+ users • 100% private</p>
         </div>
       </div>
     </section>

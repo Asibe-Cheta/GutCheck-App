@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
-  title: 'Learn More About GutCheck: Visualize Your Intuition',
-  description: 'Discover how GutCheck helps kids and young adults navigate relationships safely with AI-powered emotional intelligence.',
+  title: 'Learn More — GutChecks: Red Flags & Safety',
+  description: 'Discover how GutChecks helps young people spot manipulation, red flags, and toxic behaviour across all interactions — safely and anonymously.',
 }
 
 const LearnMore = () => {
@@ -45,9 +45,9 @@ const LearnMore = () => {
           <FadeIn direction="up">
             <div className="text-center space-y-10">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-primary">
-                GutCheck (GC):{' '}
+                GutChecks:{' '}
                 <span className="bg-gradient-to-r from-accent-teal to-accent-green bg-clip-text text-transparent">
-                  Visualize Your Intuition
+                  Red Flags &amp; Safety
                 </span>
               </h1>
               <div className="glass-card p-8 rounded-xl border-warning-coral/30 border-2">
@@ -77,9 +77,9 @@ const LearnMore = () => {
               </h2>
               <div className="space-y-6 max-w-3xl mx-auto">
                 <p className="text-xl text-text-secondary leading-relaxed">
-                  Kids and young adults are navigating a social landscape of unprecedented complexity, but are often equipped 
-                  with little more than their intuition to identify manipulation and harm. The line between healthy and unhealthy 
-                  dynamics is often blurred, leaving them feeling confused, isolated, and doubting their judgment.
+                  Growing up online means dealing with situations that previous generations never faced — manipulative messages,
+                  toxic group chats, pressure from strangers, and relationships that feel confusing or unsafe. Sometimes it is
+                  hard to know whether something is a red flag or just normal.
                 </p>
                 <p className="text-lg text-text-secondary leading-relaxed">
                   This lack of clarity allows damaging behaviours like emotional manipulation, coercion, and grooming to go 
@@ -127,9 +127,9 @@ const LearnMore = () => {
                 </div>
                 <div className="space-y-6 max-w-3xl mx-auto">
                   <p className="text-lg text-text-secondary leading-relaxed">
-                    The problem is not a lack of danger; it&apos;s a lack of clarity. Kids and young adults are swimming in a sea 
-                    of social interactions without a compass to identify threatening currents. The digital world in particular has 
-                    given limitless opportunities, but also behind every screen lurks a risk.
+                    The problem is not a lack of danger; it&apos;s a lack of clarity. Kids and young adults are swimming in a sea
+                    of social interactions without a compass to identify threatening currents. The digital world in particular has
+                    given limitless opportunities, but risks hide behind every screen.
                   </p>
                   <p className="text-lg text-text-secondary leading-relaxed">
                     In the past year alone, there&apos;ve been heartbreaking stories… a 15 year old boy in the U.S. who thought he was 
@@ -138,8 +138,8 @@ const LearnMore = () => {
                     not live in faraway headlines they live in the anxiety in every parent&apos;s heart.
                   </p>
                   <p className="text-lg text-text-secondary leading-relaxed font-semibold">
-                    Manipulation, toxic friendships, online grooming, sextortion, bullying they&apos;re not rare exceptions any more. 
-                    They are patterns… patterns that cannot always recognize until it&apos;s too late.
+                    Manipulation, toxic friendships, online grooming, sextortion, bullying — they&apos;re not rare exceptions anymore.
+                    They are patterns… patterns that people cannot always recognise until it&apos;s too late.
                   </p>
                 </div>
               </div>
@@ -154,7 +154,7 @@ const LearnMore = () => {
           <FadeIn direction="up">
             <div className="text-center mb-20">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary">
-                The Turning Point: GutCheck (GC)
+                The Turning Point: GutChecks
               </h2>
             </div>
           </FadeIn>
@@ -214,15 +214,13 @@ const LearnMore = () => {
                 <Target className="w-10 h-10 text-accent-teal mx-auto" />
                 <div className="space-y-6 max-w-3xl mx-auto">
                   <h3 className="text-xl font-bold text-text-primary">
-                    This is not just technology it&apos;s transformation
+                    Our goal is simple
                   </h3>
-                  <p className="text-lg text-text-secondary leading-relaxed">
-                    From isolated vulnerability to confident resilience. From silent suffering to proactive prevention.
-                  </p>
                   <p className="text-lg text-text-secondary leading-relaxed font-semibold">
-                    GC&apos;s vision is that every user knows exactly what manipulation, blackmail, bullying, sexual exploitation/abuse, 
-                    grooming looks like, even when it&apos;s disguised as love, friendship, or opportunity. Because safety should not 
-                    be optional it should be automatic.
+                    Help young people recognise when something is not right — and feel confident enough to do something about it.
+                  </p>
+                  <p className="text-lg text-text-secondary leading-relaxed">
+                    Because safety should not be optional — it should be automatic.
                   </p>
                 </div>
               </div>
@@ -238,19 +236,19 @@ const LearnMore = () => {
             <div className="glass-card p-12 rounded-2xl">
               <div className="text-center space-y-8">
                 <h2 className="text-3xl md:text-4xl font-black text-text-primary">
-                  Ready to Transform Your Safety?
+                  Try GutChecks free
                 </h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed">
-                  Join thousands of young adults who are learning to trust their instincts and build healthier relationships.
+                  No sign-up needed to explore. Trusted by 1,000+ users who needed clarity — and found it.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                  <a 
-                    href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
-                    target="_blank" 
+                  <a
+                    href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="btn-primary"
                   >
-                    Download Now
+                    Try It Free
                   </a>
                   <a 
                     href="/pricing" 

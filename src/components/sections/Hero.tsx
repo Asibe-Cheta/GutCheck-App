@@ -15,26 +15,26 @@ const Hero: React.FC = () => {
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
           className="floating-card floating-card-1"
         >
-          <div style={{ color: '#4fd1c7', fontWeight: 600 }}>85% Confidence</div>
-          <div style={{ color: '#a0aec0', fontSize: '14px' }}>High risk detected</div>
+          <div style={{ color: '#4fd1c7', fontWeight: 600 }}>100% Private</div>
+          <div style={{ color: '#a0aec0', fontSize: '14px' }}>& Anonymous</div>
         </motion.div>
-        
+
         <motion.div
           animate={{ y: [0, -20, 0], rotate: [0, -1, 0] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
           className="floating-card floating-card-2"
         >
-          <div style={{ color: '#68d391', fontWeight: 600 }}>Pattern Found</div>
-          <div style={{ color: '#a0aec0', fontSize: '14px' }}>Gaslighting detected</div>
+          <div style={{ color: '#68d391', fontWeight: 600 }}>Spot the Pattern</div>
+          <div style={{ color: '#a0aec0', fontSize: '14px' }}>No Judgment</div>
         </motion.div>
-        
+
         <motion.div
           animate={{ y: [0, -20, 0], rotate: [0, 1, 0] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 4 }}
           className="floating-card floating-card-3"
         >
-          <div style={{ color: '#4fd1c7', fontWeight: 600 }}>Safe Space</div>
-          <div style={{ color: '#a0aec0', fontSize: '14px' }}>100% Anonymous</div>
+          <div style={{ color: '#4fd1c7', fontWeight: 600 }}>Free to Try</div>
+          <div style={{ color: '#a0aec0', fontSize: '14px' }}>No sign-up needed</div>
         </motion.div>
       </div>
       
@@ -53,20 +53,21 @@ const Hero: React.FC = () => {
             />
           </div>
           <h1>GutCheck</h1>
-          <div className="tagline">Visualize Your Intuition</div>
-          <p className="subtitle">Your private space to decode everyday interactions, a second check to your instincts. Get evidence-based analysis of manipulation, bullying, blackmail, sextortion, grooming and predatory patterns with complete anonymity.</p>
-          
+          <div className="tagline">Spot the red flags before they spot you</div>
+          <p className="subtitle">The private app that helps you spot manipulation, red flags, and toxic behaviour — in DMs, dating, friendships, at work, with family, or anywhere online and offline. No judgment. Just clarity.</p>
+
           <div className="hero-buttons">
-            <a 
-              href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
-              target="_blank" 
+            <a
+              href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217"
+              target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Get Started Anonymously
+              Try It Free
             </a>
-            <a href="/learn-more" className="btn-secondary">More About GutCheck</a>
+            <a href="/learn-more" className="btn-secondary">See How It Works</a>
           </div>
+          <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem', marginTop: '12px' }}>No sign-up needed to explore</p>
 
           <div className="trust-indicators">
             <div className="trust-item">

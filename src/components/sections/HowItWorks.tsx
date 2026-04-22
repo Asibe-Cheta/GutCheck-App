@@ -8,25 +8,25 @@ const HowItWorks: React.FC = () => {
       <div className="container">
         <div className="fade-in" style={{ textAlign: 'center', marginBottom: '80px' }}>
           <div className="section-badge">How It Works</div>
-          <h2 className="section-title">Simple, Private, Powerful</h2>
-          <p className="section-subtitle">Get clarity on your interractions in three simple steps. No technical knowledge required.</p>
+          <h2 className="section-title">How GutChecks works — 3 simple steps</h2>
+          <p className="section-subtitle">Get clarity on your interactions in three simple steps. No technical knowledge required.</p>
         </div>
-        
+
         <div className="steps-container">
           <div className="step fade-in">
             <div className="step-number">1</div>
-            <h3>Describe Your Situation</h3>
-            <p>Tell us what happened or how someone made you feel in your own words. Our guided prompts help you share the full context.</p>
+            <h3>Tell us what happened</h3>
+            <p>Describe the situation in your own words — a message, a conversation, something at school, work, home, or online. You can paste screenshots or type it out.</p>
           </div>
           <div className="step fade-in">
             <div className="step-number">2</div>
-            <h3>Get Expert Analysis</h3>
-            <p>Our specialized AI analyzes for toxic patterns, assigns confidence scores, and identifies specific toxic behaviors.</p>
+            <h3>See the red flags clearly</h3>
+            <p>GutChecks identifies possible warning signs, pressure tactics, and unhealthy patterns — and explains what it found and why.</p>
           </div>
           <div className="step fade-in">
             <div className="step-number">3</div>
-            <h3>Take Informed Action</h3>
-            <p>Receives guided response strategies, and provides resources. Disclaimer: It is an assistant, not an authority.</p>
+            <h3>Decide what to do next</h3>
+            <p>Use the insight to reflect, set boundaries, talk to someone you trust, or keep tracking patterns. GutChecks helps you think — it does not decide for you.</p>
           </div>
         </div>
       </div>

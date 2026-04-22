@@ -197,10 +197,10 @@ const Pricing = () => {
           <FadeIn direction="up">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
-                Trusted by Thousands
+                Trusted by 1,000+ users
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Join thousands of young adults who trust GutCheck to keep them safe.
+                Young people, parents, and anyone who needed clarity on a situation that felt off.
               </p>
             </div>
           </FadeIn>
@@ -213,12 +213,12 @@ const Pricing = () => {
                     <Shield className="w-8 h-8 text-white" />
                   </div>
                   <CardTitle className="text-xl font-bold text-text-primary">
-                    SOC 2 Compliant
+                    Your data is encrypted and never shared
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    We meet the highest industry standards for data security and privacy protection.
+                    Your conversations are encrypted and never shared with anyone — not advertisers, not third parties, not us.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -231,12 +231,12 @@ const Pricing = () => {
                     <Zap className="w-8 h-8 text-white" />
                   </div>
                   <CardTitle className="text-xl font-bold text-text-primary">
-                    99.9% Uptime
+                    100% Anonymous
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    Our service is available when you need it most. We maintain 99.9% uptime.
+                    No account required to start. No personal data collected. You are in control of your data at all times.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -245,16 +245,16 @@ const Pricing = () => {
             <FadeIn direction="up" delay={0.3}>
               <Card variant="glass" className="text-center">
                 <CardHeader>
-                  <div className="w-16 h-16 bg-gradient-to-r from-warning-coral to-accent-teal rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <div className="w-16 h-16 bg-gradient-to-r from-accent-teal to-accent-green rounded-full mx-auto mb-4 flex items-center justify-center">
                     <Check className="w-8 h-8 text-white" />
                   </div>
                   <CardTitle className="text-xl font-bold text-text-primary">
-                    HIPAA Ready
+                    GDPR Compliant
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    We&apos;re working toward HIPAA compliance to serve healthcare providers and institutions.
+                    Built with privacy as the foundation. Delete your data anytime — no questions asked.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -280,7 +280,7 @@ const Pricing = () => {
                   Start Free Trial
                 </Button>
                 <Button variant="outline" size="lg">
-                  Contact Sales
+                  Have questions? Get in touch
                 </Button>
               </div>
             </div>

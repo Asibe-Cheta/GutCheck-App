@@ -8,52 +8,52 @@ const Features: React.FC = () => {
     <section id="features" className="glass-section">
       <div className="container">
         <div className="glass-card fade-in">
-          <div className="section-badge">Why Choose GutCheck</div>
-          <h2 className="section-title">Beyond Generic AI Assistance</h2>
-          <p className="section-subtitle">Unlike ChatGPT or Gemini, GutCheck is specifically trained on toxic patterns for safety and red flag awareness. Get specialized analysis, not generic responses.</p>
-          
+          <div className="section-badge">Why GutChecks Works Differently</div>
+          <h2 className="section-title">Built for red flags — everywhere</h2>
+          <p className="section-subtitle">Designed specifically for spotting manipulation, pressure tactics, and toxic patterns across all interactions — dating, friendships, work, family, online, and offline.</p>
+
           <div className="features-grid">
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <Brain className="w-8 h-8 text-white" />
               </div>
-              <h3>Specialized AI Intelligence</h3>
-              <p>Trained exclusively on 10,000+ manipulation scenarios and toxic behavior patterns. Get forensic-level analysis, not generic chat responses.</p>
+              <h3>Built for red flags — everywhere</h3>
+              <p>GutChecks is designed specifically for spotting manipulation, pressure tactics, and toxic patterns across all interactions — dating, friendships, work, family, online, and offline.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <BarChart3 className="w-8 h-8 text-white" />
               </div>
-              <h3>Evidence-Based Scoring</h3>
-              <p>Understand risk levels based on expert analyses, not opinions. Understand exactly why something feels wrong with concrete evidence.</p>
+              <h3>Clear explanations, not just opinions</h3>
+              <p>GutChecks breaks down what it sees and explains why something might be a red flag — so you can decide for yourself.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <RotateCcw className="w-8 h-8 text-white" />
               </div>
-              <h3>Pattern Memory System</h3>
-              <p>Remembers your inquiry history and tracks recurring patterns over time. Generic AI forgets everything between conversations.</p>
+              <h3>Remembers the bigger picture</h3>
+              <p>GutChecks tracks patterns across your conversations over time — so you can see whether something is a one-off or a trend.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h3>Cultural Context Awareness</h3>
-              <p>Understands cultural relationship norms and power dynamics. Analysis adjusted for your specific cultural background and context.</p>
+              <h3>Works for your world</h3>
+              <p>Whether it is DMs, group chats, dating apps, school, work, family, or strangers online — GutChecks understands different social contexts.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <Shield className="w-8 h-8 text-white" />
               </div>
-              <h3>Crisis Safety Protocols</h3>
-              <p>Built-in emergency resources and escalation pathways. Automatic crisis detection with immediate support connections.</p>
+              <h3>Support when you need it</h3>
+              <p>If a situation sounds serious, GutChecks connects you to real helplines and resources in your area — including support for radicalisation concerns.</p>
             </div>
             <div className="feature-card fade-in">
               <div className="feature-icon">
                 <FileText className="w-8 h-8 text-white" />
               </div>
-              <h3>Evidence Documentation</h3>
-              <p>Systematic collection and organization of incidents for follow-up if required by authorities or counselors.</p>
+              <h3>Keep a record if you need one</h3>
+              <p>Save and organise your conversations so you have a clear timeline if you ever want to share with someone you trust.</p>
             </div>
           </div>
         </div>
