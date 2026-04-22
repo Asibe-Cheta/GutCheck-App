@@ -13,14 +13,14 @@ const Resources = () => {
   const safetyGuides = [
     {
       icon: Shield,
-      title: 'Recognizing Manipulation',
-      description: 'Learn to identify common manipulation tactics and red flags in relationships.',
+      title: 'Recognising Manipulation',
+      description: 'Learn to identify common manipulation tactics and red flags across all types of interactions.',
       topics: ['Gaslighting', 'Love bombing', 'Isolation tactics', 'Emotional blackmail']
     },
     {
       icon: Heart,
       title: 'Building Healthy Boundaries',
-      description: 'Understand how to set and maintain healthy boundaries in all relationships.',
+      description: 'Understand how to set and maintain healthy boundaries in any relationship or situation.',
       topics: ['Communication skills', 'Saying no', 'Respecting others', 'Self-care']
     },
     {
@@ -63,8 +63,8 @@ const Resources = () => {
       available: '24/7'
     },
     {
-      title: 'Police/Ambulance/Fire Service',
-      number: '999 (Emergency) / 101 (Non-Emergency)',
+      title: 'Police / Emergency Services',
+      number: '999 (Emergency) · 101 (Non-Emergency)',
       description: 'For immediate danger or emergency assistance.',
       available: '24/7'
     }
@@ -88,18 +88,19 @@ const Resources = () => {
   return (
     <div className="min-h-screen pt-32">
       {/* Hero Section */}
-      <section className="page-section bg-gradient-to-b from-primary-dark to-secondary-dark">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 bg-gradient-to-b from-primary-dark to-secondary-dark">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
+            <div className="text-center">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-primary mb-6">
                 Safety{' '}
                 <span className="bg-gradient-to-r from-accent-teal to-accent-green bg-clip-text text-transparent">
                   Resources
                 </span>
               </h1>
-              <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Your safety is our priority. Access guides, crisis support helplines and educational resources provided to help you navigate any situation safely.
+              <p className="text-xl text-text-secondary max-w-2xl mx-auto">
+                Your safety is our priority. Access crisis helplines, safety guides, and
+                educational resources to help you navigate any situation.
               </p>
             </div>
           </FadeIn>
@@ -107,46 +108,48 @@ const Resources = () => {
       </section>
 
       {/* Crisis Support Section */}
-      <section id="crisis" className="page-section bg-gradient-to-b from-transparent to-warning-coral/10">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="crisis" className="py-20 bg-gradient-to-b from-transparent to-warning-coral/10">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
+            <div className="text-center mb-14">
               <div className="inline-flex items-center px-4 py-2 bg-warning-coral/20 rounded-full text-warning-coral mb-6">
                 <AlertTriangle className="w-5 h-5 mr-2" />
                 Crisis Support
               </div>
-              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
+              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-4">
                 Need Help Right Now?
               </h2>
-              <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                If you&apos;re in immediate danger or having thoughts of self-harm, 
+              <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+                If you&apos;re in immediate danger or having thoughts of self-harm,
                 please reach out to these crisis resources immediately.
               </p>
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {crisisResources.map((resource, index) => (
-              <FadeIn key={resource.title} direction="up" delay={index * 0.1}>
-                <Card variant="glass" className="border-warning-coral border-2">
+              <FadeIn key={resource.title} direction="up" delay={index * 0.08} className="flex flex-col">
+                <Card variant="glass" className="border-warning-coral border-2 flex flex-col h-full">
                   <CardHeader>
-                    <CardTitle className="text-xl font-bold text-text-primary">
+                    <CardTitle className="text-lg font-bold text-text-primary">
                       {resource.title}
                     </CardTitle>
-                    <div className="text-2xl font-black text-warning-coral">
+                    <div className="text-xl font-black text-warning-coral mt-1">
                       {resource.number}
                     </div>
                   </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-text-secondary mb-4">
+                  <CardContent className="flex-1 flex flex-col justify-between gap-3">
+                    <CardDescription className="text-text-secondary leading-relaxed">
                       {resource.description}
                     </CardDescription>
-                    <div className="flex items-center text-sm text-warning-coral mb-3">
-                      <span className="font-semibold">Available: {resource.available}</span>
+                    <div>
+                      <p className="text-sm font-semibold text-warning-coral">
+                        Available: {resource.available}
+                      </p>
+                      <p className="text-xs text-text-secondary mt-1 italic">
+                        UK, US, Australia &amp; Canada helplines available in the app
+                      </p>
                     </div>
-                    <p className="text-sm text-text-secondary italic">
-                      UK, US, Australia, Canada Helplines are available on the app
-                    </p>
                   </CardContent>
                 </Card>
               </FadeIn>
@@ -156,24 +159,24 @@ const Resources = () => {
       </section>
 
       {/* Safety Guides */}
-      <section className="page-section">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-20">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
+            <div className="text-center mb-14">
+              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-4">
                 Safety Guides
               </h2>
-              <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Learn to recognize manipulation, build healthy boundaries, and protect yourself 
-                in all types of relationships.
+              <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+                Learn to recognise manipulation, build healthy boundaries, and protect yourself
+                in all types of interactions.
               </p>
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
             {safetyGuides.map((guide, index) => (
-              <FadeIn key={guide.title} direction="up" delay={index * 0.1}>
-                <Card variant="glass" hover className="h-full">
+              <FadeIn key={guide.title} direction="up" delay={index * 0.08} className="flex flex-col">
+                <Card variant="glass" hover className="flex flex-col h-full">
                   <CardHeader>
                     <div className="w-12 h-12 bg-gradient-to-r from-accent-teal to-accent-green rounded-xl flex items-center justify-center mb-4">
                       <guide.icon className="w-6 h-6 text-white" />
@@ -181,14 +184,16 @@ const Resources = () => {
                     <CardTitle className="text-xl font-bold text-text-primary">
                       {guide.title}
                     </CardTitle>
-                    <CardDescription className="text-text-secondary">
+                    <CardDescription className="text-text-secondary leading-relaxed">
                       {guide.description}
                     </CardDescription>
                   </CardHeader>
-                  <CardContent>
-                    <div className="space-y-2">
-                      <h4 className="font-semibold text-text-primary mb-2">Topics covered:</h4>
-                      <ul className="space-y-1">
+                  <CardContent className="flex-1 flex flex-col justify-between gap-4">
+                    <div>
+                      <h4 className="font-semibold text-text-primary mb-3 text-sm uppercase tracking-wide">
+                        Topics covered
+                      </h4>
+                      <ul className="space-y-2">
                         {guide.topics.map((topic, topicIndex) => (
                           <li key={topicIndex} className="flex items-center text-sm text-text-secondary">
                             <div className="w-1.5 h-1.5 bg-accent-teal rounded-full mr-3 flex-shrink-0" />
@@ -197,9 +202,9 @@ const Resources = () => {
                         ))}
                       </ul>
                     </div>
-                    <a 
-                      href="#" 
-                      className="btn-primary w-full mt-4 block text-center"
+                    <a
+                      href="#"
+                      className="btn-primary w-full block text-center mt-2"
                     >
                       Read Guide
                     </a>
@@ -212,24 +217,24 @@ const Resources = () => {
       </section>
 
       {/* Community Section */}
-      <section id="community" className="page-section bg-gradient-to-b from-transparent to-primary-dark/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="community" className="py-20 bg-gradient-to-b from-transparent to-primary-dark/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn direction="up">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
+            <div className="text-center mb-14">
+              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-4">
                 Community Resources
               </h2>
-              <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Connect with others, find professional help, and access educational 
-                materials to support your healing journey.
+              <p className="text-lg text-text-secondary max-w-2xl mx-auto">
+                Connect with others, find professional help, and access educational
+                materials to support your journey.
               </p>
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
             {communityResources.map((resource, index) => (
-              <FadeIn key={resource.title} direction="up" delay={index * 0.1}>
-                <Card variant="glass" hover className="h-full">
+              <FadeIn key={resource.title} direction="up" delay={index * 0.1} className="flex flex-col">
+                <Card variant="glass" hover className="flex flex-col h-full">
                   <CardHeader>
                     <div className="w-12 h-12 bg-gradient-to-r from-accent-green to-accent-teal rounded-xl flex items-center justify-center mb-4">
                       <resource.icon className="w-6 h-6 text-white" />
@@ -237,13 +242,13 @@ const Resources = () => {
                     <CardTitle className="text-xl font-bold text-text-primary">
                       {resource.title}
                     </CardTitle>
-                    <CardDescription className="text-text-secondary">
+                    <CardDescription className="text-text-secondary leading-relaxed">
                       {resource.description}
                     </CardDescription>
                   </CardHeader>
-                  <CardContent>
-                    <a 
-                      href="#" 
+                  <CardContent className="flex-1 flex flex-col justify-end">
+                    <a
+                      href="#"
                       className="btn-primary w-full block text-center"
                     >
                       {resource.link}
@@ -257,28 +262,22 @@ const Resources = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="page-section">
+      <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
                 Remember: You&apos;re Not Alone
               </h2>
-              <p className="text-xl text-text-secondary mb-8">
-                If you&apos;re struggling with manipulation, abuse, or toxic relationships, 
+              <p className="text-xl text-text-secondary mb-8 max-w-xl mx-auto">
+                If you&apos;re struggling with manipulation, abuse, or toxic situations,
                 help is available. You deserve to feel safe and respected.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="#crisis"
-                  className="btn-primary"
-                >
+                <a href="#crisis" className="btn-primary">
                   Get Help Now
                 </a>
-                <a 
-                  href="/learn-more"
-                  className="btn-secondary"
-                >
+                <a href="/learn-more" className="btn-secondary">
                   Learn More
                 </a>
               </div>
