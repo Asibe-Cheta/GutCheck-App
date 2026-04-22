@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
                 height={48} 
                 className="logo-icon"
               />
-              GutCheck
+              GutChecks
             </Link>
             <p>GutChecks empowers users with AI-powered emotional intelligence analysis, transforming intuition into a visible, understandable guide — protecting their safety and mental health.</p>
             <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>

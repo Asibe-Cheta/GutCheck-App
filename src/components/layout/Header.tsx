@@ -28,7 +28,7 @@ const Header: React.FC = () => {
               height={48} 
               className="logo-icon"
             />
-            GutCheck
+            GutChecks
           </Link>
           <div className="nav-links">
             <Link href="/">Home</Link>

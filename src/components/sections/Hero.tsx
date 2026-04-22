@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
               className="hero-logo-image"
             />
           </div>
-          <h1>GutCheck</h1>
+          <h1>GutChecks: Red Flags &amp; Safety</h1>
           <div className="tagline">Spot the red flags before they spot you</div>
           <p className="subtitle">The private app that helps you spot manipulation, red flags, and toxic behaviour — in DMs, dating, friendships, at work, with family, or anywhere online and offline. No judgment. Just clarity.</p>
 
