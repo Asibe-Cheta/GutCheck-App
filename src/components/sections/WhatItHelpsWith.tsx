@@ -24,7 +24,10 @@ const WhatItHelpsWith: React.FC = () => {
         </div>
 
         <div className="glass-card fade-in">
-          <ul style={{ color: 'var(--text-secondary)', maxWidth: '900px', margin: '0 auto', lineHeight: 1.8 }}>
+          <p style={{ color: 'var(--text-secondary)', maxWidth: '900px', margin: '0 auto 16px', textAlign: 'left' }}>
+            Use cases include the scenarios below, but GutChecks is not limited to these only.
+          </p>
+          <ul style={{ color: 'var(--text-secondary)', maxWidth: '900px', margin: '0 auto', lineHeight: 1.85, textAlign: 'left', listStyleType: 'disc', paddingLeft: '26px' }}>
             {WHAT_IT_HELPS_WITH.map((item) => (
               <li key={item}>{item}</li>
             ))}

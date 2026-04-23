@@ -5,9 +5,9 @@ import FadeIn from '@/components/animations/FadeIn'
 const Contact = () => {
 
   return (
-    <div className="min-h-screen pt-32 flex flex-col items-center">
+    <div className="min-h-screen pt-36 flex flex-col items-center">
       {/* Hero Section */}
-      <section className="py-20 w-full bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
+      <section className="py-24 w-full bg-gradient-to-b from-primary-dark to-secondary-dark flex justify-center">
         <div className="w-full max-w-4xl px-6 sm:px-8 lg:px-12">
           <FadeIn direction="up">
             <div className="text-center space-y-8">
@@ -15,7 +15,7 @@ const Contact = () => {
                 Get in Touch
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-                Whether you are a user with a question, a parent seeking guidance, an educator exploring GutChecks for your school, a journalist, or a potential partner, we would love to hear from you.
+                Whether you are a user with a question, a parent seeking guidance, an educator Exploring GutChecks for your school, a journalist, or a potential partner, we would love to hear from you.
               </p>
             </div>
           </FadeIn>
@@ -94,7 +94,7 @@ const Contact = () => {
                 <p className="text-text-secondary">
                   GutChecks is more than an app. It is a movement to educate and empower users to recognise manipulation, grooming, and toxic behaviour before it becomes harm.
                 </p>
-                <p className="text-text-secondary">Instagram: @gutchecksapp | TikTok: @gutchecksapp | LinkedIn: GutChecks</p>
+                <p className="text-text-secondary">Instagram: @gutchechecks_app | TikTok: @gutchechecks_app</p>
               </div>
             </Card>
           </FadeIn>

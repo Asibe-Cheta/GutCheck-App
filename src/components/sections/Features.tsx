@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { Brain, BarChart3, RotateCcw, Target, Shield, FileText } from 'lucide-react'
+import { Brain, BarChart3, RotateCcw, Target, Shield, FileText, ShieldCheck } from 'lucide-react'
 
 const Features: React.FC = () => {
   return (
@@ -58,6 +58,9 @@ const Features: React.FC = () => {
           </div>
 
           <div className="feature-card fade-in" style={{ marginTop: '32px' }}>
+            <div className="feature-icon">
+              <ShieldCheck className="w-8 h-8 text-white" />
+            </div>
             <h3>AI you can trust. Built with professional safeguards</h3>
             <p>
               We know AI can get it wrong. When safety is involved, getting it wrong is not an option. That is why GutChecks is not a chatbot that gives life advice. It is a pattern recognition tool that helps users see red flags in their interactions and understand why something feels off. It does not tell users what to do; it helps them think more clearly and guides them to appropriate support. Responses are shaped by guidance from our advisory panel of mental health practitioners, social workers, and counsellors to help ensure the app aligns with professional safeguarding recommendations. GutChecks is designed to educate and empower; never to replace human judgement or professional help.

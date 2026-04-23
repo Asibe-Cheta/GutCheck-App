@@ -1,5 +1,7 @@
 import { Metadata } from 'next'
 import { Heart, Shield, Target, Users } from 'lucide-react'
+import Image from 'next/image'
+import founderHeadshot from '../../../founder.jpg'
 
 export const metadata: Metadata = {
   title: 'About GutChecks - Spot Manipulation in Any Interaction',
@@ -83,6 +85,16 @@ const About = () => {
           <div className="glass-card fade-in">
             <div className="section-badge">Founder Story</div>
             <h2 className="section-title">The Story Behind GutChecks</h2>
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '24px' }}>
+              <Image
+                src={founderHeadshot}
+                alt="Founder professional headshot"
+                width={280}
+                height={280}
+                style={{ borderRadius: '18px', objectFit: 'cover', boxShadow: '0 16px 40px rgba(0, 0, 0, 0.35)' }}
+                priority
+              />
+            </div>
             <p className="section-subtitle" style={{ marginBottom: '24px' }}>
               I&apos;m a Royal Navy veteran, a former Goldman Sachs manager, and a single mum. My career was about spotting risk before it arrived.
             </p>
@@ -98,9 +110,6 @@ const About = () => {
               <p>It did not exist. So I quit my job and built it.</p>
               <p><strong>I started this for my daughter. I&apos;m building it for her entire generation.</strong></p>
             </div>
-            <p style={{ color: 'var(--text-secondary)', marginTop: '20px', fontStyle: 'italic', textAlign: 'center' }}>
-              Placeholder: insert founder professional headshot beside this section.
-            </p>
           </div>
         </div>
       </section>

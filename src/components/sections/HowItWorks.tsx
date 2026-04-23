@@ -31,8 +31,16 @@ const HowItWorks: React.FC = () => {
         </div>
 
         <div className="glass-card fade-in" style={{ marginTop: '48px', textAlign: 'center' }}>
-          <p className="section-subtitle" style={{ marginBottom: 0 }}>
-            Placeholder: add a 30-60 second walkthrough video or animated GIF showing the 3-step flow.
+          <h3 style={{ fontSize: '1.35rem', marginBottom: '16px', color: 'var(--text-primary)' }}>
+            App analysis preview
+          </h3>
+          <img
+            src="/app-analysis.jpg"
+            alt="GutChecks app analysis preview"
+            style={{ maxWidth: '100%', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.12)', margin: '0 auto' }}
+          />
+          <p className="section-subtitle" style={{ marginTop: '14px', marginBottom: 0 }}>
+            If this image does not appear, add your App Store or Google Play analysis screenshot as <code>/public/app-analysis.jpg</code>.
           </p>
         </div>
       </div>
