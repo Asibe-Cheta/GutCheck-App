@@ -535,19 +535,19 @@ body {
   display: inline-block;
   background: linear-gradient(135deg, var(--accent-teal), var(--accent-green));
   color: var(--primary-dark);
-  padding: 8px 20px;
+  padding: 7px 18px;
   border-radius: 25px;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 700;
   margin-bottom: 32px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
 }
 
 .section-title {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
-  font-weight: 600;
+  font-size: clamp(2.25rem, 4vw, 3rem);
+  font-weight: 700;
   margin-bottom: 24px;
   background: linear-gradient(135deg, var(--text-primary), var(--accent-teal));
   -webkit-background-clip: text;
@@ -558,7 +558,7 @@ body {
 }
 
 .section-subtitle {
-  font-size: 1.3rem;
+  font-size: clamp(1rem, 2vw, 1.15rem);
   color: var(--text-secondary);
   margin-bottom: 60px;
   max-width: 600px;
@@ -630,7 +630,7 @@ body {
 
 .feature-card h3 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.55rem;
   font-weight: 600;
   margin-bottom: 16px;
   color: var(--text-primary);
@@ -1024,7 +1024,7 @@ body {
   }
 
   .section-title {
-    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-size: clamp(2rem, 3.8vw, 2.6rem);
   }
 
   .glass-card {
@@ -1179,19 +1179,20 @@ body {
   }
 
   .section-title {
-    font-size: clamp(1.75rem, 6vw, 2.5rem);
+    font-size: clamp(1.75rem, 5.5vw, 2.1rem);
     margin-bottom: 16px;
   }
 
   .section-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 40px;
   }
 
   .section-badge {
-    font-size: 12px;
-    padding: 6px 16px;
+    font-size: 10px;
+    padding: 6px 14px;
     margin-bottom: 24px;
+    letter-spacing: 1.3px;
   }
 
   /* Features Mobile */
@@ -1369,7 +1370,7 @@ body {
   }
 
   .section-title {
-    font-size: clamp(1.5rem, 7vw, 2rem);
+    font-size: clamp(1.5rem, 6.6vw, 1.9rem);
   }
 
   .glass-card {
