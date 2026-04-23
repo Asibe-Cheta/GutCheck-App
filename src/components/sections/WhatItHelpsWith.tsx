@@ -32,7 +32,7 @@ const WhatItHelpsWith: React.FC = () => {
               <li key={item}>{item}</li>
             ))}
           </ul>
-          <p className="section-subtitle" style={{ marginTop: '24px', marginBottom: 0, textAlign: 'right', maxWidth: '900px' }}>
+          <p className="section-subtitle" style={{ marginTop: '24px', marginBottom: 0, textAlign: 'left', maxWidth: '900px' }}>
             GutChecks helps users understand what they are seeing in any situation, online or offline. It does not make decisions for them.
           </p>
         </div>
