@@ -13,7 +13,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'GutChecks: Red Flags & Safety | Spot Manipulation in Any Interaction',
-  description: 'The private app that helps you spot manipulation, red flags, and toxic behaviour — in DMs, dating, friendships, at work, with family, or anywhere online and offline. 100% anonymous.',
+  description: 'The private app that helps you spot manipulation, red flags, and toxic behaviour in DMs, dating, friendships, at work, with family, or anywhere online and offline. 100% anonymous.',
   keywords: 'red flags, manipulation, gaslighting, toxic, grooming, scam, workplace, dating, emotional abuse, narcissist, boundaries, coercive control, bullying, radicalisation, safety',
   authors: [{ name: 'GutChecks Team' }],
   creator: 'GutChecks',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'GutChecks: Red Flags & Safety',
-    description: 'Spot manipulation, red flags, and toxic behaviour — in any interaction. 100% private and anonymous.',
+    description: 'Spot manipulation, red flags, and toxic behaviour in any interaction. 100% private and anonymous.',
     url: 'https://mygutcheck.org',
     siteName: 'GutChecks',
     type: 'website',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'GutChecks: Red Flags & Safety',
-    description: 'Spot manipulation, red flags, and toxic behaviour — in any interaction. 100% private and anonymous.',
+    description: 'Spot manipulation, red flags, and toxic behaviour in any interaction. 100% private and anonymous.',
     creator: '@gutchecksapp',
   },
   robots: {

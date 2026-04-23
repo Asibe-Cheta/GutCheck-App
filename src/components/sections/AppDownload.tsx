@@ -10,7 +10,7 @@ const AppDownload: React.FC = () => {
         <div className="fade-in" style={{ maxWidth: '600px', margin: '0 auto' }}>
           <div className="section-badge">Get the App</div>
           <h2 className="section-title">Available on All Devices</h2>
-          <p className="section-subtitle">Download GutCheck for iOS and Android. Your safety companion, wherever you are.</p>
+          <p className="section-subtitle">Download GutChecks on iOS today. Android is coming soon.</p>
           
           <div className="app-buttons">
             <a 

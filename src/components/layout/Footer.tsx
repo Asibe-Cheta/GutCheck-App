@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
               />
               GutChecks
             </Link>
-            <p>GutChecks empowers users with AI-powered emotional intelligence analysis, transforming intuition into a visible, understandable guide — protecting their safety and mental health.</p>
+            <p>GutChecks helps users recognise manipulation, red flags, and toxic behaviour, even when disguised as friendship, love, or opportunity, and guides them to safer next steps.</p>
             <div style={{ display: 'flex', gap: '16px', marginTop: '24px' }}>
               <a 
                 href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025–2026 GutChecks. All rights reserved. | Protecting your emotional wellbeing with privacy and respect. | Available on iOS (Android coming soon)</p>
+          <p>&copy; 2025-2026 GutChecks. All rights reserved. | Protecting your wellbeing with privacy and respect. | Available on iOS (Android coming soon)</p>
         </div>
       </div>
     </footer>

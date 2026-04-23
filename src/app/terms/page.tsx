@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service - GutCheck',
-  description: 'Terms of Service for GutCheck - Understanding your rights and our commitment to your safety and anonymity.',
+  title: 'Terms of Service - GutChecks',
+  description: 'Terms of Service for GutChecks; understanding your rights and our commitment to your safety and anonymity.',
 }
 
 const Terms = () => {
@@ -23,7 +23,7 @@ const Terms = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Clear, fair terms that protect your rights while ensuring GutCheck remains a safe space for everyone.
+                Clear, fair terms that protect your rights while ensuring GutChecks remains a safe space for everyone.
               </p>
               <p className="text-sm text-text-secondary mt-4 italic">
                 Last Updated: January 2025 | Governed by the laws of England and Wales
@@ -42,7 +42,7 @@ const Terms = () => {
                 Key Points
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                The most important things you need to know about using GutCheck.
+                The most important things you need to know about using GutChecks.
               </p>
             </div>
           </FadeIn>
@@ -60,7 +60,7 @@ const Terms = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    You are not required to provide your real name or identity to use GutCheck. 
+                    You are not required to provide your real name or identity to use GutChecks. 
                     We process payments anonymously through encrypted payment providers. 
                     Your anonymity is protected at all times.
                   </CardDescription>
@@ -80,8 +80,8 @@ const Terms = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    GutCheck is an AI assistant tool, not a replacement for professional advice. 
-                    In emergencies, always contact authorities, counselors, or crisis services. 
+                    GutChecks is an AI assistant tool, not a replacement for professional advice. 
+                    In emergencies, always contact authorities, counsellors, or crisis services. 
                     We provide guidance, not legal or medical advice.
                   </CardDescription>
                 </CardContent>
@@ -139,7 +139,7 @@ const Terms = () => {
                 Detailed Terms
               </h2>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                Complete terms and conditions for using GutCheck services.
+                Complete terms and conditions for using GutChecks services.
               </p>
             </div>
           </FadeIn>
@@ -155,11 +155,11 @@ const Terms = () => {
                 </CardHeader>
                 <CardContent className="space-y-4 text-text-secondary">
                   <p>
-                    By accessing or using GutCheck (&quot;the Service&quot;), you agree to be bound by these Terms of Service 
+                    By accessing or using GutChecks (&quot;the Service&quot;), you agree to be bound by these Terms of Service 
                     (&quot;Terms&quot;). If you do not agree to these Terms, you may not use the Service.
                   </p>
                   <p>
-                    These Terms constitute a legally binding agreement between you and GutCheck Ltd, a company 
+                    These Terms constitute a legally binding agreement between you and GutChecks Ltd, a company 
                     registered in England and Wales. The Service is provided from the United Kingdom and governed 
                     by UK law.
                   </p>
@@ -180,12 +180,12 @@ const Terms = () => {
                 </CardHeader>
                 <CardContent className="space-y-4 text-text-secondary">
                   <p>
-                    <strong className="text-text-primary">What GutCheck Is:</strong> GutCheck is an AI-powered 
+                    <strong className="text-text-primary">What GutChecks Is:</strong> GutChecks is an AI-powered 
                     analysis tool designed to help you identify toxic patterns, manipulation, and concerning behaviors 
                     in your interactions. It provides guidance, safety scores, and evidence-based insights.
                   </p>
                   <p>
-                    <strong className="text-text-primary">What GutCheck Is NOT:</strong> GutCheck is not a substitute 
+                    <strong className="text-text-primary">What GutChecks Is NOT:</strong> GutChecks is not a substitute 
                     for professional medical, legal, psychological, or therapeutic advice. It is an assistant, not an authority.
                   </p>
                   <div className="p-4 bg-warning-coral/10 border-l-4 border-warning-coral rounded">
@@ -193,7 +193,7 @@ const Terms = () => {
                     <ul className="mt-2 space-y-2 list-disc list-inside">
                       <li>In case of immediate danger, contact emergency services (999 in the UK)</li>
                       <li>For mental health crises, contact Samaritans (116 123) or other crisis services</li>
-                      <li>GutCheck cannot guarantee the accuracy of AI analysis - use it as guidance, not absolute truth</li>
+                      <li>GutChecks cannot guarantee the accuracy of AI analysis; use it as guidance, not absolute truth</li>
                       <li>Always consult qualified professionals for legal, medical, or therapeutic matters</li>
                     </ul>
                   </div>
@@ -212,11 +212,11 @@ const Terms = () => {
                 <CardContent className="space-y-4 text-text-secondary">
                   <p>
                     <strong className="text-accent-teal">Your anonymity is fundamental to our service.</strong> 
-                    We have designed GutCheck to protect your identity at all times.
+                    We have designed GutChecks to protect your identity at all times.
                   </p>
                   <ul className="space-y-2 list-disc list-inside ml-4">
                     <li><strong>No Name Required:</strong> You are not required to provide your real name, address, or identity</li>
-                    <li><strong>Encrypted Payments:</strong> Payment details are processed through PCI-DSS compliant providers (Stripe). We only receive anonymous transaction IDs - never your name or full card details</li>
+                    <li><strong>Encrypted Payments:</strong> Payment details are processed through PCI-DSS compliant providers (Stripe). We only receive anonymous transaction IDs, never your name or full card details</li>
                     <li><strong>End-to-End Encryption:</strong> All conversations are encrypted before leaving your device. We cannot read your conversations</li>
                     <li><strong>Anonymous Analytics:</strong> Usage data is fully anonymized and cannot be linked back to your identity</li>
                   </ul>
@@ -248,7 +248,7 @@ const Terms = () => {
                     <li>Payments are processed securely by Stripe, a PCI-DSS Level 1 certified provider</li>
                     <li>We store only anonymous transaction IDs - your full payment details are never accessible to us</li>
                     <li>Transaction records are retained for 7 years to comply with UK tax law (HMRC requirements)</li>
-                    <li>Your name and card details are NOT stored by GutCheck</li>
+                    <li>Your name and card details are NOT stored by GutChecks</li>
                   </ul>
 
                   <p><strong className="text-text-primary">Cancellation Policy:</strong></p>
@@ -256,7 +256,7 @@ const Terms = () => {
                     <li>Cancel anytime through your account settings</li>
                     <li>No cancellation fees</li>
                     <li>After cancellation, access continues until the end of your paid period</li>
-                    <li>All sales are final - we do not offer refunds</li>
+                    <li>All sales are final; we do not offer refunds</li>
                     <li>We recommend using the 3-day free trial to evaluate the service before subscribing</li>
                   </ul>
                 </CardContent>
@@ -342,7 +342,7 @@ const Terms = () => {
                     To the fullest extent permitted by UK law:
                   </p>
                   <ul className="space-y-2 list-disc list-inside ml-4">
-                    <li>GutCheck is provided &quot;as is&quot; without warranties of any kind</li>
+                    <li>GutChecks is provided &quot;as is&quot; without warranties of any kind</li>
                     <li>We do not guarantee the accuracy, completeness, or reliability of AI analysis</li>
                     <li>We are not liable for any decisions you make based on information from the Service</li>
                     <li>We are not liable for any indirect, consequential, or incidental damages</li>
@@ -420,7 +420,7 @@ const Terms = () => {
                     If you have questions about these Terms or wish to exercise your rights under UK GDPR, please contact us:
                   </p>
                   <div className="p-4 bg-accent-teal/10 border border-accent-teal/30 rounded-lg">
-                    <p><strong className="text-text-primary">GutCheck Ltd</strong></p>
+                    <p><strong className="text-text-primary">GutChecks Ltd</strong></p>
                     <p>Email: legal@gutcheck.app</p>
                     <p>Privacy Team: privacy@gutcheck.app</p>
                     <p>Support: support@gutcheck.app</p>
@@ -446,7 +446,7 @@ const Terms = () => {
               <div className="text-left space-y-4 text-text-secondary mb-8">
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />
-                  <p>Use GutCheck completely anonymously - no name or identity required</p>
+                  <p>Use GutChecks completely anonymously; no name or identity required</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />
@@ -458,7 +458,7 @@ const Terms = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />
-                  <p>Cancel anytime with no fees - access continues until end of paid period</p>
+                  <p>Cancel anytime with no fees; access continues until end of paid period</p>
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />
@@ -466,7 +466,7 @@ const Terms = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 text-accent-teal flex-shrink-0 mt-1" />
-                  <p>All conversations are end-to-end encrypted - we cannot read them</p>
+                  <p>All conversations are end-to-end encrypted; we cannot read them</p>
                 </div>
               </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

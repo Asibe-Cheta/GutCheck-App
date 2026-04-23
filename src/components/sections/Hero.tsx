@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
           </div>
           <h1>GutChecks: Red Flags &amp; Safety</h1>
           <div className="tagline">Spot the red flags before they spot you</div>
-          <p className="subtitle">The private app that helps you spot manipulation, red flags, and toxic behaviour — in DMs, dating, friendships, at work, with family, or anywhere online and offline. No judgment. Just clarity.</p>
+          <p className="subtitle">The private app that helps you spot manipulation, red flags, and toxic behaviour in DMs, dating, friendships, at work, with family, or anywhere online and offline. No judgment. Just clarity.</p>
 
           <div className="hero-buttons">
             <a
@@ -63,7 +63,7 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="btn-primary"
             >
-              Try It Free
+              Experience the app for free
             </a>
             <a href="/learn-more" className="btn-secondary">See How It Works</a>
           </div>

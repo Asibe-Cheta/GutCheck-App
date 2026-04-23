@@ -6,7 +6,7 @@ import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
   title: 'Pricing - Choose Your Plan',
-  description: 'Simple, transparent pricing for GutCheck. Start with our free plan or upgrade for advanced features.',
+  description: 'Simple, transparent pricing for GutChecks. Start with a free experience, then choose the plan that suits you.',
 }
 
 const Pricing = () => {
@@ -15,7 +15,7 @@ const Pricing = () => {
       name: 'Monthly',
       price: '£6.99',
       period: 'month',
-      description: 'Perfect for trying out GutCheck',
+      description: 'Perfect for trying out GutChecks',
       features: [
         'AI-powered conversation analysis',
         'Emotional pattern detection',
@@ -25,7 +25,7 @@ const Pricing = () => {
         'Access to crisis helplines (UK, US, Canada, Australia)',
         '3-day free trial'
       ],
-      cta: 'Start Free Trial',
+      cta: 'Experience the app for free',
       popular: false
     },
     {
@@ -44,7 +44,7 @@ const Pricing = () => {
         'Save £24 per year',
         '3-day free trial'
       ],
-      cta: 'Start Free Trial',
+      cta: 'Experience the app for free',
       popular: true
     }
   ]
@@ -218,7 +218,7 @@ const Pricing = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    Your conversations are encrypted and never shared with anyone — not advertisers, not third parties, not us.
+                    Your conversations are encrypted and never shared with anyone; not advertisers, not third parties, not us.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -254,7 +254,7 @@ const Pricing = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-text-secondary">
-                    Built with privacy as the foundation. Delete your data anytime — no questions asked.
+                    Built with privacy as the foundation. Delete your data anytime, no questions asked.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -277,7 +277,7 @@ const Pricing = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button size="lg">
-                  Start Free Trial
+                  Experience the app for free
                 </Button>
                 <Button variant="outline" size="lg">
                   Have questions? Get in touch

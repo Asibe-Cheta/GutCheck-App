@@ -24,7 +24,8 @@ const Pricing: React.FC = () => {
               <li>Helpline links for your region</li>
               <li>100% private and anonymous</li>
             </ul>
-            <a href="#get-started" className="btn-primary">Start 3-Day Free Trial</a>
+            <a href="#get-started" className="btn-primary">Experience the app for free</a>
+            <p style={{ color: 'var(--text-secondary)', marginTop: '12px', fontSize: '0.9rem' }}>3 days free, then £6.99/month</p>
           </div>
           <div className="pricing-card fade-in">
             <div className="plan-name">Yearly Plan</div>
@@ -41,7 +42,8 @@ const Pricing: React.FC = () => {
               <li>Helpline links for your region</li>
               <li>100% private and anonymous</li>
             </ul>
-            <a href="#get-started" className="btn-secondary">Start 3-Day Free Trial</a>
+            <a href="#get-started" className="btn-secondary">Experience the app for free</a>
+            <p style={{ color: 'var(--text-secondary)', marginTop: '12px', fontSize: '0.9rem' }}>3 days free, then £59.99/year</p>
           </div>
         </div>
 

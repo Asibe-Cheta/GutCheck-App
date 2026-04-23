@@ -4,8 +4,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
-  title: 'Learn More — GutChecks: Red Flags & Safety',
-  description: 'Discover how GutChecks helps young people spot manipulation, red flags, and toxic behaviour across all interactions — safely and anonymously.',
+  title: 'Learn More About GutChecks: How It Works & Why It Matters',
+  description: 'Discover how GutChecks helps users recognise manipulation, red flags, and toxic behaviour across all interactions, safely and anonymously.',
 }
 
 const LearnMore = () => {
@@ -45,19 +45,15 @@ const LearnMore = () => {
           <FadeIn direction="up">
             <div className="text-center space-y-10">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-text-primary">
-                GutChecks:{' '}
-                <span className="bg-gradient-to-r from-accent-teal to-accent-green bg-clip-text text-transparent">
-                  Red Flags &amp; Safety
-                </span>
+                How GutChecks Works &amp; Why It Matters
               </h1>
               <div className="glass-card p-8 rounded-xl border-warning-coral/30 border-2">
                 <div className="flex flex-col items-center gap-4 text-center">
                   <AlertTriangle className="w-8 h-8 text-warning-coral" />
                   <div>
-                    <h3 className="text-lg font-bold text-warning-coral mb-4">Disclaimer: The app is an Assistant, Not an Authority</h3>
+                    <h3 className="text-lg font-bold text-warning-coral mb-4">Important: GutChecks is a helpful tool, not a replacement for professional help.</h3>
                     <p className="text-text-secondary leading-relaxed">
-                      The app is a guide that highlights several warning signs that align with known manipulation or perpetratory tactics. 
-                      The final judgment will always lie with the user and or real world experts.
+                      It highlights possible warning signs aligned with known manipulation tactics. Final judgement always rests with the user and, where appropriate, real-world professionals.
                     </p>
                   </div>
                 </div>
@@ -77,9 +73,7 @@ const LearnMore = () => {
               </h2>
               <div className="space-y-6 max-w-3xl mx-auto">
                 <p className="text-xl text-text-secondary leading-relaxed">
-                  Growing up online means dealing with situations that previous generations never faced — manipulative messages,
-                  toxic group chats, pressure from strangers, and relationships that feel confusing or unsafe. Sometimes it is
-                  hard to know whether something is a red flag or just normal.
+                  Users today are navigating a social landscape more complex than any previous generation. Manipulation, toxic behaviour, grooming, and radicalisation happen in places parents, teachers, and friends cannot always see; DMs, group chats, online games, dating apps, and in person.
                 </p>
                 <p className="text-lg text-text-secondary leading-relaxed">
                   This lack of clarity allows damaging behaviours like emotional manipulation, coercion, and grooming to go 
@@ -127,19 +121,13 @@ const LearnMore = () => {
                 </div>
                 <div className="space-y-6 max-w-3xl mx-auto">
                   <p className="text-lg text-text-secondary leading-relaxed">
-                    The problem is not a lack of danger; it&apos;s a lack of clarity. Kids and young adults are swimming in a sea
-                    of social interactions without a compass to identify threatening currents. The digital world in particular has
-                    given limitless opportunities, but risks hide behind every screen.
+                    The problem is not a lack of danger; it&apos;s a lack of clarity. Users are navigating a sea of interactions without a compass to identify the threatening currents. The digital world offers huge opportunities; it also hides real risks behind every screen.
                   </p>
                   <p className="text-lg text-text-secondary leading-relaxed">
-                    In the past year alone, there&apos;ve been heartbreaking stories… a 15 year old boy in the U.S. who thought he was 
-                    chatting with another teenager, only to be extorted for money after sharing private images. A teenage girl in 
-                    Europe manipulated by peers in a group chat until bullying drove her offline for months. Stories like these do 
-                    not live in faraway headlines they live in the anxiety in every parent&apos;s heart.
+                    In the past year alone, there have been heartbreaking stories. A 15-year-old boy in the US who thought he was chatting with another teenager was extorted for money after sharing private images. A teenage girl in Europe was manipulated by peers in a group chat until bullying drove her offline for months.
                   </p>
                   <p className="text-lg text-text-secondary leading-relaxed font-semibold">
-                    Manipulation, toxic friendships, online grooming, sextortion, bullying — they&apos;re not rare exceptions anymore.
-                    They are patterns… patterns that people cannot always recognise until it&apos;s too late.
+                    Manipulation, toxic friendships, online grooming, sextortion, and bullying are not rare exceptions anymore. They are patterns; patterns that users cannot always recognise until it is too late.
                   </p>
                 </div>
               </div>
@@ -171,13 +159,10 @@ const LearnMore = () => {
                   </h3>
                   <div className="space-y-4 max-w-2xl mx-auto">
                     <p className="text-text-secondary leading-relaxed">
-                      This is why GC was created an app built to give kids and young adults eyes to see the warning signs before 
-                      they&apos;re trapped, and a voice to reach out before silence wins.
+                      This is why GutChecks was built. An app designed to give users the ability to see warning signs before they are trapped, and the confidence to reach out before silence wins.
                     </p>
                     <p className="text-text-secondary leading-relaxed">
-                      GC is not parental surveillance. It is <strong className="text-accent-teal">Empowerment</strong>. The app teaches 
-                      kids and young adults, through interactive red flag awareness, how to recognize manipulation tactics from the 
-                      friendly stranger who overshares too soon, to the pressure disguised as a dare, to the online &apos;friend&apos; 
+                      GutChecks is not parental surveillance. It is <strong className="text-accent-teal">empowerment</strong>. Through interactive red flag awareness, the app teaches users how to recognise manipulation tactics; from the friendly stranger who overshares too soon, to the pressure disguised as a dare, to the online &quot;friend&quot;
                       asking them to keep secrets.
                     </p>
                   </div>
@@ -217,10 +202,10 @@ const LearnMore = () => {
                     Our goal is simple
                   </h3>
                   <p className="text-lg text-text-secondary leading-relaxed font-semibold">
-                    Help young people recognise when something is not right — and feel confident enough to do something about it.
+                    GutChecks exists to educate and empower users to recognise what grooming, manipulation, and toxic behaviour actually looks like, even when disguised as friendship, love, or opportunity, and guide them to safer next steps.
                   </p>
                   <p className="text-lg text-text-secondary leading-relaxed">
-                    Because safety should not be optional — it should be automatic.
+                    GutChecks is designed to educate and empower; never to replace human judgement or professional help.
                   </p>
                 </div>
               </div>
@@ -236,10 +221,10 @@ const LearnMore = () => {
             <div className="glass-card p-12 rounded-2xl">
               <div className="text-center space-y-8">
                 <h2 className="text-3xl md:text-4xl font-black text-text-primary">
-                  Try GutChecks free
+                  Ready to trust your instincts?
                 </h2>
                 <p className="text-xl text-text-secondary max-w-2xl mx-auto leading-relaxed">
-                  No sign-up needed to explore. Trusted by 1,000+ users who needed clarity — and found it.
+                  GutChecks helps users recognise manipulation, red flags, and toxic behaviour, even when disguised as friendship, love, or opportunity, and guides them to safer next steps.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                   <a
@@ -248,7 +233,7 @@ const LearnMore = () => {
                     rel="noopener noreferrer"
                     className="btn-primary"
                   >
-                    Try It Free
+                    Experience the app for free
                   </a>
                   <a 
                     href="/pricing" 

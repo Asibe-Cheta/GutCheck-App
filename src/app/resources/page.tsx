@@ -1,7 +1,6 @@
 import { Metadata } from 'next'
 import { Shield, BookOpen, Users, AlertTriangle, Heart, Brain, Lock } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
-import { Button } from '@/components/ui/Button'
 import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
@@ -34,6 +33,12 @@ const Resources = () => {
       title: 'Digital Safety',
       description: 'Protect yourself online and in digital communications.',
       topics: ['Privacy settings', 'Safe sharing', 'Cyberstalking', 'Password security']
+    },
+    {
+      icon: AlertTriangle,
+      title: 'Recognising Grooming & Radicalisation',
+      description: 'Learn warning signs of grooming and coercive recruitment so you can seek support early.',
+      topics: ['Isolation patterns', 'Coercive influence', 'Escalation signals', 'Where to get help']
     }
   ]
 
@@ -73,15 +78,33 @@ const Resources = () => {
   const communityResources = [
     {
       icon: Users,
-      title: 'Support Groups',
-      description: 'Connect with others who understand your experiences.',
-      link: 'Find a group near you'
+      title: 'NSPCC (UK)',
+      description: 'Child protection and family support resources.',
+      link: 'https://www.nspcc.org.uk/'
     },
     {
       icon: BookOpen,
-      title: 'Educational Materials',
-      description: 'Books, articles, and resources for healing and growth.',
-      link: 'Browse resources'
+      title: 'Childline (UK)',
+      description: 'Confidential support for young people.',
+      link: 'https://www.childline.org.uk/'
+    },
+    {
+      icon: Shield,
+      title: 'Lucy Faithfull Foundation / Stop It Now!',
+      description: 'Resources for preventing abuse and safeguarding.',
+      link: 'https://www.stopitnow.org.uk/'
+    },
+    {
+      icon: Heart,
+      title: 'Refuge',
+      description: 'Support for domestic abuse and violence.',
+      link: 'https://refuge.org.uk/'
+    },
+    {
+      icon: Lock,
+      title: 'Internet Matters',
+      description: 'Digital safety support for families and young people.',
+      link: 'https://www.internetmatters.org/'
     },
   ]
 
@@ -99,8 +122,7 @@ const Resources = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-                Your safety is our priority. Access crisis helplines, safety guides, and
-                educational resources to help you navigate any situation.
+                Access crisis helplines, safety guides, and educational resources to help you understand what you are experiencing and decide what to do next, whatever the situation.
               </p>
             </div>
           </FadeIn>
@@ -120,8 +142,7 @@ const Resources = () => {
                 Need Help Right Now?
               </h2>
               <p className="text-lg text-text-secondary max-w-2xl mx-auto">
-                If you&apos;re in immediate danger or having thoughts of self-harm,
-                please reach out to these crisis resources immediately.
+                If you are in immediate danger, experiencing a mental health crisis, or need to speak to someone urgently, please contact the services below. They are confidential, free, and available 24/7.
               </p>
             </div>
           </FadeIn>
@@ -146,15 +167,16 @@ const Resources = () => {
                       <p className="text-sm font-semibold text-warning-coral">
                         Available: {resource.available}
                       </p>
-                      <p className="text-xs text-text-secondary mt-1 italic">
-                        UK, US, Australia &amp; Canada helplines available in the app
-                      </p>
+                      
                     </div>
                   </CardContent>
                 </Card>
               </FadeIn>
             ))}
           </div>
+          <p className="text-center text-sm text-text-secondary mt-8">
+            Regional helplines for the UK, US, Canada, and Australia are available directly in the GutChecks app.
+          </p>
         </div>
       </section>
 
@@ -202,12 +224,7 @@ const Resources = () => {
                         ))}
                       </ul>
                     </div>
-                    <a
-                      href="#"
-                      className="btn-primary w-full block text-center mt-2"
-                    >
-                      Read Guide
-                    </a>
+                    <span className="btn-secondary w-full block text-center mt-2">Coming Soon</span>
                   </CardContent>
                 </Card>
               </FadeIn>
@@ -247,12 +264,7 @@ const Resources = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="flex-1 flex flex-col justify-end">
-                    <a
-                      href="#"
-                      className="btn-primary w-full block text-center"
-                    >
-                      {resource.link}
-                    </a>
+                    <a href={resource.link} target="_blank" rel="noopener noreferrer" className="btn-primary w-full block text-center">Visit resource</a>
                   </CardContent>
                 </Card>
               </FadeIn>
@@ -277,8 +289,8 @@ const Resources = () => {
                 <a href="#crisis" className="btn-primary">
                   Get Help Now
                 </a>
-                <a href="/learn-more" className="btn-secondary">
-                  Learn More
+                <a href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                  Experience the app for free
                 </a>
               </div>
             </div>

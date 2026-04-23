@@ -6,32 +6,32 @@ import { Star, Quote } from 'lucide-react'
 const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      id: 'age 19',
+      id: 'Anonymous (aged 19)',
       content: 'I kept going back and forth on whether I was overreacting. GutChecks helped me see it was actually a pattern.',
       rating: 5
     },
     {
-      id: 'age 16',
+      id: 'Anonymous (aged 16)',
       content: 'Someone at school was being really manipulative and I didn\'t know how to explain it. GutChecks broke it down so I could see what was happening.',
       rating: 5
     },
     {
-      id: 'age 21',
+      id: 'Anonymous (aged 21)',
       content: 'I used it when an online conversation started feeling really off. It flagged things I hadn\'t even noticed.',
       rating: 5
     },
     {
-      id: 'age 17',
+      id: 'Anonymous (aged 17)',
       content: 'The privacy was everything. I wasn\'t ready to talk to anyone yet.',
       rating: 5
     },
     {
-      id: 'age 24',
-      content: 'The pattern tracking showed me it wasn\'t just a bad day — it was a habit. That made it so much easier to trust what I was feeling.',
+      id: 'Anonymous (aged 24)',
+      content: 'The pattern tracking showed me it wasn\'t just a bad day, it was a habit. That made it so much easier to trust what I was feeling.',
       rating: 5
     },
     {
-      id: 'age 20',
+      id: 'Anonymous (aged 20)',
       content: 'I could finally put into words what had been making me uncomfortable for months. It gave me the clarity to do something about it.',
       rating: 5
     }
@@ -43,7 +43,7 @@ const Testimonials: React.FC = () => {
         <div className="glass-card fade-in">
           <div className="section-badge">What Users Say</div>
           <h2 className="section-title">Why people use GutChecks</h2>
-          <p className="section-subtitle">Real experiences from people who needed a second opinion — and got clarity.</p>
+          <p className="section-subtitle">Real experiences from people who needed a second opinion, and got clarity.</p>
           
           <div className="features-grid" style={{ marginTop: '60px' }}>
             {testimonials.map((testimonial) => (
@@ -60,7 +60,7 @@ const Testimonials: React.FC = () => {
                   &quot;{testimonial.content}&quot;
                 </p>
                 <div style={{ color: 'var(--accent-teal)', fontWeight: 600, fontSize: '0.9rem' }}>
-                  — {testimonial.id}
+                  {testimonial.id}
                 </div>
               </div>
             ))}

@@ -4,26 +4,26 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
-  title: 'About GutChecks - Our Mission to Protect Young Adults',
-  description: 'Learn about GutChecks\' mission to help young people spot manipulation, red flags, and toxic behaviour safely and anonymously.',
+  title: 'About GutChecks - Spot Manipulation in Any Interaction',
+  description: 'Learn about GutChecks and our mission to help users recognise manipulation, red flags, and toxic behaviour in any interaction.',
 }
 
 const About = () => {
   const values = [
     {
       icon: Heart,
-      title: 'Empathy First',
-      description: 'We believe everyone deserves to feel safe in their relationships. Our AI is designed with compassion and understanding.'
+      title: 'Education over lectures',
+      description: 'We do not tell users what to do; we help them see patterns and make their own decisions.'
     },
     {
       icon: Shield,
-      title: 'Privacy Protected',
-      description: 'Your conversations are sacred. We use end-to-end encryption and never share your data with third parties.'
+      title: 'Privacy without exception',
+      description: 'No account required. No personal data stored. Conversations are encrypted and never shared.'
     },
     {
       icon: Target,
-      title: 'Evidence Based',
-      description: 'Our AI is trained on peer-reviewed research and validated by mental health professionals and relationship experts.'
+      title: 'Guided by professionals',
+      description: 'Our advisory panel of mental health practitioners, social workers, and counsellors shapes how the app responds.'
     }
   ]
 
@@ -41,8 +41,7 @@ const About = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary max-w-3xl mx-auto">
-                We&apos;re on a mission to help young people spot red flags, trust their instincts,
-                and navigate any interaction safely — with the power of AI.
+                We&apos;re on a mission to help users recognise manipulation, red flags, and toxic behaviour, even when disguised as friendship, love, or opportunity, and guide them to safer next steps.
               </p>
             </div>
           </FadeIn>
@@ -59,21 +58,15 @@ const About = () => {
                   Our Mission
                 </h2>
                 <p className="text-lg text-text-secondary leading-relaxed">
-                  GutChecks was born from a real moment — a founder who discovered her daughter had been
-                  silently navigating confusing, pressuring interactions online, turning to equally
-                  confused friends rather than coming to her.
+                  GutChecks was built after a moment that changed everything; a mum discovering her 11-year-old daughter was silently navigating manipulation, pressure, and confusing interactions alone.
                 </p>
                 <p className="text-lg text-text-secondary leading-relaxed">
-                  She searched for a tool that could help her recognise red flags before they escalated.
-                  It did not exist. So she built it.
+                  She searched for a tool that could help her recognise red flags in her interactions, both online and offline, before they became real harm. It did not exist. So she built it.
                 </p>
                 <div className="glass-card p-6 rounded-xl mt-auto">
-                  <h3 className="text-xl font-bold text-text-primary mb-3">
-                    Support when you need it
-                  </h3>
+                  <h3 className="text-xl font-bold text-text-primary mb-3">Our mission</h3>
                   <p className="text-text-secondary text-sm leading-relaxed">
-                    If a situation sounds serious, GutChecks connects you to real helplines and resources
-                    in your area. If you are in immediate danger, please contact emergency services.
+                    GutChecks exists to educate and empower users to recognise what grooming, manipulation, and toxic behaviour actually looks like, even when disguised as friendship, love, or opportunity, and guide them to safer next steps.
                   </p>
                 </div>
               </div>
@@ -92,12 +85,12 @@ const About = () => {
                   </p>
                   <p>
                     <strong className="text-text-primary">All Interactions:</strong>{' '}
-                    Dating, friendships, family, work, online — GutChecks covers every context, not
+                    Dating, friendships, family, work, and online interactions; GutChecks covers every context, not
                     just relationships.
                   </p>
                   <p>
                     <strong className="text-text-primary">Clear Explanations:</strong>{' '}
-                    GutChecks breaks down what it sees and explains why something might be a red flag —
+                    GutChecks breaks down what it sees and explains why something might be a red flag,
                     so you can decide for yourself.
                   </p>
                   <p>
@@ -159,7 +152,7 @@ const About = () => {
                 Our Team
               </h2>
               <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-                Built by people who care deeply about safety, privacy, and empowering young people.
+                Built by people who care deeply about safety, privacy, and prevention.
               </p>
             </div>
           </FadeIn>
@@ -169,16 +162,15 @@ const About = () => {
               <Card variant="glass" className="text-center flex flex-col h-full">
                 <CardHeader>
                   <div className="w-20 h-20 bg-gradient-to-r from-accent-teal to-accent-green rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-white">MH</span>
+                    <span className="text-2xl font-bold text-white">F</span>
                   </div>
                   <CardTitle className="text-xl font-bold text-text-primary">
-                    Mental Health Team
+                    Founder
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-1">
                   <CardDescription className="text-text-secondary leading-relaxed">
-                    Licensed therapists, counsellors, and social workers who ensure our responses
-                    align with professional safeguarding and wellbeing recommendations.
+                    GutChecks was founded by a single mum, Royal Navy veteran, and former Goldman Sachs compliance and risk manager.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -188,16 +180,15 @@ const About = () => {
               <Card variant="glass" className="text-center flex flex-col h-full">
                 <CardHeader>
                   <div className="w-20 h-20 bg-gradient-to-r from-accent-green to-accent-teal rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-white">AI</span>
+                    <span className="text-2xl font-bold text-white">AP</span>
                   </div>
                   <CardTitle className="text-xl font-bold text-text-primary">
-                    AI Research Team
+                    Advisory Panel
                   </CardTitle>
                 </CardHeader>
                 <CardContent className="flex-1">
                   <CardDescription className="text-text-secondary leading-relaxed">
-                    Machine learning experts who develop our AI models with privacy
-                    and safety as top priorities — not engagement metrics.
+                    GutChecks is guided by a panel of practising mental health practitioners, social workers, and counsellors whose input shapes how the app responds.
                   </CardDescription>
                 </CardContent>
               </Card>
@@ -212,10 +203,10 @@ const About = () => {
           <FadeIn direction="up">
             <div className="glass-card p-12 rounded-2xl">
               <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
-                Try GutChecks free
+                Ready to get started?
               </h2>
               <p className="text-xl text-text-secondary mb-8 max-w-xl mx-auto">
-                No sign-up needed to explore. Trusted by 1,000+ users who needed clarity — and found it.
+                GutChecks helps users recognise manipulation, red flags, and toxic behaviour, even when disguised as friendship, love, or opportunity.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
@@ -224,7 +215,7 @@ const About = () => {
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-accent-teal to-accent-green text-white px-8 py-4 rounded-xl font-semibold hover:from-accent-green hover:to-accent-teal transition-all duration-300 shadow-lg hover:shadow-xl"
                 >
-                  Try It Free
+                  Experience the app for free
                 </a>
                 <a
                   href="/learn-more"

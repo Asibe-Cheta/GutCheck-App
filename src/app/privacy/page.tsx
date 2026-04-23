@@ -5,7 +5,7 @@ import FadeIn from '@/components/animations/FadeIn'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy - Complete Anonymity & Data Protection',
-  description: 'Learn how GutCheck protects your privacy with complete anonymity, end-to-end encryption, and no personal data retention.',
+  description: 'Learn how GutChecks protects your privacy with complete anonymity, end-to-end encryption, and no personal data retention.',
 }
 
 const Privacy = () => {
@@ -104,7 +104,7 @@ const Privacy = () => {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-                GutCheck is designed for <strong className="text-accent-teal">complete anonymity</strong>. 
+                GutChecks is designed for <strong className="text-accent-teal">complete anonymity</strong>. 
                 We don&apos;t collect your name, we don&apos;t store your payment details, and we can&apos;t read your conversations. 
                 You are truly anonymous.
               </p>
@@ -235,7 +235,7 @@ const Privacy = () => {
             <Card variant="glass" className="p-6 md:p-8 max-w-3xl mx-auto">
               <div className="space-y-4 text-text-secondary leading-relaxed">
                 <p>
-                  When you use GutCheck&apos;s chat or guidance features, we collect the messages you send and any images or documents you attach. This data is collected when you send messages or attach images in the app (for example in the chat, when starting a conversation from the home screen, or from a notification). This data is used to provide you with personalised guidance. To do this, we send your conversation content and any attached images to <strong className="text-text-primary">Anthropic (Claude)</strong>, a third-party AI service, <strong className="text-text-primary">solely to generate responses for you</strong>. We do not use your content to train AI models. We ask for your consent in the app before any of your data is sent to this provider.
+                  When you use GutChecks&apos; chat or guidance features, we collect the messages you send and any images or documents you attach. This data is collected when you send messages or attach images in the app (for example in the chat, when starting a conversation from the home screen, or from a notification). This data is used to provide you with personalised guidance. To do this, we send your conversation content and any attached images to <strong className="text-text-primary">Anthropic (Claude)</strong>, a third-party AI service, <strong className="text-text-primary">solely to generate responses for you</strong>. We do not use your content to train AI models. We ask for your consent in the app before any of your data is sent to this provider.
                 </p>
                 <p>
                   Anthropic&apos;s handling of data is described in their privacy policy:{' '}
@@ -425,7 +425,7 @@ const Privacy = () => {
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
-                      <span>The content of your conversations for our own use — encrypted and unreadable to us. When you use our AI chat or guidance features, we only send that content to Anthropic (Claude) with your prior consent, solely to generate responses; we do not use it to train AI models (see AI-Powered Features & Third-Party Provider above).</span>
+                      <span>The content of your conversations for our own use is encrypted and unreadable to us. When you use our AI chat or guidance features, we only send that content to Anthropic (Claude) with your prior consent, solely to generate responses; we do not use it to train AI models (see AI-Powered Features & Third-Party Provider above).</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-teal mr-3 flex-shrink-0 text-xl">✓</span>
