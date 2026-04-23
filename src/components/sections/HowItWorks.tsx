@@ -1,6 +1,8 @@
 'use client'
 
 import React from 'react'
+import Image from 'next/image'
+import appAnalysisImage from '../../../app-analysis.png'
 
 const HowItWorks: React.FC = () => {
   return (
@@ -34,13 +36,18 @@ const HowItWorks: React.FC = () => {
           <h3 style={{ fontSize: '1.35rem', marginBottom: '16px', color: 'var(--text-primary)' }}>
             App analysis preview
           </h3>
-          <img
-            src="/app-analysis.jpg"
-            alt="GutChecks app analysis preview"
-            style={{ maxWidth: '100%', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.12)', margin: '0 auto' }}
-          />
+          <div style={{ maxWidth: '320px', margin: '0 auto', padding: '10px', borderRadius: '28px', background: 'linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04))', border: '1px solid rgba(255,255,255,0.16)', boxShadow: '0 20px 60px rgba(0,0,0,0.35)' }}>
+            <div style={{ borderRadius: '20px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
+              <Image
+                src={appAnalysisImage}
+                alt="GutChecks app analysis mobile demo"
+                style={{ width: '100%', height: 'auto', display: 'block' }}
+                priority
+              />
+            </div>
+          </div>
           <p className="section-subtitle" style={{ marginTop: '14px', marginBottom: 0 }}>
-            If this image does not appear, add your App Store or Google Play analysis screenshot as <code>/public/app-analysis.jpg</code>.
+            App analysis demo view.
           </p>
         </div>
       </div>

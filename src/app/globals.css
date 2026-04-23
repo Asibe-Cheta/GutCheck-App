@@ -179,7 +179,7 @@ body {
 
 .hero h1 {
   font-family: 'Space Grotesk', sans-serif;
-  font-size: clamp(4rem, 8vw, 8rem);
+  font-size: clamp(2.6rem, 5.3vw, 6rem);
   font-weight: 700;
   margin-bottom: 24px;
   background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-teal) 50%, var(--accent-green) 100%);
@@ -188,6 +188,7 @@ body {
   background-clip: text;
   line-height: 0.95;
   letter-spacing: -0.04em;
+  white-space: nowrap;
 }
 
 .hero .tagline {
@@ -1116,6 +1117,7 @@ body {
   .hero h1 {
     font-size: clamp(2.5rem, 8vw, 4rem);
     margin-bottom: 16px;
+    white-space: normal;
   }
 
   .hero .tagline {
