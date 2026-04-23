@@ -13,7 +13,7 @@ const LearnMore = () => {
     {
       number: '1',
       title: 'The Intuition Gap',
-      description: 'A gut feeling that "something is off" is often the first and only warning sign. But without validation or evidence, they are pressured to dismiss their feelings, leading to self-doubt and vulnerability.'
+      description: 'A gut feeling that something is off is often the first warning sign. Without validation or evidence, users are often pressured to dismiss those feelings, leading to self-doubt and vulnerability.'
     },
     {
       number: '2',
@@ -23,7 +23,7 @@ const LearnMore = () => {
     {
       number: '3',
       title: 'The Expertise Barrier',
-      description: 'It is unreasonable to expect every young person to be a trained psychologist. They cannot be expected to instantly recognize sophisticated tactics like love-bombing, negging, or triangulation when they encounter them.'
+      description: 'It is unreasonable to expect every user to be a trained psychologist. They cannot be expected to instantly recognise sophisticated tactics like love-bombing, negging, or triangulation when they encounter them.'
     },
     {
       number: '4',
@@ -181,8 +181,7 @@ const LearnMore = () => {
                   </h3>
                   <div className="space-y-4 max-w-2xl mx-auto">
                     <p className="text-text-secondary leading-relaxed">
-                      Beyond awareness, GC provides direct support: anonymous analysis, quick access to crisis help lines, and smart, 
-                      scenario based link between spotting toxic behaviour and knowing how to respond.
+                      Beyond awareness, GutChecks provides direct support: anonymous analysis, quick access to crisis helplines, and a practical link between spotting toxic behaviour and knowing how to respond.
                     </p>
                     <p className="text-text-secondary leading-relaxed">
                       It bridges the gap between a user&apos;s innate intuition and the expert knowledge needed to validate it and take action.

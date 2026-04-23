@@ -85,7 +85,7 @@ const Resources = () => {
     {
       icon: BookOpen,
       title: 'Childline (UK)',
-      description: 'Confidential support for young people.',
+      description: 'Confidential support for users and families.',
       link: 'https://www.childline.org.uk/'
     },
     {
@@ -103,7 +103,7 @@ const Resources = () => {
     {
       icon: Lock,
       title: 'Internet Matters',
-      description: 'Digital safety support for families and young people.',
+      description: 'Digital safety support for users and families.',
       link: 'https://www.internetmatters.org/'
     },
   ]

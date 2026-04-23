@@ -105,6 +105,45 @@ const About = () => {
         </div>
       </section>
 
+      {/* Founder Story */}
+      <section className="py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn direction="up">
+            <div className="glass-card p-8 md:p-10 rounded-2xl">
+              <h2 className="text-3xl md:text-4xl font-black text-text-primary mb-6">
+                The Story Behind GutChecks
+              </h2>
+              <div className="space-y-4 text-text-secondary leading-relaxed">
+                <p>
+                  I&apos;m a Royal Navy veteran, a former Goldman Sachs manager, and a single mum. My career was about spotting risk before it arrived.
+                </p>
+                <p>
+                  But as a parent, I almost missed it.
+                </p>
+                <p>
+                  In 2025, I fell ill and for the first time in years, I slowed down. That is when I discovered my 11-year-old daughter had been silently navigating manipulation, pressure, and confusing interactions. When I asked why she had not come to me, she said: &quot;You have a lot going on, Mum. I didn&apos;t want to add to your stress.&quot;
+                </p>
+                <p>
+                  She was getting advice from other 11-year-olds, children just as confused as she was.
+                </p>
+                <p>
+                  I searched for a tool that could help her recognise red flags before they became real harm. Not a monitoring app. Not surveillance. Something that would teach her to trust her own instincts.
+                </p>
+                <p>
+                  It did not exist. So I quit my job and built it.
+                </p>
+                <p className="font-semibold text-text-primary">
+                  I started this for my daughter. I&apos;m building it for her entire generation.
+                </p>
+              </div>
+              <p className="text-sm text-text-secondary italic mt-6">
+                Placeholder: insert founder professional headshot beside this section.
+              </p>
+            </div>
+          </FadeIn>
+        </div>
+      </section>
+
       {/* Values Section */}
       <section className="py-20 bg-gradient-to-b from-transparent to-primary-dark/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -157,7 +196,7 @@ const About = () => {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
             <FadeIn direction="up" delay={0.1} className="flex flex-col">
               <Card variant="glass" className="text-center flex flex-col h-full">
                 <CardHeader>
@@ -189,6 +228,24 @@ const About = () => {
                 <CardContent className="flex-1">
                   <CardDescription className="text-text-secondary leading-relaxed">
                     GutChecks is guided by a panel of practising mental health practitioners, social workers, and counsellors whose input shapes how the app responds.
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            </FadeIn>
+
+            <FadeIn direction="up" delay={0.3} className="flex flex-col">
+              <Card variant="glass" className="text-center flex flex-col h-full">
+                <CardHeader>
+                  <div className="w-20 h-20 bg-gradient-to-r from-accent-teal to-accent-green rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <Users className="w-8 h-8 text-white" />
+                  </div>
+                  <CardTitle className="text-xl font-bold text-text-primary">
+                    Development
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="flex-1">
+                  <CardDescription className="text-text-secondary leading-relaxed">
+                    GutChecks is developed by a small, focused team committed to user privacy, safety, and building prevention tools.
                   </CardDescription>
                 </CardContent>
               </Card>
