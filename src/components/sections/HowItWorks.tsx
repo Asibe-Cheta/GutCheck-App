@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import appAnalysisImage from '../../../app-analysis.png'
+import appAnalysisImage from '../../../new-analysis.png'
 
 const HowItWorks: React.FC = () => {
   return (
