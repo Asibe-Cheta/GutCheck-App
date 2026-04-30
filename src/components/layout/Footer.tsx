@@ -1,7 +1,8 @@
 import React from 'react'
-import { Smartphone, Download } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
+import appleIcon from '../../../apple2.svg'
+import googlePlayIcon from '../../../google-play.svg'
 
 const Footer: React.FC = () => {
   return (
@@ -29,18 +30,18 @@ const Footer: React.FC = () => {
                 style={{ minWidth: 'auto', padding: '12px' }}
               >
                 <div className="app-icon" style={{ width: '32px', height: '32px' }}>
-                  <Smartphone className="w-4 h-4 text-white" />
+                  <Image src={appleIcon} alt="Apple App Store" width={18} height={18} />
                 </div>
               </a>
               <a 
-                href="https://apps.apple.com/gb/app/gutcheck-app/id6754253217" 
+                href="https://play.google.com/store/apps/details?id=org.mygutcheck.app&pcampaignid=web_share" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="app-button" 
                 style={{ minWidth: 'auto', padding: '12px' }}
               >
                 <div className="app-icon" style={{ width: '32px', height: '32px' }}>
-                  <Download className="w-4 h-4 text-white" />
+                  <Image src={googlePlayIcon} alt="Google Play Store" width={18} height={18} />
                 </div>
               </a>
             </div>
@@ -56,7 +57,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2025-2026 GutChecks. All rights reserved. | Protecting your wellbeing with privacy and respect. | Available on iOS (Android coming soon)</p>
+          <p>&copy; 2025-2026 GutChecks. All rights reserved. | Protecting your wellbeing with privacy and respect. | Available on iOS and Android now</p>
         </div>
       </div>
     </footer>

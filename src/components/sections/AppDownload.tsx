@@ -1,7 +1,9 @@
 'use client'
 
 import React from 'react'
-import { Smartphone, Download } from 'lucide-react'
+import Image from 'next/image'
+import appleIcon from '../../../apple2.svg'
+import googlePlayIcon from '../../../google-play.svg'
 
 const AppDownload: React.FC = () => {
   return (
@@ -10,7 +12,7 @@ const AppDownload: React.FC = () => {
         <div className="fade-in" style={{ maxWidth: '600px', margin: '0 auto' }}>
           <div className="section-badge">Get the App</div>
           <h2 className="section-title">Available on All Devices</h2>
-          <p className="section-subtitle">Download GutChecks on iOS today. Android is coming soon.</p>
+          <p className="section-subtitle">Download GutChecks on iOS and Android now.</p>
           
           <div className="app-buttons">
             <a 
@@ -20,22 +22,27 @@ const AppDownload: React.FC = () => {
               className="app-button"
             >
               <div className="app-icon">
-                <Smartphone className="w-5 h-5 text-white" />
+                <Image src={appleIcon} alt="Apple App Store" width={22} height={22} />
               </div>
               <div className="app-text">
                 <small>Download on the</small>
                 <strong>App Store</strong>
               </div>
             </a>
-            <div className="app-button" style={{ opacity: 0.6, cursor: 'not-allowed' }}>
+            <a
+              href="https://play.google.com/store/apps/details?id=org.mygutcheck.app&pcampaignid=web_share"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="app-button"
+            >
               <div className="app-icon">
-                <Download className="w-5 h-5 text-white" />
+                <Image src={googlePlayIcon} alt="Google Play Store" width={22} height={22} />
               </div>
               <div className="app-text">
-                <small>Coming Soon</small>
+                <small>Get it on</small>
                 <strong>Google Play</strong>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

@@ -2,9 +2,14 @@
 
 import React from 'react'
 import Image from 'next/image'
-import appAnalysisImage from '../../../new-analysis.png'
+import appAnalysisImage1 from '../../../a1.png'
+import appAnalysisImage2 from '../../../a2.png'
+import appAnalysisImage3 from '../../../a3.png'
+import appAnalysisImage4 from '../../../a4.png'
 
 const HowItWorks: React.FC = () => {
+  const appScreens = [appAnalysisImage1, appAnalysisImage2, appAnalysisImage3, appAnalysisImage4]
+
   return (
     <section id="how-it-works" className="how-it-works">
       <div className="container">
@@ -36,18 +41,25 @@ const HowItWorks: React.FC = () => {
           <h3 style={{ fontSize: '1.35rem', marginBottom: '16px', color: 'var(--text-primary)' }}>
             App analysis preview
           </h3>
-          <div style={{ maxWidth: '320px', margin: '0 auto', padding: '10px', borderRadius: '28px', background: 'linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04))', border: '1px solid rgba(255,255,255,0.16)', boxShadow: '0 20px 60px rgba(0,0,0,0.35)' }}>
-            <div style={{ borderRadius: '20px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
-              <Image
-                src={appAnalysisImage}
-                alt="GutChecks app analysis mobile demo"
-                style={{ width: '100%', height: 'auto', display: 'block' }}
-                priority
-              />
-            </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))', gap: '16px', maxWidth: '900px', margin: '0 auto' }}>
+            {appScreens.map((screen, index) => (
+              <div
+                key={index}
+                style={{ padding: '10px', borderRadius: '28px', background: 'linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04))', border: '1px solid rgba(255,255,255,0.16)', boxShadow: '0 20px 60px rgba(0,0,0,0.35)' }}
+              >
+                <div style={{ borderRadius: '20px', overflow: 'hidden', border: '1px solid rgba(255,255,255,0.1)' }}>
+                  <Image
+                    src={screen}
+                    alt={`GutChecks app analysis screen ${index + 1}`}
+                    style={{ width: '100%', height: 'auto', display: 'block' }}
+                    priority={index === 0}
+                  />
+                </div>
+              </div>
+            ))}
           </div>
           <p className="section-subtitle" style={{ marginTop: '14px', marginBottom: 0 }}>
-            App analysis demo view.
+            Four app analysis demo screens.
           </p>
         </div>
       </div>
